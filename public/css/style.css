@@ -7782,3 +7782,7 @@ input#gsc-i-id1 {
     object-fit: cover;
     margin-right: 20px;
 }
+
+.bg-warning1 {
+    background-color: #e3ae21 !important;
+}

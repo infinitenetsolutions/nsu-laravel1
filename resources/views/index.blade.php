@@ -926,7 +926,7 @@
     </section>
     <!--end Testimonials Section -->
     <!-- Footer -->
-
+@include('include.testimonial')
     @include('include.search')
 
     @include('include.subscribe')
