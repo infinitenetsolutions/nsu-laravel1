@@ -416,7 +416,7 @@ header.mydiv {
     text-transform: uppercase;
     font-size: 20px;
     padding: 0;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -453,7 +453,7 @@ header.mydiv {
 
 .navbar-light .main-menu li a.nav-link:hover,
 .navbar-light .main-menu li a.nav-link:focus {
-    color: rgb(234, 183, 22);
+    color: rgb(255, 255, 255);
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -465,11 +465,11 @@ header.mydiv {
 }
 
 #mainNav .navbar-nav .nav-item a.apply_btn {
-    background: #e3ae21;
-    color: #fff;
-    border: 2px solid;
+    background: #dba921;
+    color: rgb(255, 255, 255);
     margin-left: 10px;
     margin-right: 70px;
+    border: 2px solid #fff;
 }
 
 #mainNav .navbar-nav .nav-item a.apply_btn:hover {
@@ -1545,7 +1545,7 @@ header.mydiv {
 .home-sec3 {
     display: block;
     width: 100%;
-    background-color: #000;
+    background-color: #000000;
     padding: 80px 0;
 }
 
@@ -2373,7 +2373,7 @@ footer h3 {
 }
 
 footer ul li a {
-    font-size: 14px;
+    font-size: 12px;
     color: #999999;
     padding-bottom: 10px;
     display: table;
@@ -2635,7 +2635,7 @@ footer p a {
 #mainNav.navbar-shrink {
     padding-top: 8px;
     padding-bottom: 0;
-    background: #e3ae21;
+    background: #e3b121;
     z-index: 999999;
 }
 
@@ -2661,8 +2661,8 @@ footer p a {
 .responsive_tabs .tab-container .tab-content {
     max-width: 100%;
     width: 100%;
-    padding-right: 90px;
-    padding-left: 115px;
+    /* padding-right: 90px;
+                                                    padding-left: 115px; */
 }
 
 .inner-page {
@@ -2684,7 +2684,7 @@ footer p a {
 
 .inner-page {
     width: 100%;
-    margin-top: 133px;
+    /* margin-top: 133px; */
 }
 
 #mainNav.inner-nav.navbar-shrink {
@@ -5093,7 +5093,7 @@ p.lead,
 
 .navbar-shrink .logo {
     overflow: hidden;
-    width: 100px;
+    width: 130px;
 }
 
 .navbar-shrink ul.navbar-nav {
@@ -5650,7 +5650,7 @@ p.lead,
 }
 
 .home-sec2 .carousel-control-next {
-    right: 18%;
+    right: 0%;
 }
 
 .home-sec2 .home_slider_text {
@@ -6883,8 +6883,8 @@ span.testim_img {
 }
 
 .subscribe_pop h3 {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     text-align: left;
     padding-bottom: 15px;
     line-height: 0.9
@@ -6984,7 +6984,7 @@ aside.right_bar {
 
 .top_menubar ul li .top_megamenu {
     display: none;
-    background: #fff;
+    background: #dba921;
     position: absolute;
     top: 100%;
     left: 0;
@@ -7232,6 +7232,7 @@ aside.right_bar {
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    width: 130px;
 }
 
 .logo a {
@@ -7329,7 +7330,7 @@ aside.right_bar {
 span.footer_collapse {
     width: 100%;
     display: block;
-    max-width: 100%;
+    /* max-width: 77%; */
 }
 
 span.footer_collapse>.row>div[class*="col-"] {
@@ -7781,4 +7782,8 @@ input#gsc-i-id1 {
     width: 300px;
     object-fit: cover;
     margin-right: 20px;
+}
+
+.ftr-colm1 ul {
+    font-weight: 600;
 }

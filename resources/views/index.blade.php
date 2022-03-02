@@ -36,88 +36,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="tab-home-sec1">
-                <ul class="nav nav-tabs responsive-tabs">
-                    <li class="active"><a href="#undergraduate-programmes"> Undergraduate Programmes</a></li>
-                    <li><a href="#postgraduate-programmes"> Postgraduate Programmes</a></li>
-                </ul>
-                <div class="tab-content">
-                    <h4 class="collapsible_heading open">Undergraduate Programmes <span class="lnr lnr-chevron-down"></span></h4>
-                    <div class="tab-pane active" id="undergraduate-programmes">
-                        <div class="tab-home-content row">
-                            <div class="col-12 col-md-3 col-lg-3 col-xl-3">
-                                <h3> Find A Course</h3>
-                            </div>
-                            <div class="col-12 col-md-9 col-lg-9 col-xl-9">
-                                <div class="search-bar">
-
-                                    <input name="txtsearch" type="text" id="txtsearch" placeholder="Enter Course Name" AutoComplete="off" />
-
-                                    <div class="submit-btn">
-                                        <input type="submit" name="lnkG" value="Button" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkG&quot;, &quot;&quot;, true, &quot;submitsubsg&quot;, &quot;&quot;, false, false))" id="lnkG" class="submit_btn" />
-                                        <span id="RequiredFieldValidator11" style="color:Red;display:none;"></span>
-                                        <input type="hidden" name="ValidatorCalloutExtender13_ClientState" id="ValidatorCalloutExtender13_ClientState" />
-
-                                    </div>
-                                    <ul id='courselist' class="wordWheel listMain" style="display:none">
-                                    </ul>
-
-                                </div>
-
-
-                            </div>
-
-                            <p align="center" class="home_search_btn"> <a href="programe-list6f7e.html?fd=all">Search
-                                    by
-                                    Level</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-                                <a href="programe-list6f7e.html?fd=all">A to Z</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-                                <a href="programe-list6f7e.html?fd=all">Search by Discipline</a>
-                            </p>
-
-
-
-                        </div>
-                    </div>
-
-                    <h4 class="collapsible_heading">Postgraduate Programmes <span class="lnr lnr-chevron-down"></span>
-                    </h4>
-                    <div class="tab-pane" id="postgraduate-programmes">
-                        <div class="tab-home-content row">
-                            <div class="col-12 col-md-3 col-lg-3 col-xl-3">
-                                <h3> Find A Course</h3>
-                            </div>
-                            <div class="col-12 col-md-9 col-lg-9 col-xl-9">
-                                <div class="search-bar">
-                                    <input name="txtsearchpg" type="text" id="txtsearchpg" placeholder="Enter Course Name" AutoComplete="off" />
-
-                                    <div class="submit-btn"><input type="submit" name="btnpg" value="Button" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnpg&quot;, &quot;&quot;, true, &quot;submitsubspg&quot;, &quot;&quot;, false, false))" id="btnpg" class="submit_btn" />
-
-                                        <span id="reqpg" style="color:Red;display:none;"></span>
-                                        <input type="hidden" name="ValidatorCalloutExtender1_ClientState" id="ValidatorCalloutExtender1_ClientState" />
-
-                                    </div>
-                                    <ul id='postcourselist' class="wordWheel listMain" style="display:none">
-                                    </ul>
-                                </div>
-
-
-
-                            </div>
-
-                            <p align="center" class="home_search_btn"> <a href="programe-list6f7e.html?fd=all">Search
-                                    by
-                                    Level</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-                                <a href="programe-list6f7e.html?fd=all">A to Z</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-                                <a href="programe-list6f7e.html?fd=all">Search by Discipline</a>
-                            </p>
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
+            
         </div>
     </section>
     <section class="home-sec2 mydiv">
@@ -184,46 +103,7 @@
                         </div>
 
 
-                        <div class="secon_banner_campus">
-                            Campuses</div>
-                        <ul class="carousel-indicators clearfix">
-
-                            <li id="figurebanner1_RepBannerImg_ctl00_liinner" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><a href="#">
-                                    Noida</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl01_liinner" data-target="#carouselExampleIndicators" data-slide-to="1"><a href="#">
-                                    Lucknow</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl02_liinner" data-target="#carouselExampleIndicators" data-slide-to="2"><a href="#">
-                                    Jaipur</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl03_liinner" data-target="#carouselExampleIndicators" data-slide-to="3"><a href="#">
-                                    Gurgaon</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl04_liinner" data-target="#carouselExampleIndicators" data-slide-to="4"><a href="#">
-                                    Gwalior</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl05_liinner" data-target="#carouselExampleIndicators" data-slide-to="5"><a href="#">
-                                    Mumbai</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl06_liinner" data-target="#carouselExampleIndicators" data-slide-to="6"><a href="#">
-                                    Greater Noida</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl07_liinner" data-target="#carouselExampleIndicators" data-slide-to="7"><a href="#">
-                                    Raipur</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl08_liinner" data-target="#carouselExampleIndicators" data-slide-to="8"><a href="#">
-                                    Ranchi</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl09_liinner" data-target="#carouselExampleIndicators" data-slide-to="9"><a href="#">
-                                    Patna</a></li>
-
-                            <li id="figurebanner1_RepBannerImg_ctl10_liinner" data-target="#carouselExampleIndicators" data-slide-to="10"><a href="#">
-                                    Kolkata</a></li>
-
-
-                        </ul>
-                    </div>
+                        
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span> </a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true">
                         </span><span class="sr-only">Next</span> </a>
@@ -427,24 +307,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="home-ranking-amity wow fadeInUp">
-                    <div class="home-ranking-colm2">
-                        <div class="owl-carousel owl-carousel2 owl-theme">
-                            <div class="item">
-                                <ul>
-                                    <li><span>
-                                            <img src="images/rank-in-profit-logo.png"></span></li>
-                                    <li><span>
-                                            <img src="images/top-placement-logo.png"></span></li>
-                                    <li><span>
-                                            <img src="images/given-scholar-logo.png"></span></li>
-                                    <li><span>
-                                            <img src="images/international-universities-logo.png"></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
 
         </div>
@@ -573,26 +436,21 @@
                     <img src="images/arrow-icon.png" class="view_arrow_img"></a></abbr>
             <div class="home-sec5-content">
                 <div class="row">
+
                     <div class="col-12 col-md-4 col-lg-5 col-xl-5 pro3 wow fadeInLeft">
-
-
-
 
                         <div class="home-sec5-colm">
                             <span>
                                 <img src="backoffice/Uploads/Event/1_student-achiv-img1.jpg" id="homestudentwork1_rptrUpper_ctl00_imgevent" /></span>
                             <h4>
                                 The team from Amity School of Engineering and Technology named as &ldquo;MACH-
-                                RELOADED&rdquo; registered for SUPRA SAE INDIA 2012 Formula-1 Type Race Car Event in
-                                October, 2011 and in February
+                                RELOADED&rdquo; 
                             </h4>
                         </div>
-
                     </div>
+
                     <div class="col-12 col-md-8 col-lg-7 col-xl-7 pro4">
                         <div class="row">
-
-
 
                             <div id="homestudentwork1_rptrlower_ctl00_divstudent" class="col-12 col-md-6 col-lg-6 col-xl-6 pro3 wow fadeInDown">
                                 <div id="homestudentwork1_rptrlower_ctl00_divcolumn" class="home-sec5-colm1">
@@ -604,8 +462,6 @@
                                 </div>
                             </div>
 
-
-
                             <div id="homestudentwork1_rptrlower_ctl01_divstudent" class="col-12 col-md-6 col-lg-6 col-xl-6 pro4 wow fadeInDown">
                                 <div id="homestudentwork1_rptrlower_ctl01_divcolumn" class="home-sec5-colm2">
                                     <span>
@@ -615,8 +471,6 @@
                                     </h4>
                                 </div>
                             </div>
-
-
 
                             <div id="homestudentwork1_rptrlower_ctl02_divstudent" class="col-12 col-md-6 col-lg-6 col-xl-6 pro3 margin-10 wow fadeInUp">
                                 <div id="homestudentwork1_rptrlower_ctl02_divcolumn" class="home-sec5-colm1">
