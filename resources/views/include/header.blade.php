@@ -1305,7 +1305,7 @@
                                         <li class="nav-item hidden-xs"><a class="nav-link" href="admission-procedure-domestic.html">
                                                         Admissions</a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a href="">How to Apply</a></li>                                                       
+                                                        <li><a href="">How to Apply</a></li>
                                                         <li><a href="">Career Test</a></li>
                                                         <li><a href="education-loan.html">Education Loan</a></li>
                                                         <li><a href="faqs.html">FAQs</a></li>
@@ -1357,7 +1357,7 @@
                                         <li class="nav-item hidden-xs"><a class="nav-link" href="admission-procedure-domestic.html">
                                                         Infrastructure</a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a href="">Library</a></li>                                                       
+                                                        <li><a href="">Library</a></li>
                                                         <li><a href="">IT Infrustructure</a></li>
                                                         <li><a href="education-loan.html">Classroom</a></li>
                                                         <li><a href="faqs.html">Laboratory</a></li>
@@ -1367,40 +1367,40 @@
                                                         <li><a href="faqs.html">Sports</a></li>
                                                 </ul>
                                         </li>
-                                       
+
                                         <li class="nav-item hidden-xs"><a class="nav-link" href="admission-procedure-domestic.html">
                                                         Placement</a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a href="">Placements</a></li>                                                       
+                                                        <li><a href="">Placements</a></li>
                                                         <li><a href="">Appointment Letter</a></li>
                                                         <li><a href="education-loan.html">Our Esteemed Recuters</a></li>
-                                                        
+
                                                 </ul>
                                         </li>
 
                                         <li class="nav-item hidden-xs"><a class="nav-link" href="admission-procedure-domestic.html">
                                                         Student</a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a href="">Anti Ragging Cells</a></li>                                                       
+                                                        <li><a href="">Anti Ragging Cells</a></li>
                                                         <li><a href="">Anti Discriminatory Cell</a></li>
                                                         <li><a href="education-loan.html">Academic Calendar</a></li>
-                                                        
+
                                                 </ul>
-                                        </li>    
-                                        
+                                        </li>
+
                                         <li class="nav-item hidden-xs"><a class="nav-link" href="admission-procedure-domestic.html">
                                                         Gallery</a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a href="">University Gallery</a></li>                                                       
+                                                        <li><a href="">University Gallery</a></li>
                                                         <li><a href="">Media Gallery</a></li>
-                                                        
+
                                                 </ul>
-                                        </li>    
-                                        
                                         </li>
-                                        
+
+                                        </li>
+
                                         <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
-                                       
+
                                         <li class="nav-item"><a class="nav-link apply_btn" href="apply-now.html">Apply Online</a></li>
                                 </ul>
                         </div>
