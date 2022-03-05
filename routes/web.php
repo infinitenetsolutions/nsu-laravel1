@@ -36,3 +36,9 @@ Route::get('news', function () {
 Route::get('upgrade', function () {
     return view('upgrade');
 });
+Route::get('course-detail', function () {
+    return view('course-detail');
+});
+Route::get('apply-now', function () {
+    return view('apply-now');
+});
