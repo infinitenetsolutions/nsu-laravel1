@@ -2,7 +2,16 @@
 
     @slot('body')
     @include('include.slider')
+    <style>
+        .home-sec4 {
+            padding: 30px 0 !important;
+        }
 
+        .home-sec4,
+        .home-sec6 {
+            min-height: auto !important;
+        }
+    </style>
     <!-- Study Section -->
     <section class="home-sec1 mydiv">
         <div class="container">
@@ -36,7 +45,7 @@
                     </ul>
                 </div>
             </div>
-            
+
         </div>
     </section>
     <section class="home-sec2 mydiv">
@@ -103,214 +112,214 @@
                         </div>
 
 
-                        
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span> </a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true">
-                        </span><span class="sr-only">Next</span> </a>
-                </div>
-                <div class="home_slider_text">
-                    <div class="why_box">
-                        <div class="home-why-amity">
-                            <div class="why-amity-left">
+
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span> </a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true">
+                            </span><span class="sr-only">Next</span> </a>
+                    </div>
+                    <div class="home_slider_text">
+                        <div class="why_box">
+                            <div class="home-why-amity">
+                                <div class="why-amity-left">
 
 
-                                <h2 class="wow fadeInDown">
-                                    WHY AMITY</h2>
-                                <h3 class="wow fadeInUp">
-                                    Grooming leaders who are not only thorough professionals but also good human beings
-                                    with values.</h3>
-                                <div class="text_why-main">
-                                    <div class="text_why">
-                                        <h4 class="wow fadeInDown">
-                                            This is why we are<br>
-                                            consistently ranked</h4>
-                                        <div class="text_why2 wow fadeInUp">
-                                            no.1</div>
+                                    <h2 class="wow fadeInDown">
+                                        WHY AMITY</h2>
+                                    <h3 class="wow fadeInUp">
+                                        Grooming leaders who are not only thorough professionals but also good human beings
+                                        with values.</h3>
+                                    <div class="text_why-main">
+                                        <div class="text_why">
+                                            <h4 class="wow fadeInDown">
+                                                This is why we are<br>
+                                                consistently ranked</h4>
+                                            <div class="text_why2 wow fadeInUp">
+                                                no.1</div>
+                                        </div>
                                     </div>
+
+                                    <a href="about-university.html" class="wow fadeInUp"><span>Read More About
+                                            Amity</span></a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="why_box2">
+                            <div class="owl-carousel owl-carousel1 owl-theme">
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <h3>
+                                                27 Years'
+                                            </h3>
+                                            <p>
+                                                of Education Experience</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                24 Years'
+                                            </h3>
+                                            <p>
+                                                of Management Education Experience</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                150,000
+                                            </h3>
+                                            <p>
+                                                Students</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                6000
+                                            </h3>
+                                            <p>
+                                                Faculties</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                15000</h3>
+                                            <p>
+                                                paper published</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                5000
+                                            </h3>
+                                            <p>
+                                                Books Authored</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <h3>
+                                                1200
+                                            </h3>
+                                            <p>
+                                                acres of Campuses</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                9
+                                            </h3>
+                                            <p>
+                                                Universities</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                14
+                                            </h3>
+                                            <p>
+                                                International / overseas Campuses across
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                13
+                                            </h3>
+                                            <p>
+                                                B.Schools in India</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                26
+                                            </h3>
+                                            <p>
+                                                Schools &amp; Pre-Schools</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                300+
+                                            </h3>
+                                            <p>
+                                                Programmes</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <h3>
+                                                150+
+                                            </h3>
+                                            <p>
+                                                Institution & Centers
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                25,000
+                                            </h3>
+                                            <p>
+                                                Students on Scholarship</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                27,000
+                                            </h3>
+                                            <p>
+                                                On-Campus Placement in Last year
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                1100
+                                            </h3>
+                                            <p>
+                                                Patents by Faculty</p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                2500
+                                            </h3>
+                                            <p>
+                                                Case Studies
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                300
+                                            </h3>
+                                            <p>
+                                                Government Funded Research Projects</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <h3>
+                                                150
+                                            </h3>
+                                            <p>
+                                                Global universities as Research partner
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                150+
+                                            </h3>
+                                            <p>
+                                                Institution & Centers
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3>
+                                                300+
+                                            </h3>
+                                            <p>
+                                                Labs in various disciplines.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                <a href="about-university.html" class="wow fadeInUp"><span>Read More About
-                                        Amity</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="why_box2">
-                        <div class="owl-carousel owl-carousel1 owl-theme">
-                            <div class="item">
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            27 Years'
-                                        </h3>
-                                        <p>
-                                            of Education Experience</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            24 Years'
-                                        </h3>
-                                        <p>
-                                            of Management Education Experience</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            150,000
-                                        </h3>
-                                        <p>
-                                            Students</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            6000
-                                        </h3>
-                                        <p>
-                                            Faculties</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            15000</h3>
-                                        <p>
-                                            paper published</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            5000
-                                        </h3>
-                                        <p>
-                                            Books Authored</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            1200
-                                        </h3>
-                                        <p>
-                                            acres of Campuses</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            9
-                                        </h3>
-                                        <p>
-                                            Universities</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            14
-                                        </h3>
-                                        <p>
-                                            International / overseas Campuses across
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            13
-                                        </h3>
-                                        <p>
-                                            B.Schools in India</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            26
-                                        </h3>
-                                        <p>
-                                            Schools &amp; Pre-Schools</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            300+
-                                        </h3>
-                                        <p>
-                                            Programmes</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            150+
-                                        </h3>
-                                        <p>
-                                            Institution & Centers
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            25,000
-                                        </h3>
-                                        <p>
-                                            Students on Scholarship</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            27,000
-                                        </h3>
-                                        <p>
-                                            On-Campus Placement in Last year
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            1100
-                                        </h3>
-                                        <p>
-                                            Patents by Faculty</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            2500
-                                        </h3>
-                                        <p>
-                                            Case Studies
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            300
-                                        </h3>
-                                        <p>
-                                            Government Funded Research Projects</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            150
-                                        </h3>
-                                        <p>
-                                            Global universities as Research partner
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            150+
-                                        </h3>
-                                        <p>
-                                            Institution & Centers
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            300+
-                                        </h3>
-                                        <p>
-                                            Labs in various disciplines.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                
-            </div>
 
-        </div>
+            </div>
     </section>
     <!--end Why Amity Section -->
     <!-- Student life Section -->
@@ -363,40 +372,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="home-sec4-colm1">
-                        <h2 class="wow fadeInDown">RESEARCH <span>SPOTLIGHT</span></h2>
-                        <h3 class="wow fadeInUp"><b>1260</b> management case-studies covering domains like Strategy,
-                            Marketing, Economics & Finance and others, bought across <b>99</b> countries.</h3>
-                        <ul>
-                            <li class="wow fadeInUp"><a href="research.html">International Research</a></li>
-                            <li class="wow fadeInUp"><a href="research.html">Indian Research</a></li>
-                            <li class="wow fadeInUp"><a href="research.html">Patent</a></li>
-                        </ul>
+                    <marquee onmouseover="this.stop()" onmouseout="this.start()" class="bg-info" behavior="scroll" direction="up" style="height: 315px; padding: 10px">
+
+                        <li class="col-12">                           
+                            <a href="event-detail-normal.aspx?Event=11873&amp;Events=Events">
+                                <h4> 02 Mar 2022
+                                    Jaipur</h4>
+                                <p> Corporate Web Serries: “Building Skills Everyday”</p>
+                            </a>
+                        </li>
+
+                    </marquee>
+                </div>
+
+                <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+
+                    <div class="thumb">
+                        <img class="img-fullwidth" src="https://nsuniv.ac.in/nsu_laravel/public/images/about/tour.jpeg" alt="project">
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="home-sec4-colm2">
-                        <ul>
-                            <li class="wow fadeInDown">
-                                <h3>15000</h3>
-                                <p>Research Publications</p>
-                            </li>
-                            <li class="wow fadeInDown">
-                                <h3>500</h3>
-                                <p>Books in diverse area</p>
-                            </li>
-                            <li class="wow fadeInDown">
-                                <h3>300</h3>
-                                <p>Govt. Funded Research Projects </p>
-                            </li>
-                            <li class="wow fadeInDown">
-                                <h3>100+</h3>
-                                <p>Patents Filed by Brilliant Students </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+
+                <!-- <div class="col-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="home-sec4-colm3">
                         <div class="owl-carousel owl-carousel4 owl-theme">
                             <div class="item">
@@ -422,10 +418,14 @@
                         </div>
                     </div>
                     <abbr class="all-research-btn"><a href="research.html">View All Research <img src="images/arrow-icon.png"></a></abbr>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
+
+    <!-- news -->
+
+    <!-- //news -->
     <section class="home-sec5 mydiv">
         <div class="container">
 
@@ -444,7 +444,7 @@
                                 <img src="backoffice/Uploads/Event/1_student-achiv-img1.jpg" id="homestudentwork1_rptrUpper_ctl00_imgevent" /></span>
                             <h4>
                                 The team from Amity School of Engineering and Technology named as &ldquo;MACH-
-                                RELOADED&rdquo; 
+                                RELOADED&rdquo;
                             </h4>
                         </div>
                     </div>
@@ -502,6 +502,48 @@
         </div>
 
     </section>
+
+    <!-- head of department -->
+    <section class="scholarship-scheme-sec5">
+        <div class="container">
+            <ul class="row">
+                <li class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="scheme-sec5-content">
+                        <span><img src="images/scholarship-d-oberoi-img1.png"></span>
+                        <h4>Disha Oberoi</h4>
+                        <h5>93.80% in Class XII</h5>
+                        <p>100% Amity Scholarship in B.Tech. (Biotech.)</p>
+                    </div>
+                </li>
+                <li class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="scheme-sec5-content">
+                        <span><img src="images/scholarship-nam-bhushan-img1.png"></span>
+                        <h4>Namrata Bhushan</h4>
+                        <h5>93.50% in Class XII</h5>
+                        <p>100% Amity Scholarship in B.Tech. (CSE)</p>
+                    </div>
+                </li>
+                <li class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="scheme-sec5-content">
+                        <span><img src="images/scholarship-sh-goel-img1.png"></span>
+                        <h4>Shashwat Goel</h4>
+                        <h5>93.40% in Class XII</h5>
+                        <p>100% Amity Scholarship in B.Tech. (ECE)</p>
+                    </div>
+                </li>
+                <li class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="scheme-sec5-content">
+                        <span><img src="images/scholarship-ch-syai-img1.png"></span>
+                        <h4>Charvi Syal</h4>
+                        <h5>93.60% in Class XII</h5>
+                        <p>100% Amity Scholarship in B.Sc. (H) Medical Biotech</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- //head of department -->
+
     <section class="home-sec6 mydiv">
         <div class="container">
 
@@ -926,7 +968,7 @@
     </section>
     <!--end Testimonials Section -->
     <!-- Footer -->
-@include('include.testimonial')
+    @include('include.testimonial')
     @include('include.search')
 
     @include('include.subscribe')

@@ -1,5 +1,96 @@
 <x-layout1>
     @slot('body')
+
+<style>
+    .box-hover-effect .effect-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+}
+.box-hover-effect:hover .effect-wrapper .thumb {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.about-video:hover .thumb {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.box-hover-effect .effect-wrapper .thumb {
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.effect-wrapper:hover .video-button {
+    background-color: rgba(239, 88, 97, 0.9);
+}
+.effect-wrapper:hover .video-button {
+    width: 65px;
+    height: 65px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 30%);
+}
+
+.effect-wrapper .video-button {
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 30%);
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.effect-wrapper:hover .video-button:before {
+    border-left: 10px solid #fff;
+}
+.effect-wrapper .video-button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #666;
+    -webkit-transform: translate(-15%, -50%);
+    transform: translate(-15%, -50%);
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.effect-wrapper .hover-link {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none !important;
+    color: transparent !important;
+    z-index: 11;
+}
+</style>
+
     <section class="inner-page">
         <div class="inner-hadding">
             <div class="container">
@@ -13,27 +104,32 @@
             </div>
         </div>
         <section class="academia-sec1">
-            <div class="container">
-                {{-- <h2>Constantly Evolving & Comprehensive to meet Industry Needs.</h2> --}}
-                <p>Netaji Subhas University is the first premier and one of the best University in Jharkhand, with a venerable legacy, highest academic standards, diverse educational programmes, distinguished faculty, illustrious alumni, varied co-curricular activities and modern infrastructure stands as the pride of Jharkhand and Eastern India.
-
-                    This is also one of the best University in Jamshedpur which emerges as a symbol of excellence, integrity and openness of mansa (thought), vaacha (speech) and karmana (action).
-                    
-                    Sri, Madan Mohan Singh, the Chancellor of the University, realising the importance of distinguished faculty to act as role models, relentlessly searched for talent all over the country and roped in people of eminence for this University.</p>
             
-                </div>
             <div class="academia-sec1-main">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                            <span><img src="images/academia-img1.jpg" class="img-fluid"></span>
+                            <!-- <span><img src="images/academia-img1.jpg" class="img-fluid"></span> -->
+
+
+                            <div class="effect-wrapper">
+                                <div class="thumb">
+                                    <img class="img-fullwidth" src="images/academia-img1.jpg" alt="project">
+                                </div>
+                                <div class="video-button"></div>
+                                <a class="hover-link" data-lightbox-gallery="youtube-video" href="https://www.youtube.com/embed/phWNqyfCgzI" title="Youtube Video">Youtube
+                                    Video</a>
+                            </div>
+
+
+
                         </div>
                         <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                             <ul class="row">
                                 <p class="col-12 col-md-12 col-lg-12 col-xl-12">The University today is proud of its infrastructure and services provided to both the student and staff. The Central Library facilitates, the teachers, the Research scholars and the students of the University for acquiring and researching on various educational subjects, which are immensely supported by the books and journals available to them. The books and journals available in the library are authored by both Indian and International authors. The University has fiber-optic network in the campus connecting different departments with one another.
 
                                     The campus now spreads over 25 acres of lush green hilly terrain, pollution free environment, and the buildings in the campus blend attractively with the beautiful natural surroundings.</p>
-                               
+
                             </ul>
                         </div>
                     </div>
@@ -43,7 +139,7 @@
         <section class="academia-sec2">
             <div class="container">
                 <h2><span>ACADEMIC ENVIRONMENT</span></h2>
-              
+
                 {{-- <div class="row">
                     <div class="col-12 col-md-6 col-lg-6 col-xl-6 pro-ac">
                       
@@ -78,9 +174,9 @@
                         <p>The reputed faculty recruited from all across the country are dynamic and updated with the current academic curriculum as well as the industry requirements which help the students not only to acquire academic but industry specific knowledge.
 
                             Besides Academics, Personality Development and Communication skills is a great focus area at NSU because a great percentage of success in life depends on a person's confidence and personality. To help students in personal grooming, special sessions are held on business etiquette, negotiation skills and effective communication. Special classes are held on leadership, teamwork and analytical skills.
-                            
+
                             Apart from these, Practical, industry-oriented teaching, seminars on contemporary issues are becoming the regular and integral part of our courses.
-                            
+
                             With such an excellence grooming the students of University are able to secure good jobs for themselves.
                     </div>
                 </div>
@@ -138,7 +234,7 @@
                                 <h4>Distance Learning</h4>
                                 <ol>
                                     <li>Correspondence (purely self-study)</li>
-                                  
+
                                 </ol>
                             </div>
                         </li>
@@ -179,7 +275,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 padAdjust">
-                       
+
                         {{-- <p>Amity University Campus is Ragging Free Campus. Number of Anti ragging measures in place to
                             ensure strict compliance.</p> --}}
                         <div class="row career no-gutters">

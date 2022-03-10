@@ -42,3 +42,7 @@ Route::get('course-detail', function () {
 Route::get('apply-now', function () {
     return view('apply-now');
 });
+Route::get('play-button', function () {
+    return view('play-button');
+});
+
