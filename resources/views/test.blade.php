@@ -1,8 +1,6 @@
 <x-layout1>
     @slot('body')
 
-
-
     <!-- remove this part -->
     <section class="inner-page">
 
@@ -60,132 +58,59 @@
 <!-- // remove this parrt -->
 
 
-<section class="testimonials_section wow fadeInUp mydiv" style="visibility: visible; animation-name: fadeInUp;">
-    <div class="container-fluid">
 
-        <div class="responsive-tabs-container accordion-xs accordion-sm">
-            <ul class="nav nav-tabs responsive-tabs">
-                <li class="active"><a href=".students">Students</a></li>
-                <li><a href=".parents">Parents</a></li>
-                <li><a href=".alumni">Alumni</a></li>
-            </ul>
+    <div class="row no-gutters stalwarts_box2">
+        <div class="col-md-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="text_text">
+                <span><a data-toggle="modal" data-target="#IET10" href="javascript:void(0);">
 
-            <div class="tab-content">
-
-                <h4 class="collapsible_heading ">Students <span class="lnr lnr-chevron-down"></span></h4>
-                <a href=".students" class="accordion-link active">Students</a>
-                <div class="tab-pane students active selected">
-                    <div class="owl-carousel owl-carousel6 owl-theme owl-loaded owl-drag owl-hidden">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage" style="transform: translate3d(-3738px, 0px, 0px); transition: all 0s ease 0s; width: 7476px;">
-                                <div class="owl-item active" style="width: 1236px; margin-right: 10px;">
-                                    <div class="item">
-                                        <a href="testimonials.aspx">
-                                            <div class="testimonials-content row">
-                                                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                                                    <span>
-                                                        <img src="/backoffice/Uploads/testimonials/111aarohi-agarwal.jpg" width="358" height="334" alt="Ms. Aarohi Agarwal"></span>
-                                                </div>
-                                                <div class="col-12 col-md-8 col-lg-8 col-xl-8">
-                                                    <h3>
-                                                        "Life in Amity has been a breathtaking experience. As a hosteller, I would say it is actually a ...</h3>
-                                                    <h4>
-                                                        Ms. Aarohi Agarwal</h4>
-                                                    <p>BFA with specialization in Painting<br>
-                                                        Batch: 2010-14</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                              
-                                
-                            </div>
-                        </div>
-                      
-                        
-                    </div>
-                </div>
-
-
-
-
-
-                
-                <h4 class="collapsible_heading">Parents <span class="lnr lnr-chevron-down"></span></h4>
-                <a href=".parents" class="accordion-link active">Parents</a>
-                <div class="tab-pane parents active selected">
-                    <div class="owl-carousel owl-carousel7 owl-theme owl-loaded owl-drag">
-
-
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage" style="transform: translate3d(-3738px, 0px, 0px); transition: all 0s ease 0s; width: 7476px;">
-                                <div class="owl-item active" style="width: 1236px; margin-right: 10px;">
-                                    <div class="item">
-                                        <a href="parents-testimonials.aspx">
-                                            <div class="testimonials-content row">
-                                                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                                                    <span>
-                                                        <img src="/backoffice/Uploads/testimonials/1414pradeep-kumar-prt.jpg" width="358" height="334" alt=""></span>
-                                                </div>
-                                                <div class="col-12 col-md-8 col-lg-8 col-xl-8">
-                                                    <h3>
-                                                        Both of our children chose to attend Amity University, NOIDA over other universities. As parents initially we ... </h3>
-                                                    <h4>
-                                                        Mr. Pradeep Kumar</h4>
-                                                    <p>Parent of Natasha Kumar<br>
-                                                        B.Tech. Biotechnology (2008-2012)</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>                                                                                                                            
-                            </div>
-                        </div>                                              
-                    </div>
-                </div>
-
-
-
-
-                <h4 class="collapsible_heading">Alumni <span class="lnr lnr-chevron-down"></span></h4>
-                <a href=".alumni" class="accordion-link last">Alumni</a>
-                <div class="tab-pane alumni">
-                    <div class="owl-carousel owl-carousel8 owl-theme owl-loaded owl-drag">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
-                                <div class="owl-item">
-                                    <div class="item">
-                                        <a href="alumni-testimonials.aspx">
-                                            <div class="testimonials-content row">
-                                                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                                                    <span>
-                                                        <img src="/backoffice/Uploads/testimonials/1717natasha-testi.jpg" width="358" height="334" alt=""></span>
-                                                </div>
-                                                <div class="col-12 col-md-8 col-lg-8 col-xl-8">
-                                                    <h3>
-                                                        The 'Amity Experience' has been unique and enriching...</h3>
-                                                    <h4>
-                                                        Natasha Kumar</h4>
-                                                    <p>
-                                                    </p>
-                                                    <p>B.Tech. Biotechnology (2008-2012)<br>
-                                                        Current Profession/ Employer- Pursuing Ph.D in Biomedical Engineering at Nanyang Technological University, Singapore</p>
-                                                    <p></p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                                              
-                            </div>
-                        </div>                                              
-                    </div>
-                </div>
+                        <img src="images/submit.png" class="img-fluid pl-3" />
+                    </a>
+                </span>
             </div>
         </div>
     </div>
-</section>
+    <!-- end -->
 
-@endslot
+
+    <!-- modal -->
+    <div class="row no-gutters stalwarts_box2">
+        <div class="col-md-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="reco_box">
+                <div class="modal fade show" id="IET10" role="dialog" style="display: none; padding-right: 17px;z-index: 9999999;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h3>Addmission Online / Offline </h3>
+                            </div>
+                            <div class="modal-body text">
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <!-- <h4>Steps for Offline Admission</h4> -->
+                                        <!-- <ul class="bullet_list pt-2 pl-5 pr-5">
+                                            <li class="pb-3">More than one payment is rendered for the same application number.</li>
+                                        </ul> -->
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/RloNGhOJWxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- <div class="col-md-6">
+                                        <h4>Steps for Online Admission</h4>
+                                        <ul class="bullet_list pt-2 pl-5 pr-5">
+                                            <li class="pb-3">More than one payment is rendered for the same application number.</li>
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- //modal -->
+    @endslot
 </x-layout1>

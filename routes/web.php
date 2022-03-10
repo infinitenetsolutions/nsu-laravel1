@@ -45,4 +45,14 @@ Route::get('apply-now', function () {
 Route::get('play-button', function () {
     return view('play-button');
 });
+Route::get('test', function () {
+    return view('test');
+});
+Route::get('testimonial', function () {
+    return view('testimonial');
+});
+
+
+
+
 
