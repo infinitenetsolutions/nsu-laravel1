@@ -461,7 +461,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                    <marquee onmouseover="this.stop()" onmouseout="this.start()" class="bg-info" behavior="scroll" direction="up" style="height: 315px; padding: 10px">
+                    <marquee onmouseover="this.stop()" onmouseout="this.start()" class="" behavior="scroll" direction="up" style="background:#e3ae21;height: 315px; padding: 10px">
 
                         <li class="col-12">                           
                             <a href="event-detail-normal.aspx?Event=11873&amp;Events=Events">
