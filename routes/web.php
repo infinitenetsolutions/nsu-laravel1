@@ -51,7 +51,9 @@ Route::get('test', function () {
 Route::get('testimonial', function () {
     return view('testimonial');
 });
-
+Route::get('news-detail', function () {
+    return view('news-detail');
+});
 
 
 
