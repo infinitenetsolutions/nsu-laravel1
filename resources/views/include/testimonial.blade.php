@@ -64,7 +64,7 @@ $testimonials = DB::table('testimonial_tbl')
                                     {{ $testimonial->testimonial_course }}
                                     ({{ $testimonial->testimonial_batch }})
                                 </h4>
-                                <h6 class="text-gray-darkgray ">
+                                <h6 class="text-university">
                                     {{ $testimonial->testimonial_company }}
                                 </h6>
                             </div>
