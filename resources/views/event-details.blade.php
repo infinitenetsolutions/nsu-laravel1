@@ -19,8 +19,8 @@
                         <ul>
                             <li><a href="{{ route('index') }}">Home</a></li>
                             </li>
-                            <li><a href="{{ route('event') }}">{{ 'Event' }}</a></li>
-                            <li class="active"><a href="{{ route('event') }}">{{ $get_event->name }}</a></li>
+                            <li><a href="{{ '#' }}">{{ 'Event' }}</a></li>
+                            <li class="active"><a href="{{ '#' }}">{{ $get_event->name }}</a></li>
 
                         </li>
                         </ul>

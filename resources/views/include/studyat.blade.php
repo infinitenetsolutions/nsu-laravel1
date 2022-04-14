@@ -1,7 +1,9 @@
 <?php // total number of courses
 $total_teacher = DB::table('faculty_tbl')->count();
 // total number of teachers getting
-$total_courses = DB::table('course_tbl')->count(); ?>
+$total_courses = DB::table('course_tbl')->count();
+$about_us=DB::table('pages')->where('title','who-we-are')->get();
+?>
 <section class=" p-3 bg-black mydiv">
     <div class="container">
         <div class="top-home-sec1 row">
@@ -11,16 +13,17 @@ $total_courses = DB::table('course_tbl')->count(); ?>
                     Study at NSU</h2>
             </div>
 
-            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-5 col-lg-4 col-xl-4">
                 <p class="wow fadeInUp text-justify">
-                    Netaji Subhas University is the first premier and one of the best University in Jharkhand,
-                    with a venerable legacy, highest academic standards, diverse educational programmes,
-                    distinguished faculty, illustrious alumni, varied co-curricular activities and modern <a
-                        class="text-primary" href="{{ route('about', 'who-we-are') }}">view more</a>
+
+
+                  <?=  substr($about_us[0]->description,20,300)  ?>
+
+                    <a class="text-primary" href="{{ route('about', 'who-we-are') }}">view more</a>
                 </p>
 
             </div>
-            <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="col-12 col-md-7 col-lg-7 col-xl-7">
                 <ul>
                     <li>
                         <h3 class="wow fadeInDown">{{ $total_courses }}+</h3>
