@@ -1,4 +1,4 @@
-<section style="position: fixed;z-index: 9;width: 100%;background: #aa841f;">
+<section style="position: fixed;z-index: 9;width: 100%;" class="bg-university-color" >
     <div class="container">
         <div class="row" style="display: contents;">
 
@@ -9,6 +9,11 @@
 </section>
 <style>
     @media(max-width:576px) {
+
+        .bg-university-color{
+            background: #aa841f;
+        }
+
         .mobile_nav .mobile_nav_icon {
             top: 55px !important;
         }
