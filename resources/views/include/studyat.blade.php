@@ -15,7 +15,7 @@ $total_courses = DB::table('course_tbl')->count(); ?>
                 <p class="wow fadeInUp text-justify">
                     Netaji Subhas University is the first premier and one of the best University in Jharkhand,
                     with a venerable legacy, highest academic standards, diverse educational programmes,
-                    distinguished faculty, illustrious alumni, varied co-curricular activities and modernn <a
+                    distinguished faculty, illustrious alumni, varied co-curricular activities and modern <a
                         class="text-primary" href="{{ route('about', 'who-we-are') }}">view more</a>
                 </p>
 
