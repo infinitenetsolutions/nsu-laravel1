@@ -245,7 +245,7 @@
 
                 <div class="tab-content myTabContent">
 
-                    <h4 class="collapsible_heading open">Events <i class="lnr fas fa-calendar-alt "></i></h4>
+                    <h4 class="collapsible_heading open">Events <i class="lnr  fa-calendar-alt "></i></h4>
                     <div class="tab-pane active" id="events">
 
                         <ul class="row">
@@ -288,7 +288,7 @@
                             @endforeach
                         </ul>
                     </div>
-                    <h4 class="collapsible_heading">Media Coverage <i class="fas fa-newspaper lnr lnr-chevron-down"></i>
+                    <h4 class="collapsible_heading">Media Coverage <i class=" fa-newspaper lnr lnr-chevron-down"></i>
                     </h4>
                     <div class="tab-pane tab-pane-events " id="media-coverage">
                         <ul class="row">
