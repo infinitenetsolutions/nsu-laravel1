@@ -19,7 +19,7 @@
         </ul>
     </li>
 
-    <li class="nav-item"><a class="nav-link" href="#">About Netaji
+    <li class="nav-item"><a class="nav-link" href="#">About NSU
             <span class="span_icon"></span></a>
         <?php $abouts = DB::table('pages')
             ->where('is_deleted', '1')
