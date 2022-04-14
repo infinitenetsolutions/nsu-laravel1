@@ -1,4 +1,4 @@
-<section  >
+<section style="position: fixed;z-index: 9;width: 100%;background: #aa841f;">
     <div class="container">
         <div class="row" style="display: contents;">
 
@@ -19,6 +19,15 @@
 
         .mobile_nav_icon {
             top: 50px !important;
+        }
+
+        #mainNav.navbar-shrink {
+            top: 42px !important;
+        }
+
+
+        #mainNav.navbar-shrink .mobile_nav .mobile_nav_icon {
+            top: 60px !important;
         }
 
     }
