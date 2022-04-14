@@ -57,7 +57,7 @@
                                 <tbody>
                                     @foreach ($data as $govbody )
                                     <tr>
-                                        <th scope="row">{{ $govbody->id }}</th>
+                                        <th scope="row">{{ $loop->iteration }}</th>
                                         <td>{{ $govbody->name }}</td>
                                         <td>{{ $govbody->designation }}</td>
                                         <td>{{ $govbody->address }}</td>
