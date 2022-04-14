@@ -1,4 +1,4 @@
-<section style="background: #e3b021;" class="position-sticky" >
+<section style="background: #e3b021;" class="fixed-top" >
     <div class="container">
         <div class="row" style="display: contents;">
 
@@ -7,9 +7,6 @@
         </div>
     </div>
 </section>
-
-
-
 <style>
     @media(max-width:576px) {
         .mobile_nav .mobile_nav_icon {
