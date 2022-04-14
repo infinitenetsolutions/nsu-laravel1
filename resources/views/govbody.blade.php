@@ -1,5 +1,5 @@
 <x-layout1>
-    @slot('title', 'Transportation Facilities')
+    @slot('title', 'Governing Body')
     @slot('body')
     <!-- Start main-content -->
     <!-- Start main-content -->
@@ -9,7 +9,7 @@
                 <div class="breadcrumb">
                     <a href="{{ route('index') }}">Home</a>
                     <a href="">About</a>
-                    <a href="">{{ 'Government Body' }}</a>
+                    <a href="">{{ 'Governing Body' }}</a>
                 </div>
             </div>
             <div class="container">
@@ -17,7 +17,7 @@
                     <ul>
                         <h4>About</h4>
                         <li><a href="{{ route('index') }}">Home</a></li>
-                        <li class="active" ><a href="#">Government body</a></li>
+                        <li class="active" ><a href="#">Governing body</a></li>
 
                         @foreach ($quicks as $quick)
                             <li><a href="{{ route('about', $quick->title) }}">{{ $quick->sub_title }}</a>
@@ -26,7 +26,7 @@
                     </ul>
                 </div>
                 <div class="p-3 ">
-                    <h2>{{ 'Government Body' }}</h2>
+                    <h2>{{ 'Governing Body' }}</h2>
                     <a class="row p-2" href="{{ route('index') }}">
 
                         <img class="logo-sm" src="{{ asset('/images/logo.png') }}" alt="">
@@ -39,7 +39,7 @@
             <div class="container pt-4 pb-40">
                 <div class="section-title">
                     <div class="row">
-                        <h3 class="text-uppercase mt-0">Government <span class="text-theme-colored2">Body</span></h3>
+                        <h3 class="text-uppercase mt-0">Governing <span class="text-theme-colored2">Body</span></h3>
                         <div class="double-line-bottom-theme-colored-2"></div>
 
                         <div class="table-responsive">
