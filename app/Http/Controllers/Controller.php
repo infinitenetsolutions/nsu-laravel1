@@ -13,13 +13,13 @@ class Controller extends BaseController
 
     function url()
     {
-        if($_SERVER['HTTP_HOST']='127.0.0.1:8000'){
-            return "http://127.0.0.1:8001/upload/";
+       // if($_SERVER['HTTP_HOST']='127.0.0.1:8000'){
+           //return "http://127.0.0.1:8001/upload/";
 
-        }else{
-            return "https://nsuniv.ac.in/upload/";
+       // }else{
+            return "https://nsuniv.ac.in/nsuadmin/public/upload/";
 // adding
-        }
+      //  }
     }
 
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
