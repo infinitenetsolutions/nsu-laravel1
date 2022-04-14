@@ -14,7 +14,7 @@ $about_us=DB::table('pages')->where('title','who-we-are')->get();
             </div>
 
             <div class="col-12 col-md-5 col-lg-5 col-xl-5">
-                <p class="wow fadeInUp text-justify">
+                <p class="wow fadeInUp text-justify font-16">
 
 
                   <?=  substr($about_us[0]->description,30,500)  ?>
