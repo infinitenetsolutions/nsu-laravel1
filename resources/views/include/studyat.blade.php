@@ -13,11 +13,11 @@ $about_us=DB::table('pages')->where('title','who-we-are')->get();
                     Study at NSU</h2>
             </div>
 
-            <div class="col-12 col-md-5 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-5 col-lg-5 col-xl-5">
                 <p class="wow fadeInUp text-justify">
 
 
-                  <?=  substr($about_us[0]->description,20,300)  ?>
+                  <?=  substr($about_us[0]->description,30,500)  ?>
 
                     <a class="text-primary" href="{{ route('about', 'who-we-are') }}">view more</a>
                 </p>
