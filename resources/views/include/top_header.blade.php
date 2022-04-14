@@ -17,7 +17,7 @@
         }
 
         .navbar-expand-lg {
-            /* top: 25px !important; */
+            top: 25px !important;
         }
 
         .mobile_nav_icon {
