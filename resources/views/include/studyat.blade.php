@@ -2,7 +2,7 @@
 $total_teacher = DB::table('faculty_tbl')->count();
 // total number of teachers getting
 $total_courses = DB::table('course_tbl')->count(); ?>
-<section class=" p-2 bg-black mydiv">
+<section class=" p-3 bg-black mydiv">
     <div class="container">
         <div class="top-home-sec1 row">
 
