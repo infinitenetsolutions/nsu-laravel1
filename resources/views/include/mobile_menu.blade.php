@@ -149,43 +149,42 @@
     </li>
 
 
-    <li class="nav-item hidden-xs"><a class="nav-link" href="admission-procedure-domestic.html">
+    <li class="nav-item hidden-xs"><a class="nav-link" href="#">
             Gallery</a>
         <ul class="dropdown-menu">
             <li><a href="{{ route('image-gallery') }}">University Gallery</a></li>
-            <li><a href="media-gallery">Media Gallery</a></li>
+            <li><a href="{{ route('media-gallery') }}">Media Gallery</a></li>
 
         </ul>
     </li>
 
-    </li>
+    <li class="nav-item hidden-xs"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Education Loan</a>
+        <ul class="dropdown-menu">
+            <li><a href="https://propelld.com/signin">Propelld</a></li>
+            <li><a href="https://neevfinance.hagnosoft.com/webform">neevfinance</a></li>
 
+        </ul>
+    </li>
     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
 
     <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Apply
             Online</a>
     </li>
-    <li class="nav-item hidden-xs"><a class="nav-link dropdown-toggle" href="admission-procedure-domestic.html" data-toggle="dropdown" aria-expanded="false">Education Loan</a>
-        <ul class="dropdown-menu">
-            <li><a href="https://nsuniv.ac.in/nsularavel1/public/image-gallery">University Gallery</a></li>
-            <li><a href="media-gallery">Media Gallery</a></li>
+   
 
-        </ul>
-    </li>
-    
     <ul class="address" style="padding: 5px 0px 0px 15px;">
         <li class="nsu_map"><i class="fas fa-map"></i> #1. Pokhari,Near Bhilai Pahadi, Jamshedpur,Jharkhand </li>
         <li class="nsu_map"><i class="fas fa-map"></i> #2. Shatabdi Tower, 4th Floor, Sakchi, Jamshedpur, Jharkhand </li>
-        <li><i class="fa fa-phone"></i> 0657-223-3022, 9386-817-857
+        <li><i class="fa fa-phone text-white"></i> 0657-223-3022, 9386-817-857
 
-        </li class="nsu_map">
-        <li><i class="fas fa-envelope"></i> info@nsuniv.ac.in
+        </li>
+        <li><i class="fas fa-envelope text-white"></i> info@nsuniv.ac.in
         </li>
 
 
-        <li><a href="" style="color: #e3ae21;font-size: 12px;padding: 5px 15px;border: 2px solid #e3ae21;font-weight: 600;">Education Loan</a></li>
+        <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Vision 2k22 </a>
+        </li>
 
-        <li><a class="mt-1" href="" style="color: #e3ae21;font-size: 12px;padding: 5px 15px;border: 2px solid #e3ae21;font-weight: 600;">vision 2k22</a></li>
 
 
     </ul>
