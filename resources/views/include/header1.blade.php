@@ -1,11 +1,7 @@
 @include('include.header')
 
 <style>
-    @media(max-width:576px) {
-        .display {
-            display: none !important;
-        }
-    }
+
 
     #mainNav {
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
