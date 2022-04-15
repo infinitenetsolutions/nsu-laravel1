@@ -44,7 +44,6 @@
 </head>
 
 <body class="landing_page" id="page-top">
-    @include('include.top_header')
     @include('include.header')
     {{ $body }}
 
