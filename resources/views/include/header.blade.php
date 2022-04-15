@@ -119,7 +119,7 @@ function url_check($url)
         <li><a href="{{ route('news1') }}">News</a></li>
 
         <li><a href="{{ route('noticeboard', $lastnotice->id) }}">Important Notice</a></li>
-        <li><a class="apply_btn3" href="https://nsucms.in/nsucms/student/student_login" target="_blank">Student Login</a></li>
+        <li><a title="Student Login" class="apply_btn3" href="https://nsucms.in/nsucms/student/student_login" target="_blank"><i class="fas fa-users"></i></a></li>
         <li></li>
         <!-- <li><a class="right_bar_search" href="javascript:void(0);"><i class="fa fa-search"></i></a> -->
         </li>
