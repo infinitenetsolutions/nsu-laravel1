@@ -4,7 +4,7 @@ $home_url = '';
 // if ($_SERVER['HTTP_HOST'] == '127.0.0.1:8000') {
 //     $home_url = 'http://127.0.0.1:8001/upload/';
 // } else {
-    $home_url = 'https://www.nsuniv.ac.in/nsuadmin/public/upload/';
+$home_url = 'https://www.nsuniv.ac.in/nsuadmin/public/upload/';
 // }
 
 function url_check($url)
@@ -26,13 +26,12 @@ function url_check($url)
 } ?>
 
 <!-- Top Level Navigation -->
-        @include('include.getstart')
-        @include('include.top_header')
+@include('include.top_header')
+@include('include.getstart')
 <div class="top_menubar">
     <ul class="container">
 
-        <li class="admission_links"><a href="javascript:void(0);">Admissions <span
-                    class="lnr lnr-chevron-down"></span></a>
+        <li class="admission_links"><a href="javascript:void(0);">Admissions <span class="lnr lnr-chevron-down"></span></a>
             <div class="top_megamenu admission_box bg-warning1">
                 <div class="container admission_menu">
 
@@ -41,14 +40,12 @@ function url_check($url)
                         <div class="mega_menu_left col-lg-3">
                             <span class="mega_menu_brand">
 
-                                <a href="index-2.html" class="site-logo "><img
-                                        src="{{ asset('images/logo-Netaji.png') }}" alt="Netaji University" /></a>
+                                <a href="index-2.html" class="site-logo "><img src="{{ asset('images/logo-Netaji.png') }}" alt="Netaji University" /></a>
                             </span>
                             <ul class="mega_menu_nav_admission">
                                 <li><a href="{{ route('course_list') }}">How To
                                         Apply</a></li>
-                                <li><a data-toggle="modal" data-target=".bs-example-modal-lg" href="javascript:void(0);"
-                                        target="_blank" href="">Admission Enquiry
+                                <li><a data-toggle="modal" data-target=".bs-example-modal-lg" href="javascript:void(0);" target="_blank" href="">Admission Enquiry
                                     </a></li>
                                 <li><a href="{{ route('career') }}">Career Test</a></li>
 
@@ -57,8 +54,7 @@ function url_check($url)
 
 
                             </ul>
-                            <a target="_blank" class="apply_btn border text-university text-white"
-                                href="https://nsucms.in/prospectus/public" target="_blank">Admission
+                            <a target="_blank" class="apply_btn border text-university text-white" href="https://nsucms.in/prospectus/public" target="_blank">Admission
                                 {{ date('Y') }}</a>
 
                         </div>
@@ -94,12 +90,8 @@ function url_check($url)
                                         <h4>Route Map For NSU </h4>
                                         <div class="last_date2 last_date22">
                                             <div class=" colfull">
-                                                <a
-                                                    href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin">
-                                                    <iframe
-                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin"
-                                                        width="100%" height="350" style="border:0;" allowfullscreen=""
-                                                        loading="lazy"></iframe>
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                                 </a>
 
 
@@ -125,7 +117,7 @@ function url_check($url)
             ->first(); ?>
         <li><a href="{{ route('news1') }}">News</a></li>
 
-        <li><a href="{{ route('noticeboard', $lastnotice->id) }}" >Important Notice</a></li>
+        <li><a href="{{ route('noticeboard', $lastnotice->id) }}">Important Notice</a></li>
         <li><a href="https://nsucms.in/nsucms/student/student_login" target="_blank">Student Login</a></li>
         <li></li>
         <!-- <li><a class="right_bar_search" href="javascript:void(0);"><i class="fa fa-search"></i></a> -->
@@ -150,9 +142,7 @@ function url_check($url)
 ">University</span></span>
         </div>
 
-        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
-            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse main-menu" id="navbarResponsive">
@@ -160,8 +150,7 @@ function url_check($url)
 
             <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item"><a class="nav-link" href="#">About NSU <span
-                            class="span_icon"></span></a>
+                <li class="nav-item"><a class="nav-link" href="#">About NSU <span class="span_icon"></span></a>
                     <div class="mega_menu pt-5 hidden-xs">
 
                         <div class="row pl-3 no-gutters scroll-pan ">
@@ -180,9 +169,8 @@ function url_check($url)
                                                 <ul>
 
                                                     @foreach ($abouts as $about)
-                                                        <li><a class="text-uppercase"
-                                                                href="{{ route('about', $about->title) }}">
-                                                                {{ $about->sub_title }}</a></li>
+                                                    <li><a class="text-uppercase" href="{{ route('about', $about->title) }}">
+                                                            {{ $about->sub_title }}</a></li>
                                                     @endforeach
 
                                                 </ul>
@@ -199,8 +187,8 @@ function url_check($url)
                                                         ->get(['type']);
                                                     ?>
                                                     @foreach ($facultyes as $faculty)
-                                                        <li><a href="{{ route('faculty', $faculty->type) }}">Meet
-                                                                our {{ $faculty->type }}</a></li>
+                                                    <li><a href="{{ route('faculty', $faculty->type) }}">Meet
+                                                            our {{ $faculty->type }}</a></li>
                                                     @endforeach
 
                                                     <?php $studentpdfs = DB::table('pdf')
@@ -217,19 +205,17 @@ function url_check($url)
                                                         ->get();
                                                     ?>
                                                     @foreach ($abouts as $about)
-                                                        <li><a class="text-uppercase"
-                                                                href="{{ route('about', $about->title) }}">
-                                                                {{ $about->sub_title }}</a></li>
+                                                    <li><a class="text-uppercase" href="{{ route('about', $about->title) }}">
+                                                            {{ $about->sub_title }}</a></li>
                                                     @endforeach
 
                                                     <li><a href="{{ route('govbody') }}"> The Governing Body</a></li>
                                                     @foreach ($studentpdfs as $studentpdf)
-                                                        @if (url_check($home_url . 'pdf/' . $studentpdf->images))
-                                                            <li><a class="text-uppercase" target="_blank"
-                                                                    href="{{ $home_url . 'pdf/' . $studentpdf->images }}">
-                                                                    {{ $studentpdf->title }}</a>
-                                                            </li>
-                                                        @endif
+                                                    @if (url_check($home_url . 'pdf/' . $studentpdf->images))
+                                                    <li><a class="text-uppercase" target="_blank" href="{{ $home_url . 'pdf/' . $studentpdf->images }}">
+                                                            {{ $studentpdf->title }}</a>
+                                                    </li>
+                                                    @endif
                                                     @endforeach
                                                 </ul>
                                             </div>
@@ -261,15 +247,12 @@ function url_check($url)
 
                                         <div class="tab-content">
                                             <ul class="nav nav-tabs" role="tablist">
-                                                <li class="nav-item pr-3"><a class="nav-link font-18 active"
-                                                        href="#Graduate" role="tab" data-toggle="tab">Graduate
+                                                <li class="nav-item pr-3"><a class="nav-link font-18 active" href="#Graduate" role="tab" data-toggle="tab">Graduate
                                                         Programs</a>
                                                 </li>
-                                                <li class="nav-item pr-3"><a class="nav-link font-18"
-                                                        href="#Post_Graduate" role="tab" data-toggle="tab">
+                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#Post_Graduate" role="tab" data-toggle="tab">
                                                         Post Graduate Programs</a> </li>
-                                                <li class="nav-item pr-3"><a class="nav-link font-18"
-                                                        href="#certificate" role="tab" data-toggle="tab">
+                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#certificate" role="tab" data-toggle="tab">
                                                         Certificate Programs</a> </li>
 
                                             </ul>
@@ -287,9 +270,8 @@ function url_check($url)
                                                             ->get(); ?>
 
                                                         @foreach ($courses as $course)
-                                                            <li><i class="fas fa-graduation-cap"></i> <a
-                                                                    href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
-                                                            </li>
+                                                        <li><i class="fas fa-graduation-cap"></i> <a href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                        </li>
                                                         @endforeach
 
 
@@ -311,9 +293,8 @@ function url_check($url)
                                                             ->get(); ?>
 
                                                         @foreach ($courses as $course)
-                                                            <li><i class="fas fa-user-graduate"></i> <a
-                                                                    href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
-                                                            </li>
+                                                        <li><i class="fas fa-user-graduate"></i> <a href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                        </li>
                                                         @endforeach
                                                     </ul>
                                                 </div>
@@ -330,14 +311,13 @@ function url_check($url)
                                                             ->where('is_deleted', '1')
                                                             ->where('type', '!=', 'pg')
                                                             ->where('type', '!=', 'ug')
-                                                        
+
                                                             ->orderBy('course', 'ASC')
                                                             ->get(); ?>
 
                                                         @foreach ($courses as $course)
-                                                            <li><i class="fas fa-certificate"></i> <a
-                                                                    href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
-                                                            </li>
+                                                        <li><i class="fas fa-certificate"></i> <a href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                        </li>
                                                         @endforeach
                                                     </ul>
                                                 </div>
@@ -354,11 +334,9 @@ function url_check($url)
                                                     ->orderBy(DB::raw('count(id) '), 'DESC')
                                                     ->get(); ?>
                                                 @foreach ($programs as $program)
-                                                    <li> <a
-                                                            href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b
-                                                                class="color-orange text-uppercase">
-                                                                <?php echo $program->program; ?>
-                                                            </b></a> </li>
+                                                <li> <a href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b class="color-orange text-uppercase">
+                                                            <?php echo $program->program; ?>
+                                                        </b></a> </li>
                                                 @endforeach
                                             </ul>
                                         </div>
@@ -375,27 +353,23 @@ function url_check($url)
 
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Infrastructure <span
-                            class="span_icon"></span></a>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Infrastructure <span class="span_icon"></span></a>
                     <span id="infrastructure_menu"></span>
 
                 </li>
 
 
 
-                <li class="nav-item"><a class="nav-link" href="#">Placement <span
-                            class="span_icon"></span></a>
+                <li class="nav-item"><a class="nav-link" href="#">Placement <span class="span_icon"></span></a>
                     <span id="placement_menu"></span>
                 </li>
 
 
-                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Student <span
-                            class="span_icon"></span></a>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Student <span class="span_icon"></span></a>
                     <span id="student_menu"></span>
 
                 </li>
-                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Gallery <span
-                            class="span_icon"></span></a>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Gallery <span class="span_icon"></span></a>
                     <span id="gallery_menu"></span>
 
                 </li>
@@ -403,15 +377,14 @@ function url_check($url)
                     <div class="mega_menu ">
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link apply_btn"
-                        href="https://nsucms.in/prospectus/public/">Apply Now
+                <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Apply Now
                         {{ date('Y') }}</a>
                 </li>
             </ul>
         </div>
         <!-- mobile menu -->
         <div class="mobile_nav">
-            <a href="javascript:void(0);"  class="mobile_nav_icon"></a>
+            <a href="javascript:void(0);" class="mobile_nav_icon"></a>
             <div class="collapse navbar-collapse main-menu" id="navbarResponsive2">
                 @include('include.mobile_menu')
             </div>
