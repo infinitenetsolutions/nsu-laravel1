@@ -234,14 +234,21 @@
         {{-- social media --}}
 
 
-        <li><a target="_blank" href="https://api.whatsapp.com/send?phone=9386817857&amp;text=&amp;source=&amp;data="><i
-                    class="fas fa-whatsapp text-white"></i></a></li>
-        <li><a target="_blank" href="https://www.facebook.com/nsu.jamshedpur/"><i
-                    class="fas fa-facebook text-white"></i></a></li>
-        <li><a target="_blank" href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA"><i
-                    class="fas fa-youtube text-white"></i></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/nsujamshedpur/?hl=en"><i
-                    class="fas fa-instagram text-white"></i></a></li>
+        <ul class="social-media">
+
+            <li><a href="https://www.facebook.com/nsu.jamshedpur/" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA" target="_blank"><i
+                        class="fa fa-youtube" aria-hidden="true">
+                    </i></a></li>
+            <li><a href="https://in.linkedin.com/company/netaji-subhas-university" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true">
+                    </i></a></li>
+
+            <li><a href="https://www.instagram.com/nsujamshedpur/?hl=en" target="_blank"><i style="color: #f46339"
+                        class="fab fa-instagram " aria-hidden="true">
+                    </i></a></li>
+        </ul>
 
         {{-- social media end --}}
     </ul>
