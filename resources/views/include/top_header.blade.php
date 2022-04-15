@@ -1,4 +1,4 @@
-<section style="position: fixed;z-index: 9;width: 100%;" class="bg-university-color" >
+<section style="position: fixed;z-index: 9;width: 100%;" class="bg-university-color display">
     <div class="container">
         <div class="row" style="display: contents;">
 
@@ -8,9 +8,16 @@
     </div>
 </section>
 <style>
-    @media(max-width:576px) {
+    .display {
+        display: none;
+    }
 
-        .bg-university-color{
+    @media(max-width:576px) {
+        .display {
+            display: block;
+        }
+
+        .bg-university-color {
             background: #aa841f;
         }
 
