@@ -84,7 +84,7 @@
              ?>
             <div class="col-sm-3">
               <ul class="list-unstyled list-dashed">
-               <a class="text-warning1" href="{{ route('program',strtolower(str_replace(' ','-',$program->program))) }}"><b class="color-orange text-uppercase">-
+               <a  href="{{ route('program',strtolower(str_replace(' ','-',$program->program))) }}"><b class="text-warning1 text-uppercase">-
                 <?php echo $program->program ?>-
               </b></a> 
                 @foreach($courses as $course)
