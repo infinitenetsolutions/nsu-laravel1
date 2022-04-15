@@ -187,7 +187,7 @@
 
     </ul>
 
-    <ul class="mt-5">
+    <ul class="mt-2">
         <li><a target="_blank" href="https://api.whatsapp.com/send?phone=9386817857&amp;text=&amp;source=&amp;data="><i class="fa fa-whatsapp text-white"></i></a></li>
         <li><a target="_blank" href="https://www.facebook.com/nsu.jamshedpur/"><i class="fa fa-facebook text-white"></i></a></li>
         <li><a target="_blank" href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA"><i class="fa fa-youtube text-white"></i></a></li>
