@@ -167,10 +167,6 @@
         </ul>
     </li>
     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
-
-
-
-   
     <ul class="address" style="padding: 5px 0px 0px 15px;">
         <li class="nav-item"><a class="nav-link apply_btn mb-2" href="https://nsucms.in/prospectus/public/">Apply
                 Online</a>
