@@ -32,7 +32,7 @@ function url_check($url)
 <div class="top_menubar">
     <ul class="container">
 
-        <li class="admission_links font-weight-bold text-warning"><a href="javascript:void(0);">Admissions <span class="lnr lnr-chevron-down"></span></a>
+        <li class="admission_links "><a class="font-weight-bold text-warning" href="javascript:void(0);">Admissions <span class="lnr lnr-chevron-down"></span></a>
             <div class="top_megamenu admission_box bg-warning1">
                 <div class="container admission_menu">
 
@@ -119,7 +119,7 @@ function url_check($url)
         <li><a href="{{ route('news1') }}">News</a></li>
 
         <li><a href="{{ route('noticeboard', $lastnotice->id) }}">Important Notice</a></li>
-        <li><a class="apply_btn" href="https://nsucms.in/nsucms/student/student_login" target="_blank">Student Login</a></li>
+        <li><a class="apply_btn nav-link" href="https://nsucms.in/nsucms/student/student_login" target="_blank">Student Login</a></li>
         <li></li>
         <!-- <li><a class="right_bar_search" href="javascript:void(0);"><i class="fa fa-search"></i></a> -->
         </li>
