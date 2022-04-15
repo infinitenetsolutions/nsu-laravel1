@@ -18,9 +18,7 @@
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link
-        href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:200,300,400,500,600,700|Open+Sans:300,400,600,700,800"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:200,300,400,500,600,700|Open+Sans:300,400,600,700,800" rel="stylesheet" />
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/full-slider.css') }}" rel="stylesheet" />
     <!-- Custom styling CSS -->
@@ -40,14 +38,13 @@
     <link href="http://cdn.linearicons.com/free/1.0.0/icon-font.min.css" type="text/css" rel="stylesheet" />
     <link href="{{ asset('css/Print.css') }}" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
 
 
 </head>
 
 <body class="landing_page" id="page-top">
-
+    @include('include.top_header')
     @include('include.header')
     {{ $body }}
 

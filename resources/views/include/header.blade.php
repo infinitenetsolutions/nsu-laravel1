@@ -26,7 +26,6 @@ function url_check($url)
 } ?>
 
 <!-- Top Level Navigation -->
-@include('include.top_header')
 @include('include.getstart')
 <div class="top_menubar">
     <ul class="container">
