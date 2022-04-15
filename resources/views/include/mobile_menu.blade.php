@@ -167,14 +167,14 @@
         </ul>
     </li>
     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
-    <ul class="address" style="padding: 5px 0px 0px 15px;">
+    <ul class="address" >
         <li class="nav-item"><a class="nav-link apply_btn mb-2" href="https://nsucms.in/prospectus/public/">Apply
                 Online</a>
         </li>
-        <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Vision 2k22
+        <li class="nav-item mb-3"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Vision 2k22
             </a>
         </li>
-        <br>
+      
         <li class="nsu_map"><i class="fas fa-map"></i> #1. Pokhari,Near Bhilai Pahadi, Jamshedpur,Jharkhand
         </li>
         <li class="nsu_map"><i class="fas fa-map"></i> #2. Shatabdi Tower, 4th Floor, Sakchi, Jamshedpur,
@@ -200,9 +200,7 @@
     /*style*/
 
     ul.address .nsu_map {
-        margin-bottom: 8px !important;
         color: #e3ae21;
-        padding: 0px 5px !important;
     }
 
     .slimScrollDiv {
