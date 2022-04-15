@@ -242,9 +242,9 @@
 <style>
     /*style*/
 
-    ul.address .nsu_map {
+    .address {
         color: #e3ae21;
-        padding: 10px 10px;
+        padding: 0px 10px;
     }
 
     .slimScrollDiv {
