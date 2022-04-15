@@ -168,12 +168,17 @@
     </li>
     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
 
-    <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Apply
-            Online</a>
-    </li>
 
-<br>
+
+    <br>
     <ul class="address" style="padding: 5px 0px 0px 15px;">
+        <li class="nav-item"><a class="nav-link apply_btn mb-2" href="https://nsucms.in/prospectus/public/">Apply
+                Online</a>
+        </li>
+        <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Vision 2k22
+            </a>
+        </li>
+
         <li class="nsu_map"><i class="fas fa-map"></i> #1. Pokhari,Near Bhilai Pahadi, Jamshedpur,Jharkhand
         </li>
         <li class="nsu_map"><i class="fas fa-map"></i> #2. Shatabdi Tower, 4th Floor, Sakchi, Jamshedpur,
@@ -185,9 +190,7 @@
         </li>
 
 
-        <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Vision 2k22
-            </a>
-        </li>
+
 
 
 
