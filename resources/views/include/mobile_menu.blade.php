@@ -74,37 +74,48 @@
 
     <li class="nav-item"><a href="#" class="nav-link">Courses
             <span class="span_icon"></span></a>
-            <ul class="dropdown-menu">
+        <ul class="dropdown-menu">
 
-            <?php    $programs=DB::table('course_tbl')->select('program')->where('is_deleted','1')->groupBy('program')->orderBy(DB::raw('count(id) '), 'DESC')->get();         ?>
+            <?php $programs = DB::table('course_tbl')
+                ->select('program')
+                ->where('is_deleted', '1')
+                ->groupBy('program')
+                ->orderBy(DB::raw('count(id) '), 'DESC')
+                ->get(); ?>
 
-            @foreach ( $programs as $program)
-
-            <?php  $courses = DB::table('course_tbl')->where('program',$program->program)->where('is_deleted','1')->orderBy('id','ASC')->get();
-             ?>
-            <div class="col-sm-3">
-              <ul class="list-unstyled list-dashed">
-               <a  href="{{ route('program',strtolower(str_replace(' ','-',$program->program))) }}"><b class="text-warning1 text-uppercase">-
-                <?php echo $program->program ?>-
-              </b></a> 
-                @foreach($courses as $course)
-                <li><a href="{{ route('course',['course'=>strtolower(str_replace(' ', '-', $course->course)),'id'=>$course->id]) }}">{{
-                    $course->course }}</a></li>
-                @endforeach
-              </ul>
-            </div>
+            @foreach ($programs as $program)
+                <?php $courses = DB::table('course_tbl')
+                    ->where('program', $program->program)
+                    ->where('is_deleted', '1')
+                    ->orderBy('id', 'ASC')
+                    ->get();
+                ?>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled list-dashed">
+                        <a href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b
+                                class="text-warning1 text-uppercase">-
+                                <?php echo $program->program; ?>-
+                            </b></a>
+                        @foreach ($courses as $course)
+                            <li><a
+                                    href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
             @endforeach
 
-            </ul>
+        </ul>
 
 
         {{-- <?php
-        //  $programs = DB::table('course_tbl')
-        //     ->select('program')
-        //     ->where('is_deleted', '1')
-        //     ->groupBy('program')
-        //     ->orderBy(DB::raw('count(id) '), 'DESC')
-        //     ->get(); ?>
+//  $programs = DB::table('course_tbl')
+//     ->select('program')
+//     ->where('is_deleted', '1')
+//     ->groupBy('program')
+//     ->orderBy(DB::raw('count(id) '), 'DESC')
+//     ->get();
+?>
 
         <ul class="dropdown-menu">
             @foreach ($programs as $program)
@@ -211,7 +222,7 @@
         <li class="nav-item mb-3"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Vision 2k22
             </a>
         </li>
-
+        <br>
         <li class="nsu_map"><i class="fas fa-map"></i> #1. Pokhari,Near Bhilai Pahadi, Jamshedpur,Jharkhand
         </li>
         <li class="nsu_map"><i class="fas fa-map"></i> #2. Shatabdi Tower, 4th Floor, Sakchi, Jamshedpur,
@@ -223,17 +234,16 @@
         </li>
         {{-- social media --}}
 
-        <ul class="styled-icons icon-sm pull-right flip sm-pull-none sm-text-center mt-5">
-            <li><a target="_blank"
-                    href="https://api.whatsapp.com/send?phone=9386817857&amp;text=&amp;source=&amp;data="><i
-                        class="fa fa-whatsapp text-white"></i></a></li>
-            <li><a target="_blank" href="https://www.facebook.com/nsu.jamshedpur/"><i
-                        class="fa fa-facebook text-white"></i></a></li>
-            <li><a target="_blank" href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA"><i
-                        class="fa fa-youtube text-white"></i></a></li>
-            <li><a target="_blank" href="https://www.instagram.com/nsujamshedpur/?hl=en"><i
-                        class="fa fa-instagram text-white"></i></a></li>
-        </ul>
+
+        <li><a target="_blank" href="https://api.whatsapp.com/send?phone=9386817857&amp;text=&amp;source=&amp;data="><i
+                    class="fa fa-whatsapp text-white"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/nsu.jamshedpur/"><i
+                    class="fa fa-facebook text-white"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA"><i
+                    class="fa fa-youtube text-white"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/nsujamshedpur/?hl=en"><i
+                    class="fa fa-instagram text-white"></i></a></li>
+
         {{-- social media end --}}
     </ul>
 
