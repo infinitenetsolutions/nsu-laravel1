@@ -175,10 +175,10 @@
     <ul class="address" style="padding: 5px 0px 0px 15px;">
         <li class="nsu_map"><i class="fas fa-map"></i> #1. Pokhari,Near Bhilai Pahadi, Jamshedpur,Jharkhand </li>
         <li class="nsu_map"><i class="fas fa-map"></i> #2. Shatabdi Tower, 4th Floor, Sakchi, Jamshedpur, Jharkhand </li>
-        <li><i class="fa fa-phone text-white"></i> 0657-223-3022, 9386-817-857
+        <li class="text-white" ><i class="fa fa-phone "></i> 0657-223-3022, 9386-817-857
 
         </li>
-        <li><i class="fas fa-envelope text-white"></i> info@nsuniv.ac.in
+        <li class="text-white" ><i class="fas fa-envelope"></i> info@nsuniv.ac.in
         </li>
 
 
