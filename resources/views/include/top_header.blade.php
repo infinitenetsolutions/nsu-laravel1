@@ -21,7 +21,26 @@
             background: #aa841f;
         }
 
-      
+        .mobile_nav .mobile_nav_icon {
+            top: 55px !important;
+        }
+
+        .navbar-expand-lg {
+            top: 25px !important;
+        }
+
+        .mobile_nav_icon {
+            top: 50px !important;
+        }
+
+        #mainNav.navbar-shrink {
+            top: 42px !important;
+        }
+
+
+        #mainNav.navbar-shrink .mobile_nav .mobile_nav_icon {
+            top: 60px !important;
+        }
 
     }
 </style>
