@@ -74,54 +74,43 @@
 
     <li class="nav-item"><a href="#" class="nav-link">Courses
             <span class="span_icon"></span></a>
-
-        <?php $programs = DB::table('course_tbl')
-            ->select('program')
-            ->where('is_deleted', '1')
-            ->groupBy('program')
-            ->orderBy(DB::raw('count(id) '), 'DESC')
-            ->get(); ?>
-
-        @foreach ($programs as $program)
-            <?php $courses = DB::table('course_tbl')
-                ->where('program', $program->program)
-                ->where('is_deleted', '1')
-                ->orderBy('id', 'ASC')
-                ->get();
-            ?>
-
             <ul class="dropdown-menu">
 
-                <a href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b
-                        class="color-orange text-uppercase">-
-                        <?php echo $program->program; ?>-
-                    </b></a>
-                @foreach ($courses as $course)
-                    <li><a
-                            href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
-                    </li>
+            <?php    $programs=DB::table('course_tbl')->select('program')->where('is_deleted','1')->groupBy('program')->orderBy(DB::raw('count(id) '), 'DESC')->get();         ?>
+
+            @foreach ( $programs as $program)
+
+            <?php  $courses = DB::table('course_tbl')->where('program',$program->program)->where('is_deleted','1')->orderBy('id','ASC')->get();
+             ?>
+            <div class="col-sm-3">
+              <ul class="list-unstyled list-dashed">
+               <a class="text-warning1" href="{{ route('program',strtolower(str_replace(' ','-',$program->program))) }}"><b class="color-orange text-uppercase">-
+                <?php echo $program->program ?>-
+              </b></a> 
+                @foreach($courses as $course)
+                <li><a href="{{ route('course',['course'=>strtolower(str_replace(' ', '-', $course->course)),'id'=>$course->id]) }}">{{
+                    $course->course }}</a></li>
                 @endforeach
+              </ul>
+            </div>
+            @endforeach
+
             </ul>
-        @endforeach
-
-
 
 
         {{-- <?php
-//  $programs = DB::table('course_tbl')
-//     ->select('program')
-//     ->where('is_deleted', '1')
-//     ->groupBy('program')
-//     ->orderBy(DB::raw('count(id) '), 'DESC')
-//     ->get();
-?>
+        //  $programs = DB::table('course_tbl')
+        //     ->select('program')
+        //     ->where('is_deleted', '1')
+        //     ->groupBy('program')
+        //     ->orderBy(DB::raw('count(id) '), 'DESC')
+        //     ->get(); ?>
 
         <ul class="dropdown-menu">
             @foreach ($programs as $program)
                 <li> <a class="color-orange text-capitalize"
                         href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b>
-                            <?php //echo $program->program;
-                            ?>
+                            <?php echo $program->program; ?>
                         </b></a> </li>
             @endforeach
         </ul> --}}
@@ -234,14 +223,17 @@
         </li>
         {{-- social media --}}
 
-        <div class="widget">
-            <ul class="styled-icons icon-sm pull-right flip sm-pull-none sm-text-center mt-5">
-              <li><a target="_blank" href="https://api.whatsapp.com/send?phone=9386817857&text=&source=&data="><i class="fa fa-whatsapp text-white"></i></a></li>
-              <li><a target="_blank" href="https://www.facebook.com/nsu.jamshedpur/"><i class="fa fa-facebook text-white"></i></a></li>
-              <li><a target="_blank" href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA"><i class="fa fa-youtube text-white"></i></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/nsujamshedpur/?hl=en"><i class="fa fa-instagram text-white"></i></a></li>
-            </ul>
-          </div>
+        <ul class="styled-icons icon-sm pull-right flip sm-pull-none sm-text-center mt-5">
+            <li><a target="_blank"
+                    href="https://api.whatsapp.com/send?phone=9386817857&amp;text=&amp;source=&amp;data="><i
+                        class="fa fa-whatsapp text-white"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/nsu.jamshedpur/"><i
+                        class="fa fa-facebook text-white"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCjndfC0cVjGnscin5RZgaFA"><i
+                        class="fa fa-youtube text-white"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/nsujamshedpur/?hl=en"><i
+                        class="fa fa-instagram text-white"></i></a></li>
+        </ul>
         {{-- social media end --}}
     </ul>
 
