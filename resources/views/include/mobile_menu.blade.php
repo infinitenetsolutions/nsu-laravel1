@@ -234,7 +234,7 @@
         {{-- social media --}}
 
 
-        <ul class="social-media">
+        <ul class="social-media d-flex mt-3">
 
             <li><a href="https://www.facebook.com/nsu.jamshedpur/" target="_blank">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
