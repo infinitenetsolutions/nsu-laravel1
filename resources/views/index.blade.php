@@ -180,8 +180,8 @@
         <!-- head of department -->
         <section class="scholarship-scheme-sec5 home-sec3 head-of-university">
             <div class="container">
-                <h2 class="text-uppercase text-dark carousel-inner title wow fadeInDown line-top ">Head of <span
-                        class="text-warning">University </span>
+                <h2 class="text-uppercase text-dark carousel-inner title wow fadeInDown ">Head of <span
+                        class="text-warning line-top">University </span>
                 </h2>
               
                 <ul class="row">
