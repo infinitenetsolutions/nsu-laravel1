@@ -43,7 +43,7 @@
         }
 
         .mydiv_nsu {
-            height: 70vh !important;
+            height: 90vh !important;
         }
 
         #mainNav.navbar-shrink {
