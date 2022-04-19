@@ -180,11 +180,10 @@
         <!-- head of department -->
         <section class="scholarship-scheme-sec5 home-sec3 head-of-university">
             <div class="container">
-                <h2 class="text-uppercase text-dark carousel-inner title wow fadeInDown ">Head of <span
+                <h2 class="text-uppercase text-dark carousel-inner title wow fadeInDown line-top ">Head of <span
                         class="text-warning">University </span>
                 </h2>
-                <span class="line-bottom carousel-inner ml-5 pl-5 text-warning "> &nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              
                 <ul class="row">
                     @foreach ($hou as $university_head)
                         <div class="col-md-3 ">

@@ -192,7 +192,9 @@
                         </a></li>
                 @endif
             @endforeach
-
+            <li> <a target="_blank" href="https://nsucms.in/nsucms/student/student_login">
+                    Student Login
+                </a></li>
         </ul>
     </li>
 
