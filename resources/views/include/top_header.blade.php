@@ -1,4 +1,4 @@
-<section style="position: fixed;z-index: 9;width: 100%;" class="bg-university-color display">
+<section style="position: fixed;z-index: 9;width: 100%;" class="bg-black display">
     <div class="container">
         <div class="row" style="display: contents;">
 
