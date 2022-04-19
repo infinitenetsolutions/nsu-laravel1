@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-md-4">
-                        <h2 class="wow fadeInDown mb-3 text-uppercase">
+                        <h2 class="wow fadeInDown mb-3 text-uppercase  ">
                             <span class="border-bottom mb-2 text-dark">Notice</span> <span
                                 class="text-white ">Board</span>
                         </h2>
@@ -142,11 +142,11 @@
 
         <section class="home-sec5 mydiv mydiv_nsu">
             <div class="container">
-                <h2 class="wow fadeInDown mb-3 text-uppercase">
+                <h2 class="wow fadeInDown mb-3 text-uppercase font-weight-600">
                     <span class="border-bottom mb-2 text-dark">Student</span> <span
                         class="text-white ">Gallery</span>
                 </h2>
-                
+
                 <abbr class="all-research-btn2 wow fadeInDown">
                     <a href="{{ route('image-gallery') }}">View All
                         <img src="images/arrow-icon.png" class="view_arrow_img"></a></abbr>
