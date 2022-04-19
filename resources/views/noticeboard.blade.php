@@ -9,7 +9,6 @@
                         <div class="breadcrumb">
                             <a href="{{route('index')}}">Home</a>
                           <a href="#">Noticeboard</a>
-                          <a href="#">Noticeboard</a>
                         </div>
                     </div>
                     <div class="container ">
@@ -105,10 +104,12 @@
                                 <div class="owl-carousel-1col mt-5" data-nav="true">
                                     <div class="item">
                                         <a href="{{ $url . 'noticeboard/' . $get_event->images }}" target="_blank">
+                                            @if($$get_event->images!='' )
                                             <iframe src="{{ $url . 'noticeboard/' . $get_event->images }}"
-                                               width="100%" height="390px">
-
-                                            </iframe></a>
+                                                width="100%" height="390px">
+                                             </iframe></a>
+                                            @endif
+                                            
                                     </div>
 
                                 </div>
