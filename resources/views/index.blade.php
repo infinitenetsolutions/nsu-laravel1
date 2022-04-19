@@ -144,7 +144,7 @@
             <div class="container">
 
                 <h2 class="wow fadeInDown">
-                    <span class="border-bottom" >Student</span> <span>Gallery</span></h2>
+                    <span class="border-bottom mb-2 text-dark" >Student</span> <span>Gallery</span></h2>
                 <abbr class="all-research-btn2 wow fadeInDown">
                     <a href="{{ route('image-gallery') }}">View All
                         <img src="images/arrow-icon.png" class="view_arrow_img"></a></abbr>
