@@ -7,21 +7,16 @@ $about_us=DB::table('pages')->where('title','who-we-are')->get();
 <section class=" p-3 bg-black mydiv">
     <div class="container">
         <div class="top-home-sec1 row">
-
             <div class="col-12 col-md-12">
                 <h2>
                     Study at NSU</h2>
             </div>
-
             <div class="col-12 col-md-5 col-lg-5 col-xl-5">
                 <p class="wow fadeInUp text-justify font-16">
-
-
                   <?=  substr($about_us[0]->description,30,600)  ?>
 
                     <a class="text-primary" href="{{ route('about', 'who-we-are') }}">view more</a>
                 </p>
-
             </div>
             <div class="col-12 col-md-7 col-lg-7 col-xl-7">
                 <ul>
@@ -40,6 +35,5 @@ $about_us=DB::table('pages')->where('title','who-we-are')->get();
                 </ul>
             </div>
         </div>
-
     </div>
 </section>

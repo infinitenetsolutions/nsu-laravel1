@@ -77,8 +77,7 @@
                                 class="text-white ">Board</span>
                         </h2>
                         <div class="double-line-bottom-theme-colored-2"></div>
-                        <marquee onMouseOver="this.stop()" onMouseOut="this.start()" class="bg-university"
-                            behavior="scroll" direction="up" style="height: 360px; padding: 10px">
+                        <marquee width="100%" height="190" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" scrolldelay="2" direction="up" behavior="alternate">
                             @foreach ($noticeboard as $event)
                                 <article>
                                     <div class="event-small media sm-maxwidth400 mt-0 mb-0 pt-0 pb-15">
