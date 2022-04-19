@@ -104,11 +104,9 @@
                                 <div class="owl-carousel-1col mt-5" data-nav="true">
                                     <div class="item">
                                         <a href="{{ $url . 'noticeboard/' . $get_event->images }}" target="_blank">
-                                            @if($$get_event->images!='' )
                                             <iframe src="{{ $url . 'noticeboard/' . $get_event->images }}"
                                                 width="100%" height="390px">
                                              </iframe></a>
-                                            @endif
                                             
                                     </div>
 
