@@ -144,7 +144,7 @@
             <div class="container">
 
                 <h2 class="wow fadeInDown">
-                    <span class="border-bottom mb-2 text-dark" >Student</span> <span>Gallery</span></h2>
+                    <span class="border-bottom mb-2 text-dark font-weight-600" >Student</span> <span>Gallery</span></h2>
                 <abbr class="all-research-btn2 wow fadeInDown">
                     <a href="{{ route('image-gallery') }}">View All
                         <img src="images/arrow-icon.png" class="view_arrow_img"></a></abbr>
@@ -180,7 +180,7 @@
         <section class="scholarship-scheme-sec5 home-sec3 head-of-university">
             <div class="container">
                 <h2 class="text-uppercase text-dark carousel-inner title wow fadeInDown ">Head of <span
-                        class="text-warning line-top">University </span>
+                        class="text-warning line-top font-weight-600">University </span>
                 </h2>
               
                 <ul class="row">
