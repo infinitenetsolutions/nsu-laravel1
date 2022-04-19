@@ -42,7 +42,7 @@
             top: 60px !important;
         }
 
-        .mydiv {
+        .mydiv_nsu {
             height: 70vh !important;
         }
 

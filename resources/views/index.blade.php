@@ -140,7 +140,7 @@
             </div>
         </section>
 
-        <section class="home-sec5 mydiv">
+        <section class="home-sec5 mydiv mydiv_nsu">
             <div class="container">
 
                 <h2 class="wow fadeInDown">
