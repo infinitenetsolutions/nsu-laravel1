@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row" style="display: contents;">
 
-            <a href="tel:0657-223-3022" style="font-weight: 700;text-align: center;font-size: 14px;">Admission Helpline <br> 0657-223-3022, 9386-817-857 </a><a href="https://nsucms.in/prospectus/public/" style="float: right;background: #000;color: #fff;padding: 9px 20px;position: absolute;top: 1px;right: 0px;font-weight: 600;">Apply Online</a>
+            <a href="tel:0657-223-3022" style="font-weight: 700;text-align: center;font-size: 10px;color: #fff;">Admission Helpline  0657-223-3022, 9386-817-857 </a><br><a href="tel:0657-223-3022" style="font-weight: 700;text-align: center;font-size: 10px;color: #fff;">Toll Free : 1800-8899-022</a><a href="https://nsucms.in/prospectus/public/" style="float: right;background: #e3ae21;color: #fff;padding: 3px 20px;position: absolute;top: 1px;right: 1px;font-weight: 700;font-size: 14px;">Apply Online</a>
 
         </div>
     </div>
@@ -42,5 +42,15 @@
             top: 60px !important;
         }
 
+        .mydiv {
+            height: 70vh !important;
+        }
+
+        #mainNav.navbar-shrink {
+            top: 30px !important;
+        }
+
     }
+
+
 </style>
