@@ -17,7 +17,7 @@ $about_us=DB::table('pages')->where('title','who-we-are')->get();
                 <p class="wow fadeInUp text-justify font-16">
 
 
-                  <?=  substr($about_us[0]->description,30,500)  ?>
+                  <?=  substr($about_us[0]->description,30,600)  ?>
 
                     <a class="text-primary" href="{{ route('about', 'who-we-are') }}">view more</a>
                 </p>
