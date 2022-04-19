@@ -115,7 +115,7 @@
 
                     <div class="col-12 col-md-8 col-lg-8 col-xl-8">
                         <h2 class="wow mb-3 fadeInDown text-uppercase">
-                            <span class="border-bottom mb-2 text-bolder text-dark">University</span> <span
+                            <span class="border-bottom mb-2 font-weight-bold text-dark">University</span> <span
                                 class="text-white ">Tour</span>
                         </h2>
                         <div class="double-line-bottom-theme-colored-2"></div>
