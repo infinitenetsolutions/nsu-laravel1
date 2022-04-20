@@ -19,7 +19,7 @@
                             </li>
                             </li>
                             <li class="{{ Request::path() == 'placements/placement' ? 'active' : '' }}"><a
-                                    href="{{ route('placement') }}"> Placement </a>
+                                    href="{{ route('placement','placement') }}"> Placement </a>
                             </li>
                             <li class="{{ Request::path() == 'placement/appointment' ? 'active' : '' }}"><a
                                     href="{{ route('appointment') }}"> Appointment Letter</a>
