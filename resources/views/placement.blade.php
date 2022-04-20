@@ -75,7 +75,7 @@
                     {{-- modal end --}}
 
                     <div class=" mb-5 ">
-                        <p class="text-justify  "><?php echo substr($data->description, 0, 1104); ?> </p>
+                        <p class="text-justify  "><?php echo substr($data->description, 0, 1114); ?> </p>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="effect-wrapper">
@@ -92,7 +92,7 @@
 
                             </div>
                         </div>
-                        <p class="text-justifym  "><?php echo substr($data->description, 1105); ?> </p>
+                        <p class="text-justifym  "><?php echo substr($data->description, 1115); ?> </p>
                     </div>
 
                 </div>
