@@ -44,26 +44,7 @@
                                     position at nsu University</div>
 
 
-                                {{-- <a href="https://portal.nsu.edu/Careers/Home/NewFacultyPosition" target="_blank"
-                                    class="btn-left"
-                                    style="position:inherit!important;width: 420px; margin-bottom:20px;display: inherit; float:left;"><span>Faculty/Research
-                                        Positions</span></a>
-
-
-                                <a href="https://portal.nsu.edu/Careers/Home/AcademicAdministrativePosition" target="_blank"
-                                    class="btn-left"
-                                    style="position:inherit!important;width: 526px; margin-bottom:20px;display: inherit;"><span>Academic
-                                        Administrative Position</span></a>
-                                <br><br>
-                                <a href="https://portal.nsu.edu/Careers/Home/ResearchProjectPositions" target="_blank"
-                                    class="btn-left"
-                                    style="position:inherit!important;width: 420px; margin-bottom:20px;display: inherit;float:left;"><span>Research
-                                        Project Positions</span></a>
-
-                                <a href="https://portal.nsu.edu/Careers/Home/NonAcademicPositions" target="_blank"
-                                    class="btn-left"
-                                    style="position:inherit!important;width: 480px; margin-bottom:20px;display: inherit;"><span>Non
-                                        Academic Positions</span></a> --}}
+                             
 
 
                                         <div class="col-md-12">
@@ -189,11 +170,11 @@
                                                 <div class="accordion-inner">
 
                                                     <div class="row">
-                                                        <div class="col-8 ml-5 pl-5">
+                                                        <div class="col-6">
                                                             Start Date:
                                                             {{ $career->start }}
                                                         </div>
-                                                        <div class="col-3">
+                                                        <div class="col-6">
                                                             Last Date:
                                                             {{ $career->end }}
                                                         </div>
