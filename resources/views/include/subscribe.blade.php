@@ -10,7 +10,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true"
                         style="color:#fff;border:3px solid #fff;padding: 1px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
-                    <h3 class="text-center" >TESTIMONIAL MESSAGE
+                    <h3 class="text-center" > REVIEWS US
                     </h3>
                 </div>
                 <div class="modal-body text">
