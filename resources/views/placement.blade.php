@@ -131,7 +131,7 @@
 
                         </div>
                         <div class="bg-xs-dark_gray m-3 p-3">
-                            <h3 class="text-center text-white">Explore Our Programs </h3>
+                            <h3 class="text-center text-white"> Our Programs </h3>
                             <hr>
                             <!-- <div class="aside-section-headings"></div> -->
 
@@ -143,7 +143,8 @@
                                 ->orderBy(DB::raw('count(id) '), 'DESC')
                                 ->get(); ?>
                             @foreach ($programs as $program)
-                            <li> <a href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b class="color-orange text-uppercase">
+                            <li> <b class="text-white"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a class="text-capitalize text-dark" href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b class="color-orange text-uppercase">
                                         <?php echo $program->program; ?>
                                     </b></a> </li>
                             @endforeach
