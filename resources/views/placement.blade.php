@@ -149,7 +149,7 @@
                                 ->get(); ?>
                             @foreach ($programs as $program)
                             <li> <b class="text-white"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                <a class="text-capitalize text-dark" href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b class="color-orange text-uppercase">
+                                <a class="text-capitalize text-dark" href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b class="color-orange ">
                                         <?php echo $program->program; ?>
                                     </b></a> </li>
                             @endforeach
