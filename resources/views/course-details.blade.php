@@ -285,7 +285,7 @@
                                     </ul>
                                     <div class="tab-content">
                                         <h4 id="ctl00_ContentPlaceHolder1_headyear1" class="collapsible_heading open">
-                                            {{ $name[0]->course }} <span class="lnr fab fas fa-discourse    "></span>
+                                            {{ $name[0]->course }} 
                                         </h4>
                                         <a href="#recognitions1"
                                             class="accordion-link first"><span>{{ $name[0]->course }}</span></a>
