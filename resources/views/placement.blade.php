@@ -1,5 +1,10 @@
 <x-layout1>
-
+<style>
+    .fal, .far {
+    color: #e3af21 !important;
+    font-family: "Font Awesome 5 Pro";
+}
+</style>
     @slot('body')
 
         <section class="inner-page">
