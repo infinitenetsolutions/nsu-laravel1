@@ -1,6 +1,7 @@
 <x-layout1>
+     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"> 
+
     <style>
-        @import url('https://use.fontawesome.com/releases/v5.0.1/css/all.css');
 
         .inner-page ul li:before {
             color: #e3ae21;
@@ -13,7 +14,6 @@
         }
 
 
-        /* <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"> */
 
     </style>
     @slot('body')
