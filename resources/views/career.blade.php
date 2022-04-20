@@ -170,7 +170,7 @@
                                                 <div class="accordion-inner">
 
                                                     <div class="row">
-                                                        <div class=" font-13">
+                                                        <div class=" font-13  ml-5 pl-5">
                                                             Start Date:
                                                             {{ $career->start }}
                                                         </div>
