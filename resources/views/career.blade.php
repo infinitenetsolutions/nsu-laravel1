@@ -174,7 +174,7 @@
                                                             Start Date:
                                                             {{ $career->start }}
                                                         </div>
-                                                        <div class=" font-13 float-right  ml-5 pl-5>
+                                                        <div class=" font-13 float-right  ml-5 pl-5">
                                                             Last Date:
                                                             {{ $career->end }}
                                                         </div>
