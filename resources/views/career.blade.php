@@ -174,7 +174,7 @@
                                                             Start Date:
                                                             {{ $career->start }}
                                                         </div>
-                                                        <div class="col-6 font-13">
+                                                        <div class="col-6 font-13 text-right">
                                                             Last Date:
                                                             {{ $career->end }}
                                                         </div>
