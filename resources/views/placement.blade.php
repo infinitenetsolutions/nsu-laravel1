@@ -3,6 +3,11 @@
     .fal, .far {
     color: #e3af21 !important;
     font-family: "Font Awesome 5 Pro";
+
+}
+p{
+    text-align: justify !important;
+
 }
 </style>
     @slot('body')
