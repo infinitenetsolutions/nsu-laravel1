@@ -30,7 +30,7 @@
                                     University Gallery </h2>
                                 <a class="row p-2" href="{{ route('index') }}">
     
-                                    <img class="logo-sm" src="{{ asset('/images/logo.png') }}" alt="">
+                                    <img class="logo-sm " src="{{ asset('/images/logo.png') }}" alt="">
                                     <p class="tag_line_bold mt-1 ">Netaji Subhas University</p>
                                 </a>
                             </div>
@@ -48,7 +48,7 @@
                                 @if(strlen($image->link) < 30)
                                     <li class="col-12 col-sm-6 col-md-3 mb-3 border p-3 mt-2"><a
                                             href="{{ route('image_gallery_details',$title->title) }}"
-                                            title="{{ $image->title }}"><img
+                                            title="{{ $image->title }}"><img class="w-100"
                                                 src="{{ $url . 'gallery/' . $image->image_name }}"
                                                 alt=""></a>
                                         <h5> {{ $image->title }}</h5>
