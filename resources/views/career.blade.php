@@ -182,9 +182,9 @@
 
 
 
-                                                    <h4 class="text-university text-left">{{ $career->sub_title }} </h4>
+                                                    <h4 class="text-university text-center">{{ $career->sub_title }} </h4>
                                                     <br>
-                                                    <p class="pt-2 text-left text-dark text-lowercase" > {{ $career->description }}</p>
+                                                    <p class="pt-2 text-center text-dark text-lowercase" > {{ $career->description }}</p>
                                                     <p><a href=""
                                                              class="btn btn-default btn-apply btn-sm">Apply
                                                             Now</a>
