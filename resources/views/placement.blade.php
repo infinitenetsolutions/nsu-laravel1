@@ -130,6 +130,29 @@
 
 
                         </div>
+                        <div class="bg-xs-dark_gray m-3 p-3">
+                            <h3 class="text-center text-white">Explore Our Programs </h3>
+                            <hr>
+                            <!-- <div class="aside-section-headings"></div> -->
+
+                            <ul class="bullet_list">
+                                <?php $programs = DB::table('course_tbl')
+                                ->select('program')
+                                ->where('is_deleted', '1')
+                                ->groupBy('program')
+                                ->orderBy(DB::raw('count(id) '), 'DESC')
+                                ->get(); ?>
+                            @foreach ($programs as $program)
+                            <li> <a href="{{ route('program', strtolower(str_replace(' ', '-', $program->program))) }}"><b class="color-orange text-uppercase">
+                                        <?php echo $program->program; ?>
+                                    </b></a> </li>
+                            @endforeach
+                           
+
+                            </ul>
+
+
+                        </div>
 
 
                     </section>
