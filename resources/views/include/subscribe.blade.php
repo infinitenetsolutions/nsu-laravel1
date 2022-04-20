@@ -9,7 +9,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true"
-                        style="color:#fff;border:3px solid #fff;padding: 1px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
+                        style="color:#fff;border:3px solid #fff;padding: 0px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
                     <h3 class="text-center" > <strong> REVIEWS US </strong>
                     </h3>
                 </div>

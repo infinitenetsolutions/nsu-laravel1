@@ -6,7 +6,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true"
-                        style="color:#fff;border:3px solid #fff;padding: 1px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
+                        style="color:#fff;border:3px solid #fff;padding: 0px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
                 <h4 class="modal-title text-center text-white" id="myModalLabel2"> Don’t Miss Out Our
                     All Course Brochure! </h4>
             </div>
