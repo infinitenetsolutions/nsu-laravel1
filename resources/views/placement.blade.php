@@ -1,17 +1,5 @@
 <x-layout1>
 
-    <style>
-        .inner-page ul li:before {
-            color: #e3ae21;
-            font-family: 'Font Awesome\ 5 Free';
-            content: "\f192";
-            display: inline-block;
-            padding-right: 3px;
-            vertical-align: middle;
-            font-weight: 900;
-        }
-
-    </style>
     @slot('body')
 
         <section class="inner-page">
@@ -29,13 +17,12 @@
                             <h4>Placement</h4>
                             <li><a href="{{ route('index') }}">Home</a>
                             </li>
-
+                           
                             @foreach ($quicks as $quick)
-                                <li class="{{ Request::path() == 'placements/' . $quick->title ? 'active' : '' }}"><a
-                                        href="{{ route('about', $quick->title) }}">{{ $quick->title }}</a>
+                                <li class="{{ Request::path() == 'placements/'.$quick->title ? 'active' : '' }}"><a href="{{ route('about', $quick->title) }}">{{ $quick->title }}</a>
                                 </li>
                             @endforeach
-
+                       
                             <li class="{{ Request::path() == 'placement/appointment' ? 'active' : '' }}"><a
                                     href="{{ route('appointment') }}"> Appointment Letter</a>
                             </li>
@@ -129,17 +116,14 @@
                                     </li>
                                 @endforeach
                                 <li> <b class="text-white"> <i class="fa fa-angle-double-right"
-                                            aria-hidden="true"></i><a class="text-capitalize text-dark"
-                                            href="{{ route('appointment') }}"> Appointment
+                                            aria-hidden="true"></i><a class="text-capitalize text-dark" href="{{ route('appointment') }}"> Appointment
                                             Letter</a></b> </li>
                                 <hr>
                                 <li> <b class="text-white"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                        <a class="text-capitalize text-dark" href="{{ route('requiters') }}"> Our
-                                            Requiters </a> </b> </li>
+                                        <a class="text-capitalize text-dark" href="{{ route('requiters') }}"> Our Requiters </a> </b> </li>
                                 <hr>
                                 <li> <b class="text-white"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                        <a class="text-capitalize text-dark" href="{{ route('placement-contact') }}">
-                                            Placement Contact </a> </b> </li>
+                                        <a class="text-capitalize text-dark" href="{{ route('placement-contact') }}"> Placement Contact </a> </b> </li>
                                 <hr>
 
                             </ul>
