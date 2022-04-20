@@ -1,8 +1,6 @@
 <x-layout1>
-     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"> 
 
     <style>
-
         .inner-page ul li:before {
             color: #e3ae21;
             font-family: 'Font Awesome\ 5 Free';
@@ -12,8 +10,6 @@
             vertical-align: middle;
             font-weight: 900;
         }
-
-
 
     </style>
     @slot('body')
