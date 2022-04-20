@@ -170,11 +170,11 @@
                                                 <div class="accordion-inner">
 
                                                     <div class="row">
-                                                        <div class="col-6 font-13">
+                                                        <div class=" font-13">
                                                             Start Date:
                                                             {{ $career->start }}
                                                         </div>
-                                                        <div class="col-6 font-13 float-right">
+                                                        <div class=" font-13 float-right">
                                                             Last Date:
                                                             {{ $career->end }}
                                                         </div>
