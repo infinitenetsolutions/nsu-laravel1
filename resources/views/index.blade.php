@@ -142,10 +142,14 @@
 
         <section class="home-sec5 mydiv mydiv_nsu">
             <div class="container">
+
                 <h2 class="wow fadeInDown mb-3 text-uppercase font-weight-600">
+                    <strong class=" border-bottom mb-2 text-dark" >Student</strong> <span>Gallery</span></h2>
+
+                {{-- <h2 class="wow fadeInDown mb-3 text-uppercase font-weight-600">
                     <span class="border-bottom mb-2 text-dark">Student</span> <span
                         class="text-white ">Gallery</span>
-                </h2>
+                </h2> --}}
 
                 <abbr class="all-research-btn2 wow fadeInDown">
                     <a href="{{ route('image-gallery') }}">View All
