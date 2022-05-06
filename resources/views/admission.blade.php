@@ -133,9 +133,11 @@
                                                         src="{{ $url . 'affiliated/' . $affiliation->image_name }}"
                                                         alt="">
                                                     <div class="border p-2">
-                                                        <h4>{{ $affiliation->title }}</h4>
+                                                        <!-- <h4>{{ $affiliation->title }}</h4> -->
 
-                                                        <p>{{ $affiliation->sub_title }}</p>
+                                                        <a href="{{ $affiliation->virtual_image_name }}">
+                                                            <p class="text-white">{{ $affiliation->sub_title }}</p>
+                                                        </a>
                                                     </div>
 
 

@@ -14,11 +14,11 @@
                         <ul>
                             <h4>About</h4>
                             <li><a href="{{ route('index') }}">Home</a></li>
-                            <li  ><a href="{{route('govbody') }}">Government body</a></li>
+                            <li><a href="{{ route('govbody') }}">Government body</a></li>
                             @foreach ($quicks as $quick)
-                            <li class="{{ Request::path() == 'about/'.$quick->title ? 'active' : '' }}"><a
-                                    href="{{ route('about', $quick->title) }}">{{ $quick->title }}</a></li>
-                        @endforeach
+                                <li class="{{ Request::path() == 'about/' . $quick->title ? 'active' : '' }}"><a
+                                        href="{{ route('about', $quick->title) }}">{{ $quick->title }}</a></li>
+                            @endforeach
                         </ul>
                     </div>
                     <div class="p-3 ">
@@ -56,24 +56,23 @@
                         {{-- modal end --}}
                         <div class=" mb-5 ">
                             <p class="text-justify"><?php echo substr($data->description, 0, 1000); ?> </p>
-                            
-                            @if ($data->title!="mission"  && $data->sub_title!="Vision" )
-            
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="effect-wrapper">
 
-                                        <div class="video-button"></div>
-                                        <a class="hover-link" data-toggle="modal" data-target="#exampleModalCenter"
-                                            title="Youtube Video"></a>
+                            @if ($data->title != 'mission' && $data->sub_title != 'Vision')
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="effect-wrapper">
+
+                                            <div class="video-button"></div>
+                                            <a class="hover-link" data-toggle="modal" data-target="#exampleModalCenter"
+                                                title="Youtube Video"></a>
+                                        </div>
+                                        <img src="{{ $url . 'about/' . $data->image_name }}" class="img-fluid">
+
                                     </div>
-                                    <img src="{{ $url . 'about/' . $data->image_name }}" class="img-fluid">
-
+                                    <div class="col-sm-6">
+                                        <img src="{{ $url . 'about/' . $data->image_name1 }}" class="img-fluid">
+                                    </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <img src="{{ $url . 'about/' . $data->image_name1 }}" class="img-fluid">
-                                </div>
-                            </div>
                             @endif
                             <p class="text-justify"><?php echo substr($data->description, 1000); ?> </p>
                         </div>
@@ -106,7 +105,7 @@
                         <div class="mt-3 mb-3">
                             <div class="row">
                                 <div class="col-sm-6 wow fadeInUp">
-                                        <img  src="{{ $url . 'about/' . $data->image_name }}" class="img-fluid border-2">
+                                    <img src="{{ $url . 'about/' . $data->image_name }}" class="img-fluid border-2">
                                 </div>
                                 <div class="col-sm-6 wow fadeInDown">
                                     <p class="text-justify"><?php echo substr($data->description, 0, 880); ?> </p>
@@ -114,7 +113,7 @@
                             </div>
 
                         </div>
-                     
+
                         <div class=" mb-5 wow fadeInDown ">
                             <p class="text-justify"><?php echo substr($data->description, 881, 1000000); ?> </p>
 
@@ -144,7 +143,9 @@
                                                     <div class="border p-2">
                                                         {{-- <h4>{{ $affiliation->title }}</h4> --}}
 
-                                                        <p>{{ $affiliation->sub_title }}</p>
+                                                        <a href="{{ $affiliation->virtual_image_name }}">
+                                                            <p class="text-white">{{ $affiliation->sub_title }}</p>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -164,7 +165,8 @@
                                     <div class="ac-sec5-download">
                                         <h3 style="margin-top:26px;">For more details please visit UGC Website</h3>
                                         <br /><br />
-                                        <a href="https://www.ugc.ac.in/Error.aspx?code=500" target="_blank"><span>UGC</span></a>
+                                        <a href="https://www.ugc.ac.in/Error.aspx?code=500"
+                                            target="_blank"><span>UGC</span></a>
                                     </div>
                                 </div>
                             </div>
