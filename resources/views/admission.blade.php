@@ -135,7 +135,7 @@
                                                     <div class="border p-2">
                                                         <!-- <h4>{{ $affiliation->title }}</h4> -->
 
-                                                        <a href="{{ $affiliation->virtual_image_name }}">
+                                                        <a target="blank" href="{{ $affiliation->virtual_image_name }}">
                                                             <p class="text-white">{{ $affiliation->sub_title }}</p>
                                                         </a>
                                                     </div>
