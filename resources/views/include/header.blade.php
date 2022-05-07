@@ -188,7 +188,7 @@ function url_check($url)
                                                         ->get(['type']);
                                                     ?>
                                                     @foreach ($facultyes as $faculty)
-                                                    <li><a href="{{ route('faculty', $faculty->type) }}">Meet
+                                                    <li><a class="text-uppercase" href="{{ route('faculty', $faculty->type) }}">Meet
                                                             our {{ $faculty->type }}</a></li>
                                                     @endforeach
 
@@ -210,7 +210,7 @@ function url_check($url)
                                                             {{ $about->sub_title }}</a></li>
                                                     @endforeach
 
-                                                    <li><a href="{{ route('govbody') }}"> The Governing Body</a></li>
+                                                    <li><a class="text-uppercase" href="{{ route('govbody') }}"> The Governing Body</a></li>
                                                     @foreach ($studentpdfs as $studentpdf)
                                                     @if (url_check($home_url . 'pdf/' . $studentpdf->images))
                                                     <li><a class="text-uppercase" target="_blank" href="{{ $home_url . 'pdf/' . $studentpdf->images }}">
