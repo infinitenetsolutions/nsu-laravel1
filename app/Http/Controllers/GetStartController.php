@@ -15,8 +15,8 @@ function index(){
     function store(Request $request)
     {
         try {
-            DB::table('get_start')->insert($request->except('_token'));
-            return redirect()->back()->with('success', 'Thank you Connecting with us');
+           $reference= DB::table('get_start')->insertGetId($request->except('_token'));
+            return redirect()->route('getstart.thankyou')->with('massage', 'NSU_'.$reference);
         } catch (Throwable $e) {
             return redirect()->back()->with('error', 'Something went wrong');
         }
@@ -26,5 +26,8 @@ function index(){
         $opt=rand(100000, 999999);
         session()->put('otp',$opt);
         return $opt;
+    }
+    function thankyou(){
+        return view('thankyou');
     }
 }

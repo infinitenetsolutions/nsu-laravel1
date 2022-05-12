@@ -15,6 +15,7 @@ use App\Http\Controllers\NoticeBoardController;
 use App\Http\Controllers\PlacementController;
 use App\Http\Controllers\StructureController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\TestimonialController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/main-index', [IndexController::class, 'main_index'])->name('main-index');
@@ -61,4 +62,6 @@ Route::get('ajax/slider',[AjaxController::class,'slider'])->name('ajax.slider');
 Route::get('ajax/testimonial',[AjaxController::class,'testimonial'])->name('ajax.testimonial');
 Route::get('ajax/infrastructure_image',[AjaxController::class,'infrastructure_image'])->name('ajax.infrastructure_image');
 Route::get('ajax/student_life',[AjaxController::class,'student_life'])->name('ajax.student_life');
-
+Route::get('getstart/thankyou',[GetStartController::class,'thankyou'])->name('getstart.thankyou');
+// storing the testimonial data
+Route::post('testimonial/store',[TestimonialController::class,'store'])->name('testimonial.stoe');

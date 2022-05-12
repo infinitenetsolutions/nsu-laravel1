@@ -14,7 +14,9 @@
                     </h3>
                 </div>
                 <div class="modal-body text">
-                    <form id="testimonial_form" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('testimonial.stoe') }}" method="post" enctype="multipart/form-data">
+                        @csrf
+                        <input type="hidden" value="0" name="is_deleted" >
                         <div class="row">
                             <div class="form-group col-sm-4">
                                <span>Name</span>
@@ -49,8 +51,8 @@
                                 <small class="form-text text-muted" id="image_err">Please upload your image. </small>
                             </div>
                             <div class="form-group col-sm-12">
-                                <label for="exampleInputMessage">Message</label>
-                                <textarea class="form-control" rows="5"  id="testimonial_message" name="testimonial_message" placeholder="Message"></textarea>
+                                <label for="message">Message</label>
+                                <textarea class="form-control" rows="5"  id="message" name="message" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <br>
