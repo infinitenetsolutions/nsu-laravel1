@@ -35,7 +35,7 @@ class TestimonialController extends Controller
     public function store(Request $request)
     {
       $referannce_id=  DB::table('testimonial_tbl')->insertGetId($request->except(['_token']));
-      return redirect()->route('getstart.thankyou')->with('massage',$referannce_id);
+      return redirect()->route('getstart.thankyou');
     }
 
     /**
