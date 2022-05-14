@@ -253,8 +253,8 @@ function url_check($url)
                                                 </li>
                                                 <li class="nav-item pr-3"><a class="nav-link font-18" href="#Post_Graduate" role="tab" data-toggle="tab">
                                                         Post Graduate Programs</a> </li>
-                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#certificate" role="tab" data-toggle="tab">
-                                                        Certificate Programs</a> </li>
+                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#Doctrate" role="tab" data-toggle="tab">
+                                                        Doctrate Programs</a> </li>
 
                                             </ul>
                                             <div role="tabpanel" class="tab-pane active selected" id="Graduate">
@@ -301,10 +301,10 @@ function url_check($url)
                                                 </div>
                                             </div>
 
-                                            <div role="tabpanel" class="tab-pane fade" id="certificate">
+                                            <div role="tabpanel" class="tab-pane fade" id="Doctrate">
                                                 <p class="pt-4">
-                                                    <strong> <i class="fa fa-certificate" aria-hidden="true"></i>
-                                                        certificate Courses</strong>
+                                                    <strong> <i class="fa fa-user-md" aria-hidden="true"></i>
+                                                        Doctrate Courses</strong>
                                                 </p>
                                                 <div class="menu_nav nsu-courses p-2">
                                                     <ul>
@@ -317,7 +317,7 @@ function url_check($url)
                                                             ->get(); ?>
 
                                                         @foreach ($courses as $course)
-                                                        <li><i class="fas fa-certificate"></i> <a href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                        <li><i class="fas fa-user-md"></i> <a href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
                                                         </li>
                                                         @endforeach
                                                     </ul>
