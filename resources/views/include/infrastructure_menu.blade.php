@@ -4,7 +4,7 @@ $home_url = '';
 // if ($_SERVER['HTTP_HOST'] == '127.0.0.1:8000') {
 //     $home_url = 'http://127.0.0.1:8001/upload/';
 // } else {
-    $home_url = 'https://www.nsuniv.ac.in/nsuadmin/public/upload/';
+    $home_url = 'http://13.233.101.59/nsuadmin/public/upload/';
 // }
 
  ?>

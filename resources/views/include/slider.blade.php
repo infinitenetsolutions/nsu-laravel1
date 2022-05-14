@@ -5,7 +5,7 @@
     // if ($_SERVER['HTTP_HOST'] == '127.0.0.1:8000') {
     //     $url = 'http://127.0.0.1:8001/upload/';
     // } else {
-        $url = 'https://www.nsuniv.ac.in/nsuadmin/public/upload/';
+        $url = 'http://13.233.101.59/nsuadmin/public/upload/';
     // }
     
      ?>
