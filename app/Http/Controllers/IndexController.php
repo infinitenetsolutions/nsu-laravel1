@@ -18,7 +18,7 @@ class IndexController extends Controller
     
 
         // university head  after video tour and upcoming events 
-        $head_of_university = DB::table('faculty_tbl')->where('type', 'hou')->orderBy('designation', 'ASC')->limit(4)->get();
+        $head_of_university = DB::table('faculty_tbl')->where('type', 'hou')->limit(4)->get();
 
         // gallery 
         $gallery = DB::table('gallery_tbl')->select('title')->where('title', '!=', 'media')->distinct()->limit(6)->get();

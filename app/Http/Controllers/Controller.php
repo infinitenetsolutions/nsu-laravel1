@@ -17,7 +17,7 @@ class Controller extends BaseController
            //return "http://127.0.0.1:8001/upload/";
 
        // }else{
-            return "http://35.154.98.108/nsuadmin/public/upload/";
+            return "http://35.154.228.131/nsuadmin/public/upload/";
 // adding
       //  }
     }
