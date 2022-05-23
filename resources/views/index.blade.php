@@ -5,7 +5,7 @@
 
     @media (max-width: 576px) {
         .head-of-university {
-            margin-top: 1025px !important;
+            margin-top: 1100px !important;
         }
 
         .owl-carousel .owl-item .item {
