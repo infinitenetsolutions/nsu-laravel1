@@ -84,7 +84,8 @@
                 ->get(); ?>
 
             @foreach ($programs as $program)
-                <?php $courses = DB::table('course_tbl')
+                <?php
+                 $courses = DB::table('course_tbl')
                     ->where('program', $program->program)
                     ->where('is_deleted', '1')
                     ->orderBy('id', 'ASC')
