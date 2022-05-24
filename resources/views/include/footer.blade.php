@@ -157,8 +157,8 @@
                             <li class="dropdown">
                                 <a><i class="fas fa-asterisk"> </i>Mandatory Disclosure</a>
                                 <div class="dropdown-content">
-                                    <a href="https://nsuniv.ac.in/assets/mandatory_disclose/Main%20File.pdf">NSU</a>
-                                    <a href="https://nsuniv.ac.in/assets/images/upload/NSIBM_21-22.pdf">NSIBM</a>
+                                    <a target="blank" href="https://nsuniv.ac.in/assets/mandatory_disclose/Main%20File.pdf">NSU</a>
+                                    <a target="blank" href="https://nsuniv.ac.in/assets/images/upload/NSIBM_21-22.pdf">NSIBM</a>
 
                                 </div>
                             </li>
