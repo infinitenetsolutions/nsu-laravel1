@@ -74,9 +74,9 @@
                                 <select onchange="department(this.value, '{{ $data[0]->type }}')"
                                     class="form-control form-control-sm">
                                     @if (isset($dept))
-                                        <option value="{{ $dept }}">{{ $dept }}</option>
+                                        <option selected value="{{ $dept }}">{{ $dept }}</option>
                                     @else
-                                        <option disabled>- Department -</option>
+                                        <option selected disabled>- Department -</option>
                                     @endif
                                     @foreach ($department as $item)
                                         <option value="{{ $item->department }}">{{ $item->department }}</option>
