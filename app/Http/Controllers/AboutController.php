@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
@@ -24,10 +25,16 @@ class AboutController extends Controller
 
     function department($name, $dept)
     {
-  
-        $data = DB::table('faculty_tbl')->where('type', $name)->where('department',$dept)->where('is_deleted', '1')->orderBy('prarity', 'ASC')->paginate(12);
-        $department = DB::table('faculty_tbl')->select('department')->distinct()->where('is_deleted', '1')->where('department', '!=', '')->get();
-        return view('faculty-members', ['data' => $data, 'url' => $this->url(), 'department' => $department,'dept'=>$dept]);
+
+        try {
+
+
+            $data = DB::table('faculty_tbl')->where('type', $name)->where('department', $dept)->where('is_deleted', '1')->orderBy('prarity', 'ASC')->paginate(12);
+            $department = DB::table('faculty_tbl')->select('department')->distinct()->where('is_deleted', '1')->where('department', '!=', '')->get();
+            return view('faculty-members', ['data' => $data, 'url' => $this->url(), 'department' => $department, 'dept' => $dept]);
+        } catch (Exception $e) {
+            view('errors.404');
+        }
     }
 
     function faculty_details($id)
