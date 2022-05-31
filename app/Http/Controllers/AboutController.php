@@ -17,8 +17,17 @@ class AboutController extends Controller
 
     function faculty($name)
     {
-        $data = DB::table('faculty_tbl')->where('type', $name)->where('is_deleted', '1')->orderBy('prarity','ASC')->paginate(12);
-        return view('faculty-members', ['data' => $data, 'url' => $this->url()]);
+        $data = DB::table('faculty_tbl')->where('type', $name)->where('is_deleted', '1')->orderBy('prarity', 'ASC')->paginate(12);
+        $department = DB::table('faculty_tbl')->select('department')->distinct()->where('is_deleted', '1')->where('department', '!=', '')->get();
+        return view('faculty-members', ['data' => $data, 'url' => $this->url(), 'department' => $department]);
+    }
+
+    function department($name, $dept)
+    {
+  
+        $data = DB::table('faculty_tbl')->where('type', $name)->where('department',$dept)->where('is_deleted', '1')->orderBy('prarity', 'ASC')->paginate(12);
+        $department = DB::table('faculty_tbl')->select('department')->distinct()->where('is_deleted', '1')->where('department', '!=', '')->get();
+        return view('faculty-members', ['data' => $data, 'url' => $this->url(), 'department' => $department,'dept'=>$dept]);
     }
 
     function faculty_details($id)
@@ -31,6 +40,6 @@ class AboutController extends Controller
     {
         $govbody = DB::table('govbody')->get();
         $quick_link = DB::table('pages')->where('page_type', 'about')->get();
-        return view('govbody', ['data' => $govbody,'quicks' => $quick_link]);
+        return view('govbody', ['data' => $govbody, 'quicks' => $quick_link]);
     }
 }
