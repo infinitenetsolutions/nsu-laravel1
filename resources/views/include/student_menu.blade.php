@@ -87,7 +87,7 @@ function url_check($url)
                 <div class="col-md-3 section ">
                     <div class="border1">
                         <a target="_blank" href="{{ route('student.alumni') }}">
-                            <img src="{{ asset('images/nsu/icon/download.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('images/nsu/icon/alumni.jpg') }}" class="img-fluid"
                                 alt="{{ $studentpdf->title }}">
 
                             <div class="menu_boxx1 text-capitalize ">
