@@ -1,4 +1,5 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AjaxController;
@@ -20,6 +21,7 @@ use App\Http\Controllers\TestimonialController;
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/main-index', [IndexController::class, 'main_index'])->name('main-index');
 Route::get('student/{name}', [StudentController::class, 'index'])->name('student');
+Route::get('student/alumni/all', [StudentController::class, 'alumni'])->name('student.alumni');
 Route::get('infrastructure/{name}', [StructureController::class, 'index'])->name('infrastructure');
 Route::get('about/{name}', [AboutController::class, 'index'])->name('about');
 Route::get('about/faculty/{name}', [AboutController::class, 'faculty'])->name('faculty');
@@ -55,14 +57,14 @@ Route::get('upgrade/upgrade', [GetStartController::class, 'index'])->name('upgra
 
 Route::get('gallery/image-gallery-details/{title}', [GalleryController::class, 'image_gallery_details'])->name('image_gallery_details');
 
-Route::get('ajax/infrastructure',[AjaxController::class,'infrastructure'])->name('ajax.infrastructure');
-Route::get('ajax/placement',[AjaxController::class,'placement'])->name('ajax.placement');
-Route::get('ajax/student',[AjaxController::class,'student'])->name('ajax.student');
-Route::get('ajax/gallery',[AjaxController::class,'gallery'])->name('ajax.gallery');
-Route::get('ajax/slider',[AjaxController::class,'slider'])->name('ajax.slider');
-Route::get('ajax/testimonial',[AjaxController::class,'testimonial'])->name('ajax.testimonial');
-Route::get('ajax/infrastructure_image',[AjaxController::class,'infrastructure_image'])->name('ajax.infrastructure_image');
-Route::get('ajax/student_life',[AjaxController::class,'student_life'])->name('ajax.student_life');
-Route::get('getstart/thankyou',[GetStartController::class,'thankyou'])->name('getstart.thankyou');
+Route::get('ajax/infrastructure', [AjaxController::class, 'infrastructure'])->name('ajax.infrastructure');
+Route::get('ajax/placement', [AjaxController::class, 'placement'])->name('ajax.placement');
+Route::get('ajax/student', [AjaxController::class, 'student'])->name('ajax.student');
+Route::get('ajax/gallery', [AjaxController::class, 'gallery'])->name('ajax.gallery');
+Route::get('ajax/slider', [AjaxController::class, 'slider'])->name('ajax.slider');
+Route::get('ajax/testimonial', [AjaxController::class, 'testimonial'])->name('ajax.testimonial');
+Route::get('ajax/infrastructure_image', [AjaxController::class, 'infrastructure_image'])->name('ajax.infrastructure_image');
+Route::get('ajax/student_life', [AjaxController::class, 'student_life'])->name('ajax.student_life');
+Route::get('getstart/thankyou', [GetStartController::class, 'thankyou'])->name('getstart.thankyou');
 // storing the testimonial data
-Route::post('testimonial/store',[TestimonialController::class,'store'])->name('testimonial.stoe');
+Route::post('testimonial/store', [TestimonialController::class, 'store'])->name('testimonial.stoe');

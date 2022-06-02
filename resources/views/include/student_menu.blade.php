@@ -4,7 +4,7 @@ $home_url = '';
 // if ($_SERVER['HTTP_HOST'] == '127.0.0.1:8000') {
 //     $home_url = 'http://127.0.0.1:8001/upload/';
 // } else {
-    $home_url = 'http://35.154.228.131/nsuadmin/public/upload/';
+$home_url = 'http://35.154.228.131/nsuadmin/public/upload/';
 // }
 function url_check($url)
 {
@@ -76,12 +76,27 @@ function url_check($url)
                                         {{ $studentpdf->title }}
                                     </div>
                                 </a>
+
+
+
                             </div>
 
                         </div>
                     @endif
                 @endforeach
+                <div class="col-md-3 section ">
+                    <div class="border1">
+                        <a target="_blank" href="{{ route('student.alumni') }}">
+                            <img src="{{ asset('images/nsu/icon/download.jpg') }}" class="img-fluid"
+                                alt="{{ $studentpdf->title }}">
 
+                            <div class="menu_boxx1 text-capitalize ">
+                                {{ 'ALUMNI' }}
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
             </div>
 
         </div>
