@@ -38,6 +38,19 @@ class StudentController extends Controller
 
     function store(Request $request)
     {
-        dd($request);
+
+
+        $id =  DB::table('alumni')->insertGetId($request->except('_token'));
+        if ($request->file('testimonial_image')) {
+            $destinationPath = 'upload/about/';
+            $testimonial_image = $request->file('testimonial_image');
+            $testimonial_image1 = date('YmdHis') . '3' . "." . $testimonial_image->getClientOriginalExtension();
+            $testimonial_image->move($destinationPath, $testimonial_image1);
+
+            DB::table('alumni')
+                ->where('id', $id)
+                ->update(['testimonial_image' => $testimonial_image1]);
+        }
+        return  redirect()->route('getstart.thankyou');
     }
 }

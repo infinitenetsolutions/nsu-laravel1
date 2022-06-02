@@ -20,44 +20,44 @@
                         <div class="row">
                             <div class="form-group col-sm-4">
                                 <span>Registration Number</span>
-                                <input class="form-control" id="reg_no" name="reg_no" placeholder="Enter Name"
+                                <input required class="form-control" id="reg_no" name="reg_no" placeholder="Enter Name"
                                     type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <span>Phone Number</span>
-                                <input class="form-control" onkeyup="check_id(this.value)" id="phone" name="phone"
+                                <input required class="form-control" onkeyup="check_id(this.value)" id="phone" name="phone"
                                     placeholder="Enter Name" type="text">
                             </div>
 
                             <div class="form-group col-sm-4">
                                 <span>Name</span>
-                                <input readonly class="form-control" id="testimonial_name" name="testimonial_name"
+                                <input required readonly class="form-control" id="testimonial_name" name="testimonial_name"
                                     placeholder="Enter Name" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Course</label>
-                                <input readonly class="form-control" id="testimonial_course" name="testimonial_course"
+                                <input required readonly class="form-control" id="testimonial_course" name="testimonial_course"
                                     placeholder="Enter Course" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Batch Year</label>
-                                <input readonly class="form-control" id="testimonial_batch" name="testimonial_batch"
+                                <input required readonly class="form-control" id="testimonial_batch" name="testimonial_batch"
                                     placeholder="Enter Batch Year" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Current Designation</label>
-                                <input class="form-control" id="testimonial_des
+                                <input required class="form-control" id="testimonial_des
                             
                             ig" name="testimonial_desig" placeholder="Enter Current Designation" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Company Currently Working</label>
-                                <input class="form-control" id="testimonial_company" name="testimonial_company"
+                                <input required class="form-control" id="testimonial_company" name="testimonial_company"
                                     placeholder="Enter Current Company" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Upload Image</label>
-                                <input class="form-control" id="testimonial_image" name="testimonial_image"
+                                <input required class="form-control" id="testimonial_image" name="testimonial_image"
                                     type="file" accept="image/*">
                                 <small class="form-text text-muted" id="image_err">Please upload your image. </small>
                             </div>
@@ -85,10 +85,9 @@
                 var xmlhttp = new XMLHttpRequest();
                 xmlhttp.onreadystatechange = function() {
                     data = JSON.parse(this.responseText)
-
                     document.getElementById('testimonial_name').value=data.admission_first_name+" "+data.admission_middle_name+" "+data.admission_last_name;
-                    document.getElementById('testimonial_course').value=data.academic_session;
-                    document.getElementById('testimonial_batch').value=data.course_name;
+                    document.getElementById('testimonial_batch').value=data.academic_session;
+                    document.getElementById('testimonial_course').value=data.course_name;
                 }
                 xmlhttp.open("GET", "/student/alumni/api/" + mobile + "/" + id, true);
                 xmlhttp.send();
