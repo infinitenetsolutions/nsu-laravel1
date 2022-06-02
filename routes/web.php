@@ -22,6 +22,9 @@ Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/main-index', [IndexController::class, 'main_index'])->name('main-index');
 Route::get('student/{name}', [StudentController::class, 'index'])->name('student');
 Route::get('student/alumni/all', [StudentController::class, 'alumni'])->name('student.alumni');
+Route::get('student/alumni/api/{email}/{id}', [StudentController::class, 'alumni_api'])->name('student.alumni.api');
+Route::post('student/alumni/store', [StudentController::class, 'store'])->name('student.alumni.store');
+
 Route::get('infrastructure/{name}', [StructureController::class, 'index'])->name('infrastructure');
 Route::get('about/{name}', [AboutController::class, 'index'])->name('about');
 Route::get('about/faculty/{name}', [AboutController::class, 'faculty'])->name('faculty');

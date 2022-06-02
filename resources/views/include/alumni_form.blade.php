@@ -8,29 +8,40 @@
             <div class="modal-content bg-warning">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true"
-                        style="color:#fff;border:3px solid #fff;padding: 0px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
-                    <h3 class="text-center" > <strong> STUDENT  ALUMNI  </strong>
+                            aria-hidden="true"
+                            style="color:#fff;border:3px solid #fff;padding: 0px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
+                    <h3 class="text-center"> <strong> STUDENT ALUMNI </strong>
                     </h3>
                 </div>
                 <div class="modal-body text">
-                    <form action="{{ route('testimonial.stoe') }}" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('student.alumni.store') }}" method="post" enctype="multipart/form-data">
                         @csrf
-                        <input type="hidden" value="0" name="is_deleted" >
+                        <input type="hidden" value="0" name="is_deleted">
                         <div class="row">
                             <div class="form-group col-sm-4">
-                               <span>Name</span>
-                                <input class="form-control" id="testimonial_name" name="testimonial_name"
+                                <span>Registration Number</span>
+                                <input class="form-control" id="reg_no" name="reg_no" placeholder="Enter Name"
+                                    type="text">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <span>Phone Number</span>
+                                <input class="form-control" onkeyup="check_id(this.value)" id="phone" name="phone"
+                                    placeholder="Enter Name" type="text">
+                            </div>
+
+                            <div class="form-group col-sm-4">
+                                <span>Name</span>
+                                <input readonly class="form-control" id="testimonial_name" name="testimonial_name"
                                     placeholder="Enter Name" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Course</label>
-                                <input class="form-control" id="testimonial_course" name="testimonial_course"
+                                <input readonly class="form-control" id="testimonial_course" name="testimonial_course"
                                     placeholder="Enter Course" type="text">
                             </div>
                             <div class="form-group col-sm-4">
                                 <label>Batch Year</label>
-                                <input class="form-control" id="testimonial_batch" name="testimonial_batch"
+                                <input readonly class="form-control" id="testimonial_batch" name="testimonial_batch"
                                     placeholder="Enter Batch Year" type="text">
                             </div>
                             <div class="form-group col-sm-4">
@@ -52,7 +63,7 @@
                             </div>
                             <div class="form-group col-sm-12">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" rows="5"  id="message" name="message" placeholder="Message"></textarea>
+                                <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <br>
@@ -66,3 +77,21 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function check_id(mobile) {
+            if (mobile.length >= 10) {
+                id = document.getElementById('reg_no').value;
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    data = JSON.parse(this.responseText)
+
+                    document.getElementById('testimonial_name').value=data.admission_first_name+" "+data.admission_middle_name+" "+data.admission_last_name;
+                    document.getElementById('testimonial_course').value=data.academic_session;
+                    document.getElementById('testimonial_batch').value=data.course_name;
+                }
+                xmlhttp.open("GET", "/student/alumni/api/" + mobile + "/" + id, true);
+                xmlhttp.send();
+            }
+        }
+    </script>

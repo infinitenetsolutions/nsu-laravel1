@@ -76,9 +76,6 @@ function url_check($url)
                                         {{ $studentpdf->title }}
                                     </div>
                                 </a>
-
-
-
                             </div>
 
                         </div>
@@ -86,7 +83,7 @@ function url_check($url)
                 @endforeach
                 <div class="col-md-3 section ">
                     <div class="border1">
-                        <a target="_blank" href="{{ route('student.alumni') }}">
+                        <a  href="{{ route('student.alumni') }}">
                             <img src="{{ asset('images/nsu/icon/alumni.jpg') }}" class="img-fluid"
                                 alt="{{ $studentpdf->title }}">
 
