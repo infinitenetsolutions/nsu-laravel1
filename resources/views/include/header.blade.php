@@ -339,7 +339,7 @@ function url_check($url)
                                                             ->where('is_deleted', '1')
                                                             ->where('type', '!=', 'pg')
                                                             ->where('type', '!=', 'ug')
-                                                        
+                                                            ->where('type', '!=', 'certificate')
                                                             ->orderBy('course', 'ASC')
                                                             ->get(); ?>
 
