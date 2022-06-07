@@ -276,6 +276,11 @@ function url_check($url)
                                                         role="tab" data-toggle="tab">
                                                         Doctrate Programs</a> </li>
 
+                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#certificate"
+                                                        role="tab" data-toggle="tab">
+                                                        Certificate Programs</a> </li>
+
+
                                             </ul>
                                             <div role="tabpanel" class="tab-pane active selected" id="Graduate">
                                                 <p class="pt-4">
@@ -346,6 +351,27 @@ function url_check($url)
                                                     </ul>
                                                 </div>
                                             </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="certificate">
+                                                <p class="pt-4">
+                                                    <strong> <i class="fa fa-certificate" aria-hidden="true"></i>
+                                                        Certificate Courses</strong>
+                                                </p>
+                                                <div class="menu_nav nsu-courses p-2">
+                                                    <ul>
+                                                        <?php $courses = DB::table('course_tbl')
+                                                            ->where('is_deleted', '1')
+                                                            ->where('type', 'certificate')
+                                                            ->orderBy('course', 'ASC')
+                                                            ->get(); ?>
+
+                                                        @foreach ($courses as $course)
+                                                            <li><i class="fas fa-certificate"></i> <a
+                                                                    href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                            </li>
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3 pr-3">
@@ -374,70 +400,71 @@ function url_check($url)
                                                             <div class="dropdown-content">
 
                                                                 @foreach ($courses as $course)
-                                                    <a
-                                                            href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
-                                                   
-                                                @endforeach
+                                                                    <a
+                                                                        href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                                @endforeach
 
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                @endforeach
+                                            </ul>
                                         </div>
-                                        </a>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
                 </li>
-                @endforeach
+
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Infrastructure <span
+                            class="span_icon"></span></a>
+                    <span id="infrastructure_menu"></span>
+
+                </li>
+
+
+
+                <li class="nav-item"><a class="nav-link" href="#">Placement <span
+                            class="span_icon"></span></a>
+                    <span id="placement_menu"></span>
+                </li>
+
+
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Student <span
+                            class="span_icon"></span></a>
+                    <span id="student_menu"></span>
+
+                </li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Gallery <span
+                            class="span_icon"></span></a>
+                    <span id="gallery_menu"></span>
+
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact Us </a>
+                    <div class="mega_menu ">
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link apply_btn"
+                        href="https://nsucms.in/prospectus/public/">Apply Now
+                        {{ date('Y') }}</a>
+                </li>
             </ul>
         </div>
-    </div>
+        <!-- mobile menu -->
+        <div class="mobile_nav">
+            <a href="javascript:void(0);" class="mobile_nav_icon"></a>
+            <div class="collapse navbar-collapse main-menu" id="navbarResponsive2">
+                @include('include.mobile_menu')
+            </div>
 
-
-
-    </div>
-    </div>
-    </div>
-
-
-    </div>
-
-    </li>
-
-    <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Infrastructure <span
-                class="span_icon"></span></a>
-        <span id="infrastructure_menu"></span>
-
-    </li>
-
-
-
-    <li class="nav-item"><a class="nav-link" href="#">Placement <span class="span_icon"></span></a>
-        <span id="placement_menu"></span>
-    </li>
-
-
-    <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Student <span
-                class="span_icon"></span></a>
-        <span id="student_menu"></span>
-
-    </li>
-    <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Gallery <span
-                class="span_icon"></span></a>
-        <span id="gallery_menu"></span>
-
-    </li>
-    <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact Us </a>
-        <div class="mega_menu ">
         </div>
-    </li>
-    <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Apply Now
-            {{ date('Y') }}</a>
-    </li>
-    </ul>
-    </div>
-    <!-- mobile menu -->
-    <div class="mobile_nav">
-        <a href="javascript:void(0);" class="mobile_nav_icon"></a>
-        <div class="collapse navbar-collapse main-menu" id="navbarResponsive2">
-            @include('include.mobile_menu')
-        </div>
-
-    </div>
 
 
 
