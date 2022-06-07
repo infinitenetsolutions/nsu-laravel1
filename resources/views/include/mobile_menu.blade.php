@@ -193,6 +193,12 @@
                         </a></li>
                 @endif
             @endforeach
+           
+
+            <li> <a target="_blank" href="{{ route('student.alumni') }}">
+                {{ 'Alumni' }}
+            </a></li>
+
             <li> <a target="_blank" href="https://nsucms.in/nsucms/student/student_login">
                     Student Login
                 </a></li>

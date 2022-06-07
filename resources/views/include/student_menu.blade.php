@@ -86,7 +86,6 @@ function url_check($url)
                         <a  href="{{ route('student.alumni') }}">
                             <img src="{{ asset('images/nsu/icon/alumni.jpg') }}" class="img-fluid"
                                 alt="{{ $studentpdf->title }}">
-
                             <div class="menu_boxx1 text-capitalize ">
                                 {{ 'ALUMNI' }}
                             </div>
