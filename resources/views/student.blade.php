@@ -20,6 +20,9 @@
                                         href="{{ route('student', $quick->title) }}">{{ $quick->sub_title }}</a>
                                 </li>
                             @endforeach
+                            <li class="{{ Request::path() == 'student/alumni/all'  ? 'active' : '' }}"> <a
+                                href="{{ route('student.alumni') }}">{{ 'Alumni' }}</a>
+                        </li>
                         </ul>
                     </div>
                     <div class="p-2 ">

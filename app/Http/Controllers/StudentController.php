@@ -42,9 +42,9 @@ class StudentController extends Controller
 
         $id =  DB::table('alumni')->insertGetId($request->except('_token'));
         if ($request->file('testimonial_image')) {
-            $destinationPath = 'upload/about/';
+            $destinationPath = 'upload/alumni/';
             $testimonial_image = $request->file('testimonial_image');
-            $testimonial_image1 = date('YmdHis') . '3' . "." . $testimonial_image->getClientOriginalExtension();
+            $testimonial_image1 = date('YmdHis') . '_alumni' . "." . $testimonial_image->getClientOriginalExtension();
             $testimonial_image->move($destinationPath, $testimonial_image1);
 
             DB::table('alumni')

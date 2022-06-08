@@ -7,7 +7,7 @@
                     <div class="breadcrumb">
                         <a href="{{ route('index') }}">Home</a>
                         <a href="#">Student</a>
-                        <a href="#">{{ $data->sub_title }}</a>
+                        <a href="#">{{ 'Alumni' }}</a>
                     </div>
                 </div>
                 <div class="container">
@@ -21,10 +21,13 @@
                                         href="{{ route('student', $quick->title) }}">{{ $quick->sub_title }}</a>
                                 </li>
                             @endforeach
+                            <li class="{{ Request::path() == 'student/alumni/all'  ? 'active' : '' }}"> <a
+                                href="{{ route('student.alumni') }}">{{ 'Alumni' }}</a>
+                        </li>
                         </ul>
                     </div>
                     <div class="p-2 ">
-                        <h2>{{ $data->sub_title }}</h2>
+                        <h2>{{ 'Alumni' }}</h2>
                         <a class="row p-2" href="{{ route('index') }}">
                             <img class="logo-sm" src="{{ asset('/images/logo.png') }}" alt="">
                             <p class="tag_line_bold mt-1 ">Netaji Subhas University</p>
@@ -44,8 +47,14 @@
                                     <div class="row align-items-center flex-row-reverse">
                                         <div class="about-text go-to">
                                             <div class="about-avatar">
-                                                <img src="{{ $url . 'testimonial/' . $alu->testimonial_image }}"
-                                                    title="{{ $alu->testimonial_name }}" alt="">
+                                                @if (str_contains($alu->testimonial_image, 'admin'))
+                                                <img src="{{ $url . 'alumni/' . $alu->testimonial_image }}"
+                                                title="{{ $alu->testimonial_name }}" alt="">
+                                                @else
+                                                <img src="{{ asset('upload/alumni/' . $alu->testimonial_image) }}"
+                                                title="{{ $alu->testimonial_name }}" alt="">
+                                                @endif
+                                        
                                             </div>
                                             <h6 class="theme-color lead">{{ $alu->testimonial_name }} - <span
                                                     class="text-secondary font-16">{{ $alu->testimonial_company }}</span>

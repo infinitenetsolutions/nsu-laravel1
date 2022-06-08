@@ -47,12 +47,10 @@ function url_check($url)
                         </div>
                     </div>
                 @endforeach
-
                 <?php $studentpdfs = DB::table('pdf')
                     ->where('type', 'studentpdf')
                     ->get();
                 ?>
-
                 @foreach ($studentpdfs as $studentpdf)
                     @if (url_check($home_url . 'pdf/' . $studentpdf->images))
                         <div class="col-md-3 section ">
@@ -77,7 +75,6 @@ function url_check($url)
                                     </div>
                                 </a>
                             </div>
-
                         </div>
                     @endif
                 @endforeach
@@ -91,13 +88,8 @@ function url_check($url)
                             </div>
                         </a>
                     </div>
-
                 </div>
             </div>
-
         </div>
-
-
-
     </div>
 </div>
