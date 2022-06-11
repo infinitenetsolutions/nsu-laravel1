@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-12 col-md-2 col-lg-2 col-xl-2 ftr-colm1">
                         <h3>
-                            About Nsu </h3>
+                            About NSU </h3>
                         <?php $abouts = DB::table('pages')
                             ->where('title', 'not like', '%Message%')
                             ->where('title', 'not like', '%learning%')
