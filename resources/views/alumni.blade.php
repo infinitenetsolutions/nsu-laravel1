@@ -39,7 +39,6 @@
             @include('include.alumni_form')
             <div class="row ml-3 mr-3 ">
                 <div class="col-sm-9 ">
-
                     <div class="row ">
                         @foreach ($alumni as $alu)
                             <div class="col-sm-4 mt-2 alumni">

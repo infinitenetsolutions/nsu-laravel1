@@ -26,8 +26,6 @@ function url_check($url)
 } ?>
 
 <!-- Top Level Navigation -->
-
-
 @include('include.getstart')
 <div class="top_menubar">
     <ul class="container">
@@ -61,7 +59,6 @@ function url_check($url)
                             <a target="_blank" class="apply_btn border text-university text-white"
                                 href="https://nsucms.in/prospectus/public" target="_blank">Admission
                                 {{ date('Y') }}</a>
-
                         </div>
                         <div class="mega_menu col-lg-9">
                             <div class="last_date">
@@ -91,7 +88,6 @@ function url_check($url)
                                         </div>
                                     </div>
                                     <div class="col-lg-6 apply_at">
-
                                         <h4>Route Map For NSU </h4>
                                         <div class="last_date2 last_date22">
                                             <div class=" colfull">
@@ -102,8 +98,6 @@ function url_check($url)
                                                         width="100%" height="350" style="border:0;" allowfullscreen=""
                                                         loading="lazy"></iframe>
                                                 </a>
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -114,12 +108,8 @@ function url_check($url)
                 </div>
             </div>
         </li>
-
-
         <li class="career_btn"><a href="{{ route('career') }}">Careers</a></li>
         <li class="career_btn"><a href="{{ route('upgrade') }}">Upgrad Campus</a></li>
-
-
         <?php $lastnotice = DB::table('noticeboard')
             ->where('is_deleted', '1')
             ->orderBy('id', 'desc')
@@ -147,9 +137,13 @@ function url_check($url)
     line-height: 3px;
     font-weight: 800;
     color: #e3b121;
-">Netaji Subhas <br><span style="
+    ">Netaji Subhas <br><span class="border-bottom " style="
     font-size: 26px;
-">University</span></span>
+    border-color:#e3b121 !important;
+    ">University</span>
+    <br>
+<small style="font-size: 10px" class="ml-3" >Jamshedpur, Jharkhand</small>    
+</span>
         </div>
 
         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"

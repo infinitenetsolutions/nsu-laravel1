@@ -47,7 +47,7 @@ $home_url = '';
                 <div class="border1">
                     <a href="{{ route('requiters') }}"> <img  src="{{ asset('images/nsu/icon/requiters.jpg') }}" class="img-fluid">
                         <div class="menu_boxx1">
-                            Our Requiters
+                            Our Recruiter
                         </div>
                     </a>
                 </div>
