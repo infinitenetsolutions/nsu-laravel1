@@ -219,16 +219,27 @@ function url_check($url)
                                                                 {{ $about->sub_title }}</a></li>
                                                     @endforeach
 
+                                                    
                                                     <li><a class="text-uppercase" href="{{ route('govbody') }}"> The
                                                             Governing Body</a></li>
-                                                    @foreach ($studentpdfs as $studentpdf)
-                                                        @if (url_check($home_url . 'pdf/' . $studentpdf->images))
-                                                            <li><a class="text-uppercase" target="_blank"
+
+                                                            <li class="dropdown"> <a
+                                                                href="#"><b
+                                                                    class="color-orange text-uppercase">
+                                                                    <?php echo 'NIRF'; ?>
+                                                                </b>
+                                                                <div class="dropdown-content">
+        
+                                                                    @foreach ($studentpdfs as $studentpdf)
+                                                                    <a class="text-uppercase" target="_blank"
                                                                     href="{{ $home_url . 'pdf/' . $studentpdf->images }}">
                                                                     {{ $studentpdf->title }}</a>
-                                                            </li>
-                                                        @endif
-                                                    @endforeach
+                                                                    @endforeach
+        
+                                                                </div>
+                                                            </a>
+                                                        </li>
+
                                                 </ul>
                                             </div>
                                         </div>
