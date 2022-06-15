@@ -254,20 +254,13 @@ function url_check($url)
                         </div>
                     </div>
                 </li>
-
-
-
-
                 <li class="nav-item"><a class="nav-link" href="{{ route('course_list') }}">Courses
                         <span class="span_icon"></span></a>
-
                     <div class="mega_menu programsList pt-3 hidden-xs">
-
                         <div class="row no-gutters pl-5 paddAdjust">
                             <div class="col-md-12 pr-2">
                                 <div class="row no-gutters menu_col4 pl-5 ml-3">
                                     <div class="col-md-9">
-
                                         <div class="tab-content">
                                             <ul class="nav nav-tabs" role="tablist">
                                                 <li class="nav-item pr-3"><a class="nav-link font-18 active"
@@ -284,8 +277,6 @@ function url_check($url)
                                                 <li class="nav-item pr-3"><a class="nav-link font-18" href="#certificate"
                                                         role="tab" data-toggle="tab">
                                                         Certificate Programs</a> </li>
-
-
                                             </ul>
                                             <div role="tabpanel" class="tab-pane active selected" id="Graduate">
                                                 <p class="pt-4">
@@ -374,6 +365,9 @@ function url_check($url)
                                                                     href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
                                                             </li>
                                                         @endforeach
+                                                        <li><i class="fas fa-certificate"></i> <a
+                                                            href="{{ route('upgrade') }}">{{ 'Upgrad Campus' }}</a>
+                                                    </li>
                                                     </ul>
                                                 </div>
                                             </div>
