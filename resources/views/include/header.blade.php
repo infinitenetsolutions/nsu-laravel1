@@ -141,9 +141,9 @@ function url_check($url)
     font-size: 26px;
     border-color:#e3b121 !important;
     ">University</span>
-    <br>
-<small style="font-size: 10px" class="ml-3" >Jamshedpur, Jharkhand</small>    
-</span>
+                <br>
+                <small style="font-size: 10px" class="ml-3">Jamshedpur, Jharkhand</small>
+            </span>
         </div>
 
         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
@@ -195,9 +195,11 @@ function url_check($url)
                                                         ->get(['type']);
                                                     ?>
                                                     @foreach ($facultyes as $faculty)
-                                                        <li><a class="text-uppercase"
-                                                                href="{{ route('faculty', $faculty->type) }}">Meet
-                                                                our {{ $faculty->type }}</a></li>
+                                                        @if ($faculty->type != 'hou')
+                                                            <li><a class="text-uppercase"
+                                                                    href="{{ route('faculty', $faculty->type) }}">Meet
+                                                                    our {{ $faculty->type }}</a></li>
+                                                        @endif
                                                     @endforeach
 
                                                     <?php $studentpdfs = DB::table('pdf')
@@ -219,26 +221,25 @@ function url_check($url)
                                                                 {{ $about->sub_title }}</a></li>
                                                     @endforeach
 
-                                                    
+
                                                     <li><a class="text-uppercase" href="{{ route('govbody') }}"> The
                                                             Governing Body</a></li>
 
-                                                            <li class="dropdown"> <a
-                                                                href="#"><b
-                                                                    class="color-orange text-uppercase">
-                                                                    <?php echo 'NIRF'; ?>
-                                                                </b>
-                                                                <div class="dropdown-content">
-        
-                                                                    @foreach ($studentpdfs as $studentpdf)
+                                                    <li class="dropdown"> <a href="#"><b
+                                                                class="color-orange text-uppercase">
+                                                                <?php echo 'NIRF'; ?>
+                                                            </b>
+                                                            <div class="dropdown-content">
+
+                                                                @foreach ($studentpdfs as $studentpdf)
                                                                     <a class="text-uppercase" target="_blank"
-                                                                    href="{{ $home_url . 'pdf/' . $studentpdf->images }}">
-                                                                    {{ $studentpdf->title }}</a>
-                                                                    @endforeach
-        
-                                                                </div>
-                                                            </a>
-                                                        </li>
+                                                                        href="{{ $home_url . 'pdf/' . $studentpdf->images }}">
+                                                                        {{ $studentpdf->title }}</a>
+                                                                @endforeach
+
+                                                            </div>
+                                                        </a>
+                                                    </li>
 
                                                 </ul>
                                             </div>
@@ -274,8 +275,8 @@ function url_check($url)
                                                         role="tab" data-toggle="tab">
                                                         Doctrate Programs</a> </li>
 
-                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#certificate"
-                                                        role="tab" data-toggle="tab">
+                                                <li class="nav-item pr-3"><a class="nav-link font-18"
+                                                        href="#certificate" role="tab" data-toggle="tab">
                                                         Certificate Programs</a> </li>
                                             </ul>
                                             <div role="tabpanel" class="tab-pane active selected" id="Graduate">
@@ -366,8 +367,8 @@ function url_check($url)
                                                             </li>
                                                         @endforeach
                                                         <li><i class="fas fa-certificate"></i> <a
-                                                            href="{{ route('upgrade') }}">{{ 'Upgrad Campus' }}</a>
-                                                    </li>
+                                                                href="{{ route('upgrade') }}">{{ 'Upgrad Campus' }}</a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
