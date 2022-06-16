@@ -13,7 +13,6 @@ class ContactUsController extends Controller
     }
     function  contact(Request $request)
     {
-        dd($request);
         DB::table('contactus_tbl')->insert($request->except('_token'));
         return view('thankyou');
     }

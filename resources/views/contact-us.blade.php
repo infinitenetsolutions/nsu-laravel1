@@ -7,7 +7,6 @@
                 display: none !important;
 
             }
-
         </style>
         <section class="inner-page">
             <div class="inner-hadding">
@@ -24,7 +23,8 @@
                             <h4>Contact</h4>
                             <li><a href="{{ route('index') }}">Home</a>
                             </li>
-                            <li class="{{ Request::path() == 'contact/contact-us' ? 'active' : '' }}"><a href="{{ route('contact') }}">Contact us</a>
+                            <li class="{{ Request::path() == 'contact/contact-us' ? 'active' : '' }}"><a
+                                    href="{{ route('contact') }}">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -48,21 +48,21 @@
                             <br>
                             <br>
                             <!-- Contact Form -->
-                            <form id="contact_form" name="contact_form " class=""
-                                action="includes/sendmail.php" method="post">
-
+                            <form id="contact_form" name="contact_form " class="" action="{{ route('contact-us') }}"
+                                method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label>Name <small>*</small></label>
-                                            <input name="form_name" class="form-control" type="text"
+                                            <input name="name" class="form-control" type="text"
                                                 placeholder="Enter Name" required="">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label>Email <small>*</small></label>
-                                            <input name="form_email" class="form-control required email" type="email"
+                                            <input name="email" class="form-control required email" type="email"
                                                 placeholder="Enter Email">
                                         </div>
                                     </div>
@@ -72,14 +72,14 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label>Subject <small>*</small></label>
-                                            <input name="form_subject" class="form-control required" type="text"
+                                            <input name="subject" class="form-control required" type="text"
                                                 placeholder="Enter Subject">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label>Phone</label>
-                                            <input name="form_phone" class="form-control" type="text"
+                                            <input name="phone" class="form-control" type="text"
                                                 placeholder="Enter Phone">
                                         </div>
                                     </div>
@@ -87,10 +87,9 @@
 
                                 <div class="form-group">
                                     <label>Message</label>
-                                    <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                                    <textarea name="message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <input name="form_botcheck" class="form-control" type="hidden" value="" />
                                     <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5"
                                         data-loading-text="Please wait...">Send your message</button>
                                     <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
@@ -110,15 +109,19 @@
 
                                 .</p>
                             <ul class="styled-icons icon-circled mb-20 d-flex mb-4">
-                                <li><a href="#" style=" background-color: #3B5998"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#" style="background-color: #02B0E8"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#" style="background-color: #c4944b"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#" style="background-color: #D71619"><i class="fab fa-google-plus"></i></a>
+                                <li><a href="#" style=" background-color: #3B5998"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#" style="background-color: #02B0E8"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#" style="background-color: #c4944b"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li><a href="#" style="background-color: #D71619"><i
+                                            class="fab fa-google-plus"></i></a>
                                 </li>
                             </ul>
 
-                            <div class="icon-box media mb-1  "> <a class="media-left pull-left flip mr-20" href="#"> <i
-                                        class="fas fa-map"></i></a>
+                            <div class="icon-box media mb-1  "> <a class="media-left pull-left flip mr-20" href="#">
+                                    <i class="fas fa-map"></i></a>
                                 <div class="media-body">
                                     <h5 class="mt-0">Our Office Location</h5>
                                     <p>#1. Pokhari,Near Bhilai Pahadi, Jamshedpur,Jharkhand</p>
@@ -133,8 +136,8 @@
                                     <p><a href="tel:9386-817-857">0657-223-3022, 9386-817-857</a></p>
                                 </div>
                             </div>
-                            <div class="icon-box media mb-1"> <a class="media-left pull-left flip mr-15" href="#"> <i
-                                        class="fas fa-envelope"></i></a>
+                            <div class="icon-box media mb-1"> <a class="media-left pull-left flip mr-15" href="#">
+                                    <i class="fas fa-envelope"></i></a>
                                 <div class="media-body">
                                     <h5 class="mt-0">Email Address</h5>
                                     <p><a href="mailto:info@nsuniv.ac.in">info@nsuniv.ac.in</a></p>
@@ -212,8 +215,8 @@
                                                     href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin">
                                                     <iframe
                                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin"
-                                                        width="100%" height="350" style="border:0;" allowfullscreen=""
-                                                        loading="lazy"></iframe>
+                                                        width="100%" height="350" style="border:0;"
+                                                        allowfullscreen="" loading="lazy"></iframe>
                                                 </a>
 
 
@@ -253,24 +256,24 @@
 <script type="text/javascript">
     $("#contact_form").validate({
         submitHandler: function(form) {
-            var form_btn = $(form).find('button[type="submit"]');
-            var form_result_div = '#form-result';
-            $(form_result_div).remove();
-            form_btn.before(
+            var btn = $(form).find('button[type="submit"]');
+            var result_div = '#form-result';
+            $(result_div).remove();
+            btn.before(
                 '<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>'
             );
-            var form_btn_old_msg = form_btn.html();
-            form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+            var btn_old_msg = btn.html();
+            btn.html(btn.prop('disabled', true).data("loading-text"));
             $(form).ajaxSubmit({
                 dataType: 'json',
                 success: function(data) {
                     if (data.status == 'true') {
                         $(form).find('.form-control').val('');
                     }
-                    form_btn.prop('disabled', false).html(form_btn_old_msg);
-                    $(form_result_div).html(data.message).fadeIn('slow');
+                    btn.prop('disabled', false).html(btn_old_msg);
+                    $(result_div).html(data.message).fadeIn('slow');
                     setTimeout(function() {
-                        $(form_result_div).fadeOut('slow')
+                        $(result_div).fadeOut('slow')
                     }, 6000);
                 }
             });
