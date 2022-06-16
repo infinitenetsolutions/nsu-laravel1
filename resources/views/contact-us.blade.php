@@ -51,6 +51,7 @@
                             <form id="contact_form" name="contact_form " class="" action="{{ route('contact-us') }}"
                                 method="post">
                                 @csrf
+                                <input type="hidden" value="{{ date('Y-m-d') }}" name="date" >
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
