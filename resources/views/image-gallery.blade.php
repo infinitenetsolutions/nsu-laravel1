@@ -40,15 +40,13 @@
                     <div class="container">
                         <ul class="row">
                             @foreach($gallery_title as $title)
-
                                 <?php $image = DB::table('gallery_tbl')->where('title',$title->title)->first();
                       
                             ?>
-
                                 @if(strlen($image->link) < 30)
                                     <li class="col-12 col-sm-6 col-md-3 mb-3 border p-3 mt-2"><a
                                             href="{{ route('image_gallery_details',$title->title) }}"
-                                            title="{{ $image->title }}"><img class="w-100"
+                                            title="{{ $image->title }}"><img class="img-fluid"
                                                 src="{{ $url . 'gallery/' . $image->image_name }}"
                                                 alt=""></a>
                                         <h5> {{ $image->title }}</h5>

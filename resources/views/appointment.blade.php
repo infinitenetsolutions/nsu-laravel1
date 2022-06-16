@@ -89,7 +89,7 @@
                                                     <div class="icons-holder-inner">
                                                         <div
                                                             class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                            <a class="popup-youtube font-16" target="blank"
+                                                            <a class="popup-youtube font-16" target="_blank"
                                                                 href="{{ $url . 'appointment/' . $appointment->image_name1 }}"><i
                                                                     class="fas fa-image"></i></a>
                                                         </div>

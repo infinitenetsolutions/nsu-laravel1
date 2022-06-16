@@ -32,19 +32,22 @@
                                     ->get(['type']);
                                 ?>
                                 @foreach ($facultyes as $faculty)
-                                    @if ($faculty->type == 'hou')
+                                    {{-- @if ($faculty->type == 'hou')
                                         <li
                                             class="{{ Request::path() == 'about/faculty/' . $faculty->type ? 'active' : '' }}">
                                             <a href="{{ route('faculty', $faculty->type) }}">Meet
                                                 our Head of University</a>
                                         </li>
-                                    @else
+                                    @else --}}
+                                    @if ($faculty->type != 'hou')
                                         <li
                                             class="{{ Request::path() == 'about/faculty/' . $faculty->type ? 'active' : '' }}">
                                             <a href="{{ route('faculty', $faculty->type) }}">Meet
                                                 our {{ $faculty->type }}</a>
                                         </li>
                                     @endif
+
+                                    {{-- @endif --}}
                                 @endforeach
                             </ul>
                         </ul>
@@ -102,8 +105,7 @@
                                             ->get(); ?>
                                         <ul class="styled-icons theme-icon team-social icon-sm ml-5">
                                             @foreach ($social_media as $social)
-                                                <li class="pt-4"><a target="_blank"
-                                                        href="{{ $social->link }}"><i
+                                                <li class="pt-4"><a target="_blank" href="{{ $social->link }}"><i
                                                             class="fab fa-{{ $social->social }}"></i></a></li>
                                             @endforeach
                                         </ul>

@@ -13,6 +13,7 @@
                     <div class="top-menu-sec">
                         <ul>
                             <h4>Infrastructure</h4>
+                            <li><a href="{{ route('index') }}">Home</a></li>
 
                             @foreach ($quicks as $quick)
                                 <li class="{{ Request::path() == 'infrastructure/' . $quick->title ? 'active' : '' }}"><a
