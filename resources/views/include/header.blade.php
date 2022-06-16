@@ -25,6 +25,11 @@ function url_check($url)
     }
 } ?>
 
+<style>
+    .border-bottom1 {
+        border-bottom: solid 1px #e3b121;
+    }
+</style>
 <!-- Top Level Navigation -->
 @include('include.getstart')
 <div class="top_menubar">
@@ -95,8 +100,8 @@ function url_check($url)
                                                     href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin">
                                                     <iframe
                                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.793679678996!2d86.2612313498239!3d22.810107684987724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6096e56867d5b%3A0x1edd658ec7b7a21d!2sNetaji%20Subhas%20University!5e0!3m2!1sen!2sin!4v1646827163795!5m2!1sen!2sin"
-                                                        width="100%" height="350" style="border:0;" allowfullscreen=""
-                                                        loading="lazy"></iframe>
+                                                        width="100%" height="350" style="border:0;"
+                                                        allowfullscreen="" loading="lazy"></iframe>
                                                 </a>
                                             </div>
                                         </div>
@@ -130,16 +135,19 @@ function url_check($url)
 
         <div class="logo">
             <a href="{{ route('index') }}"><img src="{{ asset('images/logo.png') }}" alt="Netaji unuiversity" /></a>
-            <span style="
+            <span class="netaji"
+                style="
     position: absolute;
     font-size: 20px;
     top: 20px;
     line-height: 3px;
     font-weight: 800;
     color: #e3b121;
-    ">Netaji Subhas <br><span class="border-bottom " style="
+    ">Netaji
+                Subhas <br><span class="border-bottom1 "
+                    style="
     font-size: 26px;
-    border-color:#e3b121 !important;
+ 
     ">University</span>
                 <br>
                 <small style="font-size: 10px" class="ml-3">Jamshedpur, Jharkhand</small>
@@ -156,8 +164,7 @@ function url_check($url)
 
             <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item"><a class="nav-link" href="#">About NSU <span
-                            class="span_icon"></span></a>
+                <li class="nav-item"><a class="nav-link" href="#">About NSU <span class="span_icon"></span></a>
                     <div class="mega_menu pt-5 hidden-xs">
 
                         <div class="row pl-3 no-gutters scroll-pan ">
@@ -222,7 +229,8 @@ function url_check($url)
                                                     @endforeach
 
 
-                                                    <li><a class="text-uppercase" href="{{ route('govbody') }}"> The
+                                                    <li><a class="text-uppercase" href="{{ route('govbody') }}">
+                                                            The
                                                             Governing Body</a></li>
 
                                                     <li class="dropdown"> <a href="#"><b
@@ -271,8 +279,8 @@ function url_check($url)
                                                 <li class="nav-item pr-3"><a class="nav-link font-18"
                                                         href="#Post_Graduate" role="tab" data-toggle="tab">
                                                         Post Graduate Programs</a> </li>
-                                                <li class="nav-item pr-3"><a class="nav-link font-18" href="#Doctrate"
-                                                        role="tab" data-toggle="tab">
+                                                <li class="nav-item pr-3"><a class="nav-link font-18"
+                                                        href="#Doctrate" role="tab" data-toggle="tab">
                                                         Doctrate Programs</a> </li>
 
                                                 <li class="nav-item pr-3"><a class="nav-link font-18"
@@ -451,8 +459,8 @@ function url_check($url)
                     <div class="mega_menu ">
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link apply_btn"
-                        href="https://nsucms.in/prospectus/public/">Apply Now
+                <li class="nav-item"><a class="nav-link apply_btn" href="https://nsucms.in/prospectus/public/">Apply
+                        Now
                         {{ date('Y') }}</a>
                 </li>
             </ul>

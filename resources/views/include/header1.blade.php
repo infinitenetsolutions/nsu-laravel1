@@ -50,4 +50,10 @@
         color: #001845;
         text-transform: capitalize;
     }
+    .netaji{
+        color: #fff !important;
+    }
+    .border-bottom1 {
+        border-bottom: solid 1px #fff;
+    }
 </style>
