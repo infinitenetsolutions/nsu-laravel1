@@ -52,8 +52,13 @@
 
                                 <div class="modal-body">
 
-                                    <iframe src="{{ str_replace('watch?v=', 'embed/', $data->permalink) }}" width="100%"
+                                    @if (strlen($data->permalink) > 30)
+                                    <iframe src="{{ str_replace('watch?v=', 'embed/', $data->permalink) }}"
+                                        width="100%" height="400px" frameborder="0"></iframe>
+                                @else
+                                    <iframe src="https://www.youtube.com/embed/AMFNBg6GGqk" width="100%"
                                         height="400px" frameborder="0"></iframe>
+                                @endif
                                 </div>
 
                             </div>
