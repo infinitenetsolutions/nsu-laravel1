@@ -83,8 +83,7 @@
                 width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
         <div class="w3-container w3-border-top w3-padding-16" style="background-color:#1b4169;">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                    aria-hidden="true"
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"
                     style="color:#fff;border:3px solid #fff;padding: 1px 6px;border-radius: 50%;line-height: 25px;">&times;</span></button>
         </div>
     </div>
@@ -106,8 +105,10 @@
                                Media</h3> -->
                         <img src=" {{ asset('images/logo.png') }}" alt="Netaji unuiversity" style="width:100%;" />
                         <strong style="font-size: 23px">NETAJI SUBHAS</strong>
-                        <b class="text-center" style="font-size: 30px; border-bottom:solid 2px #fff; line-height: 16px; "> UNIVERSITY </b>
-                        <small style="font-size: 7.9px; line-height: 38px;"> Estd. Under Jharkhand State Private University Act, 2018 </small>
+                        <b class="text-center"
+                            style="font-size: 30px; border-bottom:solid 2px #fff; line-height: 16px; "> UNIVERSITY </b>
+                        <small style="font-size: 7.9px; line-height: 38px;"> Estd. Under Jharkhand State Private
+                            University Act, 2018 </small>
                     </div>
                     <div class="col-12 col-md-2 col-lg-2 col-xl-2 ftr-colm1">
                         <h3>
@@ -133,9 +134,11 @@
                                 ->get(['type']);
                             ?>
                             @foreach ($facultyes as $faculty)
-                                <li><a href="{{ route('faculty', $faculty->type) }}">
-                                        <i class="fas fa-external-link-alt"></i> our {{ $faculty->type }}</a></li>
-                            @endforeach
+                                @if ($faculty->type != 'hou')
+                                    <li><a href="{{ route('faculty', $faculty->type) }}">
+                                            <i class="fas fa-external-link-alt"></i> our {{ $faculty->type }}</a></li>
+                                @endforeach
+                            @endif
                         </ul>
                     </div>
                     <div class="col-12 col-md-2 col-lg-2 col-xl-2 ftr-colm1">
@@ -170,7 +173,7 @@
 
                             <li> <a href="{{ route('appointment') }}"><i class="fas fa-envelope-open-text"></i>
                                     Appointment Letter</a></li>
-                            <li><a href="{{ route('requiters') }}"><i class="fas fa-user-tie"></i> Our Requiters </a>
+                            <li><a href="{{ route('requiters') }}"><i class="fas fa-user-tie"></i> Our Recruiter </a>
                             </li>
                             <li><a href="{{ route('placement-contact') }}"><i class="fas fa-id-card-alt"></i>
                                     Placement Contact </a></li>
@@ -256,7 +259,8 @@
             <div class="col-md-12 ">
                 <div class="footer-section">
 
-                    <p class="footer-text">© 2022 <a href="">Netaji Subhas University.</a> All Rights Reserved ||
+                    <p class="footer-text">© 2022 <a href="">Netaji Subhas University.</a> All Rights Reserved
+                        ||
                         Developed With <i class="fa fa-heart" style="color:#c70013"></i> By <a
                             href="http://infinitenetsolutions.com/" target="_blank">Infinite Net Solutions</a>
                     </p>
