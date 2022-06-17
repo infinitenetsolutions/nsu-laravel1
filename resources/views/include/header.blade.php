@@ -212,7 +212,7 @@ function url_check($url)
                                                     <?php $studentpdfs = DB::table('pdf')
                                                         ->where('type', 'aboutpdf')
                                                         ->where('is_deleted', '1')
-                                                        ->limit(4)
+                                                        ->limit(5)
                                                         ->get();
                                                     ?>
                                                     <?php $abouts = DB::table('pages')
