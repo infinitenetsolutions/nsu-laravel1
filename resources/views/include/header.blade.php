@@ -181,7 +181,6 @@ function url_check($url)
                                                     ->get();
                                                 ?>
                                                 <ul>
-
                                                     @foreach ($abouts as $about)
                                                         <li><a class="text-uppercase"
                                                                 href="{{ route('about', $about->title) }}">
@@ -196,6 +195,20 @@ function url_check($url)
                                         <div class=" no-gutters menu_col4 ">
                                             <div class="right_mega_menu">
                                                 <ul>
+
+                                                    <?php $abouts = DB::table('pages')
+                                                    ->where('page_type', 'about')
+                                                    ->where('is_deleted', '1')
+                                                    ->skip(9)
+                                                    ->take(100)
+                                                    ->get();
+                                                ?>
+                                                @foreach ($abouts as $about)
+                                                    <li><a class="text-uppercase"
+                                                            href="{{ route('about', $about->title) }}">
+                                                            {{ $about->sub_title }}</a></li>
+                                                @endforeach
+
                                                     <?php $facultyes = DB::table('faculty_tbl')
                                                         ->distinct()
                                                         ->where('is_deleted', '1')
@@ -215,18 +228,7 @@ function url_check($url)
                                                         ->limit(4)
                                                         ->get();
                                                     ?>
-                                                    <?php $abouts = DB::table('pages')
-                                                        ->where('page_type', 'about')
-                                                        ->where('is_deleted', '1')
-                                                        ->skip(9)
-                                                        ->take(100)
-                                                        ->get();
-                                                    ?>
-                                                    @foreach ($abouts as $about)
-                                                        <li><a class="text-uppercase"
-                                                                href="{{ route('about', $about->title) }}">
-                                                                {{ $about->sub_title }}</a></li>
-                                                    @endforeach
+                                                  
 
 
                                                     <li><a class="text-uppercase" href="{{ route('govbody') }}">
