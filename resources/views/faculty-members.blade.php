@@ -131,7 +131,7 @@
 </x-layout1>
 <script>
     function department(department, type) {
-        window.location.replace('/about/faculty/' + type + '/' + department)
+        window.location.replace('/about/faculty/department/' + type + '/' + department)
         console.log(department);
     }
 </script>
