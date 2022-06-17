@@ -137,8 +137,8 @@
                                 @if ($faculty->type != 'hou')
                                     <li><a href="{{ route('faculty', $faculty->type) }}">
                                             <i class="fas fa-external-link-alt"></i> our {{ $faculty->type }}</a></li>
-                                @endforeach
-                            @endif
+                                @endif
+                            @endforeach
                         </ul>
                     </div>
                     <div class="col-12 col-md-2 col-lg-2 col-xl-2 ftr-colm1">
