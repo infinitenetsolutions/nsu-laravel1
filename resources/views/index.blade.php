@@ -122,7 +122,7 @@
                         <div class="effect-wrapper">
                             <div class="thumb" style=" background: black; ">
                                 <img class="img-fullwidth"
-                                    src="https://nsuniv.ac.in/nsu_laravel/public/images/about/tour.jpeg" alt="project"
+                                    src="{{asset('images/about/tour.jpeg') }}" alt="project"
                                     style="opacity: 0.6;">
                             </div>
                             <div class="video-button"></div>
