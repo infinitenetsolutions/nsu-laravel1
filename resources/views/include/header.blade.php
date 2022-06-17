@@ -4,7 +4,7 @@ $home_url = '';
 // if ($_SERVER['HTTP_HOST'] == '127.0.0.1:8000') {
 //     $home_url = 'http://127.0.0.1:8001/upload/';
 // } else {
-$home_url = 'http://35.154.228.131/nsuadmin/public/upload/';
+$home_url = 'https://nsuniv.ac.in/nsuadmin/public/upload/';
 // }
 
 function url_check($url)
@@ -212,7 +212,7 @@ function url_check($url)
                                                     <?php $studentpdfs = DB::table('pdf')
                                                         ->where('type', 'aboutpdf')
                                                         ->where('is_deleted', '1')
-                                                        ->limit(5)
+                                                        ->limit(4)
                                                         ->get();
                                                     ?>
                                                     <?php $abouts = DB::table('pages')
