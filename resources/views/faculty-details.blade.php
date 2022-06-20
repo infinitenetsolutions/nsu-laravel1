@@ -13,10 +13,10 @@
 
                       @if ($data->type == 'hou')
                       <a href="{{ route('faculty', $data->type) }}">
-                              Heade of University</a>
+                              Head of University</a>
                   @elseif($data->type == 'hod')
                       <a href="{{ route('faculty', $data->type) }}">
-                              Heade of Department</a>
+                              Head of Department</a>
                   @else
                       <a href="{{ route('faculty', $data->type) }}">Meet
                               our {{ $data->type }}</a>
@@ -35,10 +35,10 @@
 
                                 @if ($data->type == 'hou')
                                     <li><a href="{{ route('faculty', $data->type) }}">
-                                            Heade of University</a></li>
+                                            Head of University</a></li>
                                 @elseif($data->type == 'hod')
                                     <li><a href="{{ route('faculty', $data->type) }}">
-                                            Heade of Department</a></li>
+                                            Head of Department</a></li>
                                 @else
                                     <li><a href="{{ route('faculty', $data->type) }}">Meet
                                             our {{ $data->type }}</a></li>

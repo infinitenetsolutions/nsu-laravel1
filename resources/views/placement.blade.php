@@ -135,7 +135,7 @@ p{
                                             Letter</a></b> </li>
                                 <hr>
                                 <li> <b class="text-white"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                        <a class="text-capitalize text-dark" href="{{ route('requiters') }}"> Our Requiters </a> </b> </li>
+                                        <a class="text-capitalize text-dark" href="{{ route('requiters') }}"> Our Recruiters </a> </b> </li>
                                 <hr>
                                 <li> <b class="text-white"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                         <a class="text-capitalize text-dark" href="{{ route('placement-contact') }}"> Placement Contact </a> </b> </li>
