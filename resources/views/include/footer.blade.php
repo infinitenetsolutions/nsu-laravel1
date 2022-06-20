@@ -135,8 +135,15 @@
                             ?>
                             @foreach ($facultyes as $faculty)
                                 @if ($faculty->type != 'hou')
-                                    <li><a class="text-capitalize" href="{{ route('faculty', $faculty->type) }}">
-                                            <i class="fas fa-external-link-alt"></i> our {{ $faculty->type }}</a></li>
+                                    @if ($faculty->type != 'hod')
+                                        <li><a class="text-capitalize" href="{{ route('faculty', $faculty->type) }}">
+                                                <i class="fas fa-external-link-alt"></i> our {{ $faculty->type }}</a>
+                                        </li>
+                                    @else
+                                        <li><a class="text-capitalize" href="{{ route('faculty', $faculty->type) }}">
+                                                <i class="fas fa-external-link-alt"></i> our {{ 'HOD' }}</a>
+                                        </li>
+                                    @endif
                                 @endif
                             @endforeach
                         </ul>
