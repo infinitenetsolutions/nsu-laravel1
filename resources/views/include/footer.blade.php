@@ -135,7 +135,7 @@
                             ?>
                             @foreach ($facultyes as $faculty)
                                 @if ($faculty->type != 'hou')
-                                    <li><a href="{{ route('faculty', $faculty->type) }}">
+                                    <li><a class="text-capitalize" href="{{ route('faculty', $faculty->type) }}">
                                             <i class="fas fa-external-link-alt"></i> our {{ $faculty->type }}</a></li>
                                 @endif
                             @endforeach
