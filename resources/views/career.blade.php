@@ -7,7 +7,7 @@
                     <div class="breadcrumb">
                         <a href="{{route('index')}}">Home</a>
                       <a href="">Career</a>
-                      <a href="">Test Caree</a>
+                      <a href="">Test Career</a>
                     </div>
                 </div>
                 <div class="container">
@@ -41,7 +41,7 @@
                         <div class="col-md-12">
                             <div class="ac-sec5-download">
                                 <div class="about_sub_heading">Please fill in the below application form to apply for
-                                    position at nsu University</div>
+                                    position at NSU University</div>
 
 
                              
@@ -163,7 +163,7 @@
                                             <div class="accordion-heading">
                                                 <a class="accordion-toggle collapsed" data-toggle="collapse"
                                                     data-parent="#accordion2" href=".{{ $career->id }}">Applications for
-                                                    {{ $career->title }} at
+                                                    {{ $career->title }} 
                                                     at NETAJI SUBHAS UNIVERSITY - {{ $career->end }}</a>
                                             </div>
                                             <div id="collapseFive" class="accordion-body collapse {{ $career->id }}">
