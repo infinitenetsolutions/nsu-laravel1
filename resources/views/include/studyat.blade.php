@@ -26,11 +26,11 @@ $about_us=DB::table('pages')->where('title','who-we-are')->get();
                     </li>
                     <li>
                         <h3 class="wow fadeInDown">15000+</h3>
-                        <span class="wow fadeInUp"> Student </span>
+                        <span class="wow fadeInUp"> Students </span>
                     </li>
                     <li>
                         <h3 class="wow fadeInDown">{{ $total_teacher }}+</h3>
-                        <span class="wow fadeInUp">Quilified Teachers</span>
+                        <span class="wow fadeInUp">Qualified Faculties</span>
                     </li>
                 </ul>
             </div>
