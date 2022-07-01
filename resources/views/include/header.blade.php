@@ -144,8 +144,7 @@ function url_check($url)
     font-weight: 800;
     color: #e3b121;
     ">Netaji
-                Subhas <br><span class="border-bottom1 "
-                    style="
+                Subhas <br><span class="border-bottom1 " style="
     font-size: 26px;
  
     ">University</span>
@@ -197,17 +196,17 @@ function url_check($url)
                                                 <ul>
 
                                                     <?php $abouts = DB::table('pages')
-                                                    ->where('page_type', 'about')
-                                                    ->where('is_deleted', '1')
-                                                    ->skip(9)
-                                                    ->take(100)
-                                                    ->get();
-                                                ?>
-                                                @foreach ($abouts as $about)
-                                                    <li><a class="text-uppercase"
-                                                            href="{{ route('about', $about->title) }}">
-                                                            {{ $about->sub_title }}</a></li>
-                                                @endforeach
+                                                        ->where('page_type', 'about')
+                                                        ->where('is_deleted', '1')
+                                                        ->skip(9)
+                                                        ->take(100)
+                                                        ->get();
+                                                    ?>
+                                                    @foreach ($abouts as $about)
+                                                        <li><a class="text-uppercase"
+                                                                href="{{ route('about', $about->title) }}">
+                                                                {{ $about->sub_title }}</a></li>
+                                                    @endforeach
 
                                                     <?php $facultyes = DB::table('faculty_tbl')
                                                         ->distinct()
@@ -228,7 +227,7 @@ function url_check($url)
                                                         ->limit(4)
                                                         ->get();
                                                     ?>
-                                                  
+
 
 
                                                     <li><a class="text-uppercase" href="{{ route('govbody') }}">
@@ -359,12 +358,37 @@ function url_check($url)
                                                 </div>
                                             </div>
                                             <div role="tabpanel" class="tab-pane fade" id="certificate">
-                                                <p class="pt-4">
-                                                    <strong> <i class="fa fa-certificate" aria-hidden="true"></i>
-                                                        Certificate Courses</strong>
-                                                </p>
-                                                <div class="menu_nav nsu-courses p-2">
-                                                    <ul>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <p class="pt-4">
+                                                            <strong> <i class="fas fa-diploma"></i>
+                                                                Diploma Courses</strong>
+                                                        </p>
+
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p class="pt-4">
+                                                            <strong> <i class="fa fa-certificate"
+                                                                    aria-hidden="true"></i>
+                                                                Certificate Courses</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="menu_nav nsu-courses p-2 row">
+                                                    <ul class="col-6" style="columns: 1 !important ;" >
+                                                        <?php $courses = DB::table('course_tbl')
+                                                            ->where('is_deleted', '1')
+                                                            ->where('type', 'diploma')
+                                                            ->orderBy('course', 'ASC')
+                                                            ->get(); ?>
+
+                                                        @foreach ($courses as $course)
+                                                            <li><i class="fas fa-diploma"></i> <a
+                                                                    href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
+                                                            </li>
+                                                        @endforeach
+                                                    </ul>
+                                                    <ul class="col-6" style="columns: 1 !important ;" >
                                                         <?php $courses = DB::table('course_tbl')
                                                             ->where('is_deleted', '1')
                                                             ->where('type', 'certificate')
