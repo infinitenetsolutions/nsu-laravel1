@@ -268,7 +268,7 @@
                                             </li>
                                         @endif
                                         @if (url_check1($url . 'CourseDetails/' . $data->syllabus1) == true)
-                                            <li><a href="#tab7" data-toggle="tab"> <span>Syllabus(Genral) </span></a>
+                                            <li><a href="#tab7" data-toggle="tab"> <span>Syllabus </span></a>
                                             </li>
                                         @endif
 

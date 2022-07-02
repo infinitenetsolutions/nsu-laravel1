@@ -76,7 +76,7 @@
                                                 </div>
                                                 <div class="col-sm-10">
                                                     <h5 class="mt-0">Contact Number</h5>
-                                                    <p>1800-8899-022</p>
+                                                    <p>+91-9852469290</p>
                                                 </div>
                                             </div>
                                         </div>
