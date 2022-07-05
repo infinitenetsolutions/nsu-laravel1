@@ -286,7 +286,7 @@ function url_check($url)
 
                                                 <li class="nav-item pr-3"><a class="nav-link font-18"
                                                         href="#certificate" role="tab" data-toggle="tab">
-                                                        Certificate Programs</a> </li>
+                                                        Diploma Programs</a> </li>
                                             </ul>
                                             <div role="tabpanel" class="tab-pane active selected" id="Graduate">
                                                 <p class="pt-4">
