@@ -160,7 +160,7 @@
                         </div>
                         <div class="row mt-5">
                             <div class="col-md-12">
-                                <h3 class="mt-0">Event Description</h3>
+                                <h3 class="mt-0">Notice Description</h3>
                                 <span class="line-bottom "> &nbsp;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 <div class="double-line-bottom-theme-colored-2"></div>
