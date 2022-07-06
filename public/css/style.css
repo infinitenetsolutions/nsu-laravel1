@@ -8304,7 +8304,7 @@ border-left: #c39e38 3px solid;
 }
 
 .glow{
-    color:white;
+    color:yellow;
     animation-name:glow;
     animation-duration:1s;
     animation-iteration-count:infinite;
