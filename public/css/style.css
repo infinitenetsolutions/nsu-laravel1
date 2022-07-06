@@ -8312,6 +8312,6 @@ border-left: #c39e38 3px solid;
   }
   
   @keyframes glow{
-    from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
-    to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
+    from{text-shadow:0px 0px 5px #fff,0px 0px 5px yellow;}
+    to{text-shadow:0px 0px 20px #fff,0px 0px 20px yellow;}
   }
