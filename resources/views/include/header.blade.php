@@ -343,7 +343,10 @@ function url_check($url)
                                                     <ul>
                                                         <?php $courses = DB::table('course_tbl')
                                                             ->where('is_deleted', '1')
-                                                            ->where('type', 'doctrate')
+                                                            ->where('type', '!=', 'pg')
+                                                            ->where('type', '!=', 'ug')
+                                                            ->where('type', '!=', 'certificate')
+                                                            ->where('type', '!=', 'diploma')
                                                             ->orderBy('course', 'ASC')
                                                             ->get(); ?>
 
