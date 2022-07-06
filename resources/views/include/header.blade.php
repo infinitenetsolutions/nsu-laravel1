@@ -121,7 +121,7 @@ function url_check($url)
             ->first(); ?>
         <li><a href="{{ route('news1') }}">News</a></li>
 
-        <li><a href="{{ route('noticeboard', $lastnotice->id) }}">Important Notice</a></li>
+        <li><a class="glow" href="{{ route('noticeboard', $lastnotice->id) }}">{{ $lastnotice->title }} Important Notice</a></li>
         <li><a title="Student Login" class="apply_btn3" href="https://nsucms.in/nsucms/student/student_login"
                 target="_blank"><i class="fas fa-users"></i></a></li>
         <li></li>

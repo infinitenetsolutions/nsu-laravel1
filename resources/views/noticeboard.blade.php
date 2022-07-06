@@ -2,13 +2,13 @@
     @slot('title', 'About us')
     @slot('body')
 
-        <div >
+        <div>
             <section class="inner-page">
                 <div class="inner-hadding mb-lg-4">
                     <div class="container">
                         <div class="breadcrumb">
-                            <a href="{{route('index')}}">Home</a>
-                          <a href="#">Noticeboard</a>
+                            <a href="{{ route('index') }}">Home</a>
+                            <a href="#">Noticeboard</a>
                         </div>
                     </div>
                     <div class="container ">
@@ -19,20 +19,20 @@
                             <ul>
                                 <li><a href="{{ route('index') }}">Home</a></li>
                                 </li>
-                                <li class="active" ><a href="">Noticeboard</a></li>
-                            </li>
-                                
+                                <li class="active"><a href="">Noticeboard</a></li>
+                                </li>
+
                             </ul>
                         </div>
-                  
-                            <div class="p-2 ">
-                                <h2><i class="fas fa-chess-board    "></i>
-                                    Noticeboard </h2>
-                                <a class="row p-2" href="{{ route('index') }}">
-                                    <img class="logo-sm" src="{{ asset('/images/logo.png') }}" alt="">
-                                    <p class="tag_line_bold mt-1 ">Netaji Subhas University</p>
-                                </a>
-                            </div>
+
+                        <div class="p-2 ">
+                            <h2><i class="fas fa-chess-board    "></i>
+                                Noticeboard </h2>
+                            <a class="row p-2" href="{{ route('index') }}">
+                                <img class="logo-sm" src="{{ asset('/images/logo.png') }}" alt="">
+                                <p class="tag_line_bold mt-1 ">Netaji Subhas University</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -91,10 +91,14 @@
                                     <li>
                                         <h5>Share:</h5>
                                         <ul class="styled-icons icon-circled mb-20 d-flex mb-1 mt-4">
-                                            <li><a href="#" style=" background-color: #3B5998"><i class="fab fa-facebook"></i></a></li>
-                                            <li><a href="#" style="background-color: #02B0E8"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#" style="background-color: #c4944b"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#" style="background-color: #D71619"><i class="fab fa-youtube"></i></a>
+                                            <li><a href="#" style=" background-color: #3B5998"><i
+                                                        class="fab fa-facebook"></i></a></li>
+                                            <li><a href="#" style="background-color: #02B0E8"><i
+                                                        class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" style="background-color: #c4944b"><i
+                                                        class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#" style="background-color: #D71619"><i
+                                                        class="fab fa-youtube"></i></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -104,10 +108,10 @@
                                 <div class="owl-carousel-1col mt-5" data-nav="true">
                                     <div class="item">
                                         <a href="{{ $url . 'noticeboard/' . $get_event->images }}" target="_blank">
-                                            <iframe src="{{ $url . 'noticeboard/' . $get_event->images }}"
-                                                width="100%" height="390px">
-                                             </iframe></a>
-                                            
+                                            <iframe src="{{ $url . 'noticeboard/' . $get_event->images }}" width="100%"
+                                                height="390px">
+                                            </iframe></a>
+
                                     </div>
 
                                 </div>
@@ -131,7 +135,7 @@
                                                         <li class="font-18 font-weight-700 border-bottom">
                                                             {{ explode('-', $event->timing)[2] }}
                                                         </li>
-        
+
                                                         <li class="font-14 text-center text-uppercase mt-1">
                                                             {{ date_format(date_create($event->timing), 'M') }}
                                                         </li>
@@ -146,7 +150,7 @@
                                                                 class="fa fa-clock-o text-theme-colored2"></i>
                                                             {{ $event->created_at }}
                                                             &nbsp; &nbsp;
-        
+
                                                             <span class="text-white"> <i
                                                                     class="fa fa-map-marker text-theme-colored2"></i>
                                                                 {{ $event->title }}</span>
@@ -164,15 +168,13 @@
                                 <span class="line-bottom "> &nbsp;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 <div class="double-line-bottom-theme-colored-2"></div>
-                                <p class="text-justify" >{{ $get_event->descrption }}</p>
+                                <p class="text-justify">{{ $get_event->descrption }}</p>
                             </div>
 
                         </div>
-                
+
                     </div>
                 </section>
-
-
         </div>
         <!-- end main-content -->
 
