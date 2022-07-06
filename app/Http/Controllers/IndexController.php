@@ -31,7 +31,7 @@ class IndexController extends Controller
 
         // notice board
         // getting all events
-        $noticeboard = DB::table('noticeboard')->orderBy('id', 'desc')->limit(4)->get();
+        $noticeboard = DB::table('noticeboard')->orderBy('id', 'desc')->where('status','1')->limit(4)->get();
 
 
         return view('index', ['sliders' => $slider, 'url' => $this->url(), 'about' => $about, 'hou' => $head_of_university,  'gallery' => $gallery, 'news' => $latest_news, 'events' => $event,  'noticeboard' => $noticeboard]);
