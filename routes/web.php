@@ -17,6 +17,7 @@ use App\Http\Controllers\PlacementController;
 use App\Http\Controllers\StructureController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TestimonialController;
+use App\Http\Controllers\UpgradeCampusController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/main-index', [IndexController::class, 'main_index'])->name('main-index');
@@ -57,6 +58,7 @@ Route::get('media-gallery', [GalleryController::class, 'media_gallery'])->name('
 Route::post('getstart', [GetStartController::class, 'store'])->name('getstart');
 Route::get('getstart/getotp', [GetStartController::class, 'getOtp'])->name('getstart.getotp');
 Route::get('upgrade/upgrade', [GetStartController::class, 'index'])->name('upgrade');
+Route::get('courses/certificate/cma', [UpgradeCampusController::class, 'CourseCMA'])->name('course.certificate.cma');
 
 Route::get('gallery/image-gallery-details/{title}', [GalleryController::class, 'image_gallery_details'])->name('image_gallery_details');
 

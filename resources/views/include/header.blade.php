@@ -121,7 +121,9 @@ function url_check($url)
             ->first(); ?>
         <li><a href="{{ route('news1') }}">News</a></li>
 
-        <li><a class="glow text-warning " href="{{ route('noticeboard', $lastnotice->id) }}">{{ $lastnotice->title }} Important Notice</a></li>
+        <li><a class="glow text-warning "
+                href="{{ route('noticeboard', $lastnotice->id) }}">{{ $lastnotice->title }} Important Notice</a>
+        </li>
         <li><a title="Student Login" class="apply_btn3" href="https://nsucms.in/nsucms/student/student_login"
                 target="_blank"><i class="fas fa-users"></i></a></li>
         <li></li>
@@ -134,7 +136,8 @@ function url_check($url)
     <div class="container">
 
         <div class="logo">
-            <a href="{{ route('index') }}"><img src="{{ asset('images/logo.png') }}" alt="Netaji unuiversity" /></a>
+            <a href="{{ route('index') }}"><img src="{{ asset('images/logo.png') }}"
+                    alt="Netaji unuiversity" /></a>
             <span class="netaji"
                 style="
     position: absolute;
@@ -376,7 +379,7 @@ function url_check($url)
                                                     </div>
                                                 </div>
                                                 <div class="menu_nav nsu-courses p-2 row">
-                                                    <ul class="col-6" style="columns: 1 !important ;" >
+                                                    <ul class="col-6" style="columns: 1 !important ;">
                                                         <?php $courses = DB::table('course_tbl')
                                                             ->where('is_deleted', '1')
                                                             ->where('type', 'diploma')
@@ -389,7 +392,7 @@ function url_check($url)
                                                             </li>
                                                         @endforeach
                                                     </ul>
-                                                    <ul class="col-6" style="columns: 1 !important ;" >
+                                                    <ul class="col-6" style="columns: 1 !important ;">
                                                         <?php $courses = DB::table('course_tbl')
                                                             ->where('is_deleted', '1')
                                                             ->where('type', 'certificate')
@@ -401,6 +404,9 @@ function url_check($url)
                                                                     href="{{ route('course', ['course' => strtolower(str_replace(' ', '-', $course->course)), 'id' => $course->id]) }}">{{ $course->course }}</a>
                                                             </li>
                                                         @endforeach
+                                                        <li><i class="fas fa-certificate"></i> <a
+                                                                href="{{ route('course.certificate.cma') }}">{{ 'BBA & B.Com with US CMA BBA & B.Com with US CMA' }}</a>
+                                                        </li>
                                                         <li><i class="fas fa-certificate"></i> <a
                                                                 href="{{ route('upgrade') }}">{{ 'Upgrad Campus' }}</a>
                                                         </li>

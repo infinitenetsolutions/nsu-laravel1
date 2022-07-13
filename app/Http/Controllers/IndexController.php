@@ -9,13 +9,11 @@ class IndexController extends Controller
 {
     function index()
     {
-
         // currently not in use because of that time running video 
         $slider = DB::table('slider_tbl')->get();
 
         // first of the home page after the slider video
         $about = DB::table('pages')->where('page_type', 'about')->get();
-    
 
         // university head  after video tour and upcoming events 
         $head_of_university = DB::table('faculty_tbl')->where('type', 'hou')->limit(4)->get();

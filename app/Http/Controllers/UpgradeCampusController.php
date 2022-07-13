@@ -10,4 +10,9 @@ class UpgradeCampusController extends Controller
     {
         return view('upgrade');
     }
+
+    public function CourseCMA()
+    {
+        return view('coursecma');
+    }
 }

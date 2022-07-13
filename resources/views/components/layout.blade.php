@@ -8,7 +8,32 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ========== Page Title ========== -->
+    <title> Best University In Jharkhand With All Courses And Placements </title>
+    <meta name="description" content="Netaji Subhas University is the best University In jharkhand offerIng all courses with placement to shape your future and Inspire you to achieve great success In your dream career." >
+    <meta name="keywords" content="Best University In Jamshedpur ">
+    <meta name="Robots" content="index, follow" /> 
+    <meta name="Robots" content="All" /> 
+    <meta name="googlebot" content="noodp" /> 
+    <meta name="Robots" content="noydir,noodp" /> 
+    <meta name="revisit-after" content="7 days" /> 
+    <meta name="author" content="Netaji Subhas University" /> 
+    <meta name="subject" content="Netaji Subhas University the best University in Jamshedpur, Jharkhand" /> 
+    <meta name="url" content="https://nsuniv.ac.in/" /> 
+    <meta name="identifier-URL" content="https://nsuniv.ac.in/" /> 
+    <meta name="msnbot" content="index,follow,archive,noydir,noodp" /> 
+    <meta name="Slurp" content="index,follow,archive,noydir,noodp" /> 
+    <meta name="directory" content="submission" /> 
+    <meta name="language" content="EN" /> 
+    <meta name="distribution" content="global" /> 
+    <meta name="coverage" content="global" /> 
+    <meta name="copyright" content="Netaji Subhas University" /> 
+    <meta name="rating" content="general" /> 
+    <meta name="classification" content=" best university in jamshedpur, best university in jharkhand" /> 
+    <link rel="canonical" href="https://nsuniv.ac.in/">
     <title>
         Best University In Jharkhand With All Courses And Placements
     </title>
