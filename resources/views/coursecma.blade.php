@@ -73,7 +73,7 @@
                             BBA &amp; B.Com with US CMA
                         </h3>
                         <span class="line-bottom "> &nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                           &nbsp;&nbsp;&nbsp;&nbsp;</span>
                         <p style=""><br />
                             <br />
 
