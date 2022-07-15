@@ -72,6 +72,8 @@
                         <h3 class="western">
                             BBA &amp; B.Com with US CMA
                         </h3>
+                        <span class="line-bottom "> &nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         <p style="margin-bottom: 0.14in"><br />
                             <br />
 
@@ -710,7 +712,7 @@
         </section>
 
         <style>
-            ul li {
+            ul .li {
                 list-style: square;
                 margin: 0;
                 padding: 0;
