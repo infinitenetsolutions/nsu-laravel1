@@ -48,7 +48,7 @@
                     <div class="top-menu-sec">
                         <ul>
                             <h4> Certificate Course </h4>
-                            <li><a href="{{ route('index') }}">Home</a>
+                            <li class="li" ><a href="{{ route('index') }}">Home</a>
                             </li>
                             <li class="active"><a href="{{ route('course.certificate.cma') }}">BBA & B.Com with US CMA BBA
                                     & B.Com with US CMA</a>
@@ -69,158 +69,578 @@
                 <div class="container">
                     <div class="row">
 
+                        <h3 class="western">
+                            BBA &amp; B.Com with US CMA
+                        </h3>
+                        <p style="margin-bottom: 0.14in"><br />
+                            <br />
 
-                        <div class="col-md-7">
-                            <!-- <h4> <span id="ctl00_ContentPlaceHolder1_lblstdate">25 Feb 2022</span><span id="ctl00_ContentPlaceHolder1_lblendate"></span>|Kolkata <span>|</span> Online</h4> -->
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%">
 
+                            <font size="3" style="font-size: 12pt"><span style="background: #ffffff">BBA
+                                    with US CMA is a Value Added Course with US CMA (Certified Management
+                                    Accountant). CMA is a professional certification in finance &amp;
+                                    accounting relevant for success in businesses. Achieving the
+                                    CMA&nbsp;demonstrates professional expertise in financial planning,
+                                    analysis, control, decision support, and professional ethics –
+                                    skills that are in demand by organizations around the world.
+                                    Basically, CMAs can explain the “why” behind numbers, not just
+                                    the “what”. The CMA degree gives greater credibility, higher
+                                    earning potential, and ultimately a seat at the leadership table.
+                                </span></font>
+                            </font>
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%"><br />
 
-                            <h3>Powered by upGrad Campus</h3>
-                            <span class="line-bottom "> &nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            <p style="font-size:18px;">Netaji Subhas University has collaborated with upGrad
-                                campus to empower their students with the Business Analytics and Digital
-                                Marketing Program. Netaji Subhas University has always been at the forefront
-                                ensuring the successful holistic career of its students. Alliance with upGrad
-                                campus will pave the way to secure this goal.</p>
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%">
 
-                        </div>
+                            <font size="3" style="font-size: 12pt">CMA&nbsp;is
+                                offered by the IMA (Institute of Management Accountants), US, and is
+                                a globally recognized, advanced-level credential appropriate for
+                                accountants and financial professionals in business. The CMA exams
+                                comprise the following two exam parts:</font>
+                            </font>
+                        </p>
+                        <ul>
+                            <li class="li" >
+                                <p style="margin-bottom: 0in; line-height: 110%">
 
+                                    <font size="3" style="font-size: 12pt">Part
+                                        1 – Financial Reporting, Planning, Performance &amp;Analytics</font>
 
-                        <div class="col-md-5">
-                            <!-- <h4> <span id="ctl00_ContentPlaceHolder1_lblstdate">25 Feb 2022</span><span id="ctl00_ContentPlaceHolder1_lblendate"></span>|Kolkata <span>|</span> Online</h4> -->
+                            <li class="li" >
+                                <p style="margin-bottom: 0in; line-height: 110%">
 
+                                    <font size="3" style="font-size: 12pt">Part
+                                        2 – Strategic Financial Management</font>
 
+                        </ul>
+                        <p style="margin-bottom: 0in; line-height: 110%"><br />
 
-                            <img src="{{ asset('images/nsu/upgrade/NSU_upGrad.jpg') }}"
-                                id="ctl00_ContentPlaceHolder1_imgbind">
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%"><a name="_GoBack"></a>
 
-                        </div>
+                            <font size="3" style="font-size: 12pt">As a
+                                Value Added Program, the US CMA curriculum is covered over the
+                                Semesters and students are encouraged to clear the 2 CMA exams in
+                                Semester 4-5 before placements. Candidates who clear the CMA exams
+                                will be able to achieve differential placements with top MNCs. </font>
+                            </font>
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%"><br />
 
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="4" style="font-size: 16pt"><u><b>About
+                                        IMA</b></u></font>
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt">IMA®
+                                (Institute of Management Accountants) is one of the largest and most
+                                respected associations of accountants and financial professionals in
+                                the business. It serves as the apex governing body for the US CMA
+                                certification.</font>
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt">Ever
+                                since its inception in 1919, IMA has been committed to empowering its
+                                100,000+ members—and those throughout the rest of the profession—to
+                                strengthen on-the-job skills, better manage companies, and accelerate
+                                careers. </font>
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt">IMA
+                                is present globally with offices in the US, Europe, Middle East,
+                                China and Singapore, and members across 140+ countries. In India, IMA
+                                works in collaboration with Wiley (global partner for official IMA
+                                study materials) and ISDC (India's largest training provider for CMA)
+                                to help you prepare for the US CMA exams. </font>
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%"><br />
 
+                        </p>
+                        <p style="margin-bottom: 0in; line-height: 110%"><br />
 
+                        </p>
+                        <p style="margin-bottom: 0.14in; line-height: 110%"><br />
+                            <br />
 
-                        <div class="col-md-12">
-                            <!-- <h4> <span id="ctl00_ContentPlaceHolder1_lblstdate">25 Feb 2022</span><span id="ctl00_ContentPlaceHolder1_lblendate"></span>|Kolkata <span>|</span> Online</h4> -->
-                            <div class="col-md-12">
-                                <h3>About the program details: </h3>
-                                <span class="line-bottom "> &nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                <p style="font-size:18px" class="p-17 text-justify aos-init aos-animate" data-aos="zoom-in"
-                                    data-aos-duration="1000">
-                                    At upGrad campus, we help you become job-ready and prepared for the industry with
-                                    the right skills. The Business Analytics certification program by upGrad Campus is
-                                    designed to make you a data professional.
+                        </p>
+                        <p style="margin-bottom: 0.14in; line-height: 110%"><br />
+                            <br />
+
+                        </p>
+                        <p style="margin-bottom: 0.14in; line-height: 110%">
+                            <font size="3" style="font-size: 12pt"><b>Why
+                                    2 exams for US CMA?</b></font>
+                        </p>
+                        <p style="margin-bottom: 0.14in; line-height: 110%">
+                            <font size="3" style="font-size: 12pt">US
+                                professional qualifications mandate a institute degree, and given the
+                                fact that NSU education covers a vast majority of the content, the
+                                professional exam only focuses on the skill-gaps which are needed for
+                                the profession. Therefore, US professional qualifications like CMA
+                                “complement” university education and have lesser number of
+                                exams.</font>
+                        </p>
+                        <p style="margin-bottom: 0.14in; line-height: 110%"><br />
+                            <br />
+
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt"><b>What
+                                    is the value creation done by the Management Accountant? </b></font>
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt">Certified
+                                Management Accountants play an important role as advisors to top
+                                management. Their role includes but is not limited to:</font>
+                        </p>
+                        <ul>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Act
+                                        as trusted business advisors</font>
                                 </p>
-                                <p style="font-size:18px" class="p-17 text-justify aos-init" data-aos="zoom-in"
-                                    data-aos-duration="1000">
-                                    Business Analytics is the structured and incremental analysis of a company's
-                                    statistical data to gain insights. Most of the world's top corporations employ
-                                    business analytics, and it's especially valuable in Tech Startups, where they are
-                                    eager to take advantage of any data-driven advantages that may help them break into
-                                    the mass market. It is an ideal study option for anyone interested in programming or
-                                    engaging with <a href="https://nsuniv.ac.in/course?academic-data-science"
-                                        style="color:#007bff;">data science</a> because of the combination of technology
-                                    and business.
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Support
+                                        management decision making process</font>
                                 </p>
-                                <p style="font-size:18px" class="p-17 text-justify aos-init" data-aos="zoom-in"
-                                    data-aos-duration="1000">
-                                    Digital Marketing encompasses many different channels for promoting business
-                                    interests leveraging the digital platforms to create brand awareness and enable
-                                    promotion and eventually business.
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Involved
+                                        in strategic development initiatives </font>
                                 </p>
-                            </div>
-                        </div>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Work
+                                        “hands on” to add value in organizations</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Use
+                                        broad-based business knowledge to improve company performance</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Pricing
+                                        Decisions - Decide the right price for a product and further pricing
+                                        strategies</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Cost
+                                        Management - Analyze costs, reduce and manage costs, </font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Set
+                                        up standards for costs and analyze any variances, </font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Planning,
+                                        budgeting and forecasting</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Raising
+                                        Capital - Assessing how to raise capital for a business, deciding
+                                        between debt &amp; equity; minimizing the cost of capital</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Investment
+                                        Decisions - Analyzing and ranking investment avenues (or projects)
+                                        using Capital Budgeting techniques like NPV (Net Present Value), IRR
+                                        (Internal Rate of Return), etc.</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Financial
+                                        Analysis - Analyze the company’s profitability, activity,
+                                        liquidity, solvency, debt coverage, etc. </font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Internal
+                                        Controls - Ensuring:</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Fair
+                                        and accurate financial accounting &amp; reporting, </font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Compliance
+                                        with laws &amp; regulations.</font>
+                                </p>
+                            <li class="li" >
+                                <p style="margin-bottom: 0.14in">
+                                    <font size="3" style="font-size: 12pt">Effective
+                                        &amp; efficient business operations </font>
+                                </p>
+                        </ul>
+                        <p style="margin-bottom: 0.14in"><br />
+                            <br />
 
-
-                        <div class="col-md-12">
-                            <!-- <h4> <span id="ctl00_ContentPlaceHolder1_lblstdate">25 Feb 2022</span><span id="ctl00_ContentPlaceHolder1_lblendate"></span>|Kolkata <span>|</span> Online</h4> -->
-                            <div class="col-md-12">
-                                <h3>Benefits for students : </h3>
-                                <span class="line-bottom text-warning "> &nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="row upgrad-heading">
-
-                                    <div class="col-sm-3 col-sm-3">
-                                        <img src="{{ asset('images/nsu/upgrade/nsu1.png') }}" alt="">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="upgrad-content">
-                                            <h2>
-                                                Holistic understanding of Business Analytics and Digital Marketing</h2>
-
-                                            <p>
-                                                Learn the basics of Business Problem Solving, Insights and Storytelling,
-                                                Predictive Analytics, Statistics and Exploratory Data Analysis.
+                        </p>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt"><b>What
+                                    jobs should you look for after doing US CMA?</b></font>
+                        </p>
+                        <ul>
+                            <ul>
+                                <li class="li" >
+                                    <p style="margin-bottom: 0.14in">
+                                        <font size="3" style="font-size: 12pt">The
+                                            CMA is a performance manager who validates mastery of financial
+                                            planning, analysis, control, and decision support – the critical
+                                            skills required of valuable strategic advisors in any organization</font>
+                                    </p>
+                                <li class="li" >
+                                    <p style="margin-bottom: 0.14in">
+                                        <font size="3" style="font-size: 12pt">Few
+                                            designations/profiles for CMAs in the industry:</font>
+                                    </p>
+                                    <ul>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Finance
+                                                    and Accounting Managers within companies </font>
                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="row upgrad-heading">
-                                    <div class="col-sm-3 col-sm-3">
-                                        <img src="{{ asset('images/nsu/upgrade/nsu2.png') }}" alt="">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="upgrad-content">
-                                            <h2>Soft skills modules</h2>
-
-                                            <p>
-                                                1. Business communication <br>
-                                                2. Reporting and Presentations
-
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Budgeting
+                                                    Managers </font>
                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="row upgrad-heading">
-                                    <div class="col-sm-3 col-sm-3">
-                                        <img src="{{ asset('images/nsu/upgrade/nsu3.png') }}" alt="">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="upgrad-content">
-                                            <h2>Live Industry Projects</h2>
-                                            <p>
-                                                Learn the basics of Business Problem Solving, Insights and Storytelling,
-                                                Predictive Analytics, Statistics and Exploratory Data Analysis
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Investment
+                                                    Manager </font>
                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="row upgrad-heading">
-                                    <div class="col-sm-3 col-sm-3">
-                                        <img src="{{ asset('images/nsu/upgrade/nsu4.png') }}" alt="">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="upgrad-content">
-                                            <h2>Dedicated mentors</h2>
-                                            <p>
-                                                Personalised mentorship by upGrad mentors and live sessions with expert
-                                                faculty.
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Costing
+                                                    Manager </font>
                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Payable
+                                                    Manager or Receivable Manager </font>
+                                            </p>
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Portfolio/
+                                                    Fund Manager </font>
+                                            </p>
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Financial
+                                                    Controllers </font>
+                                            </p>
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Treasurer
+                                                </font>
+                                            </p>
+                                        </li>
+                                        <li class="li" >
+                                            <p style="margin-bottom: 0.14in">
+                                                <font size="3" style="font-size: 12pt">Chief
+                                                    Finance Officer</font>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                <li class="li" >
+                                    <p style="margin-bottom: 0.14in">
+                                        <font size="3" style="font-size: 12pt">A
+                                            CMAs role is to ensure that the company runs its financial and
+                                            overall performance in an efficient manner so that the objectives
+                                            of the companies are met. They are the people who make daily
+                                            decisions within the companies for its survival and growth</font>
+                                    </p>
+                            </ul>
+                        </ul>
+                        <p style="margin-bottom: 0.14in">
+                            <font size="3" style="font-size: 12pt">Opportunities
+                                in India for CMAs are with MNCs including Banks &amp; Financial
+                                Services, Consulting, IT, Retail, Pharma, Manufacturing basically,
+                                any US-based MNC in India</font>
+                        </p>
+                        <p style="margin-bottom: 0.14in; line-height: 110%">
+                            <font size="3" style="font-size: 12pt"><b>Few
+                                    of the organizations where CMAs are employed in India include</b></font>
+                            <font size="3" style="font-size: 12pt">:</font>
+                        </p>
+                        <br>
+                        <ul>
+                            <li class="li" >
 
 
+                                <font size="3" style="font-size: 12pt">Accenture</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">AIG</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Genpact</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">EY</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">KPMG</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Deloitte</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">PwC</font>
+                            </li>
+
+                            <li class="li" >
+                                <p style="margin-bottom: 0in; line-height: 110%">
+
+                                    <font size="3" style="font-size: 12pt">Johnson
+                                        &amp; Johnson</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Caterpillar</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">VMware</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Flextronics</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Capgemini</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">World
+                                    Bank</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Cognizant</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">JP
+                                    Morgan Chase</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Invesco</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">WNS</font>
+                            </li>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Synchrony
+                                    Financial</font>
+                            </li>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">AXA
+                                    Insurance</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Philips</font>
+                            </li>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Qualcomm</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Grant
+                                    Thornton</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">BDO</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Tata
+                                    Power</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Maersk</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Red
+                                    Hat</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Diageo
+                                    India Private Limited</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Ford</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Barclays</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Aon
+                                    PLC</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">MetLife,
+                                    Inc.</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Electronic
+                                    Arts</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Alexion</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">DuPont</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Max
+                                    Life Insurance</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Fidelity
+                                    National Information Services, Inc.</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">EXL
+                                    Service</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">Citrin
+                                    Cooperman</font>
+                            </li>
+
+                            <li class="li" >
+
+
+                                <font size="3" style="font-size: 12pt">TE
+                                    Connectivity</font>
+                            </li>
+
+                        </ul>
 
             </section>
 
@@ -230,111 +650,32 @@
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="col-md-12">
-                            <p class="career_sub_head" style="text-align: left;"> Specific open vacancies : </p>
-                            <div class="accordionBlock">
-                                <div class="accordion" id="accordion2">
+                            <p class="career_sub_head" style="text-align: left;"> FAQS for BBA & B.Com with US CMA BBA &
+                                B.Com with US CMA </p>
+                            @foreach ($faqs as $faq)
+                                <div class="accordionBlock">
+                                    <div class="accordion" id="accordion2">
 
-                                    <div class="accordion-group">
-                                        <div class="accordion-heading">
-                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                data-parent="#accordion2" href=".9"
-                                                aria-expanded="false">1. What is US CMA?</a>
-                                        </div>
-                                        <div id="collapseFive" class="accordion-body 9 collapse" style="">
-                                            <div class="accordion-inner">
-
-                                                <p class="text-justify">
-                                                    CMA®(Certified Management Accountant) certification is one of
-                                                    the most established global benchmarks for management
-                                                    accountants and financial professionals. The CMA is an
-                                                    advanced professional certification specifically designed to
-                                                    measure critical accounting and financial management skills that
-                                                    are especially relevant for success in a business environment.
-                                                </p>
+                                        <div class="accordion-group">
+                                            <div class="accordion-heading">
+                                                <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                    data-parent="#accordion2" href=".9" aria-expanded="false">1.
+                                                    {{ $faq->question ?? '' }}</a>
 
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordionBlock">
-                                <div class="accordion" id="accordion2">
+                                            <div id="collapseFive" class="accordion-body 9 collapse" style="">
+                                                <div class="accordion-inner">
 
-                                    <div class="accordion-group">
-                                        <div class="accordion-heading">
-                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                data-parent="#accordion2" href=".10">Applications for
-                                                IT
-                                                at NETAJI SUBHAS UNIVERSITY - 10-12-2022</a>
-                                        </div>
-                                        <div id="collapseFive" class="accordion-body collapse 10">
-                                            <div class="accordion-inner">
+                                                    <p class="text-justify">
+                                                        {{ $faq->ans ?? '' }}
+                                                    </p>
 
-                                                <div class="row">
-                                                    <div class=" font-13 ml-4 ">
-                                                        Start Date:
-                                                        11-12-2021
-                                                    </div>
-                                                    <div class=" font-13 float-right  ml-5 pl-5">
-                                                        Last Date:
-                                                        10-12-2022
-                                                    </div>
                                                 </div>
-
-
-
-                                                <h4 class="text-university text-center">ASSOCIATE PROFESSOR </h4>
-                                                <br>
-                                                <p class="pt-2 text-center text-dark text-lowercase"> Minimum Ph.D with
-                                                    8 years of Experience in Academics</p>
-                                                <p><a href="" class="btn btn-default btn-apply btn-sm">Apply
-                                                        Now</a>
-                                                </p>
-
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordionBlock">
-                                <div class="accordion" id="accordion2">
-
-                                    <div class="accordion-group">
-                                        <div class="accordion-heading">
-                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                data-parent="#accordion2" href=".12">Applications for
-                                                IT
-                                                at NETAJI SUBHAS UNIVERSITY - 10-12-2024</a>
-                                        </div>
-                                        <div id="collapseFive" class="accordion-body collapse 12">
-                                            <div class="accordion-inner">
-
-                                                <div class="row">
-                                                    <div class=" font-13 ml-4 ">
-                                                        Start Date:
-                                                        15-12-2021
-                                                    </div>
-                                                    <div class=" font-13 float-right  ml-5 pl-5">
-                                                        Last Date:
-                                                        10-12-2024
-                                                    </div>
-                                                </div>
-
-
-
-                                                <h4 class="text-university text-center">ASSISTANT PROFESSOR </h4>
-                                                <br>
-                                                <p class="pt-2 text-center text-dark text-lowercase"> Minimum MCA/M.Sc
-                                                    in IT (Fresher can also apply)</p>
-                                                <p><a href="" class="btn btn-default btn-apply btn-sm">Apply
-                                                        Now</a>
-                                                </p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -367,5 +708,14 @@
             </section>
 
         </section>
+
+        <style>
+            ul li {
+                list-style: square;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+
     @endslot
 </x-layout1>
