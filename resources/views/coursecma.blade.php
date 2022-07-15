@@ -134,10 +134,8 @@
                         <p style=""><br />
 
                         </p>
-                        <p style="">
-                            <font size="4" style="font-size: 16pt"><u><b>About
-                                        IMA</b></u></font>
-                        </p>
+                        <h3>About
+                            IMA </h3>
                         <p style="">
                             <font size="3" style="font-size: 12pt">IMA®
                                 (Institute of Management Accountants) is one of the largest and most
@@ -385,7 +383,7 @@
                             </b>
                         </p>
 
-                        <ul>
+                        <ul class="ul">
                             <li class="li">
                                 <font size="3" style="font-size: 12pt">Accenture</font>
                             </li>
@@ -712,6 +710,11 @@
                 list-style: square;
                 margin: 0;
                 padding: 0;
+            }
+
+            .ul {
+                margin-top: 28px;
+                margin-left: -551px;
             }
         </style>
 
