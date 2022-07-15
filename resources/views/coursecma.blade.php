@@ -48,7 +48,7 @@
                     <div class="top-menu-sec">
                         <ul>
                             <h4> Certificate Course </h4>
-                            <li  ><a href="{{ route('index') }}">Home</a>
+                            <li><a href="{{ route('index') }}">Home</a>
                             </li>
                             <li class="active"><a href="{{ route('course.certificate.cma') }}">BBA & B.Com with US CMA BBA
                                     & B.Com with US CMA</a>
@@ -106,13 +106,13 @@
                             </font>
                         </p>
                         <ul>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
 
                                     <font size="3" style="font-size: 12pt">Part
                                         1 – Financial Reporting, Planning, Performance &amp;Analytics</font>
 
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
 
                                     <font size="3" style="font-size: 12pt">Part
@@ -201,87 +201,87 @@
                                 management. Their role includes but is not limited to:</font>
                         </p>
                         <ul>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Act
                                         as trusted business advisors</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Support
                                         management decision making process</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Involved
                                         in strategic development initiatives </font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Work
                                         “hands on” to add value in organizations</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Use
                                         broad-based business knowledge to improve company performance</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Pricing
                                         Decisions - Decide the right price for a product and further pricing
                                         strategies</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Cost
                                         Management - Analyze costs, reduce and manage costs, </font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Set
                                         up standards for costs and analyze any variances, </font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Planning,
                                         budgeting and forecasting</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Raising
                                         Capital - Assessing how to raise capital for a business, deciding
                                         between debt &amp; equity; minimizing the cost of capital</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Investment
                                         Decisions - Analyzing and ranking investment avenues (or projects)
                                         using Capital Budgeting techniques like NPV (Net Present Value), IRR
                                         (Internal Rate of Return), etc.</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Financial
                                         Analysis - Analyze the company’s profitability, activity,
                                         liquidity, solvency, debt coverage, etc. </font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Internal
                                         Controls - Ensuring:</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Fair
                                         and accurate financial accounting &amp; reporting, </font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Compliance
                                         with laws &amp; regulations.</font>
                                 </p>
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
                                     <font size="3" style="font-size: 12pt">Effective
                                         &amp; efficient business operations </font>
@@ -297,7 +297,7 @@
                         </p>
                         <ul>
                             <ul>
-                                <li class="li" >
+                                <li class="li">
                                     <p style="">
                                         <font size="3" style="font-size: 12pt">The
                                             CMA is a performance manager who validates mastery of financial
@@ -305,66 +305,66 @@
                                             skills required of valuable strategic advisors in any organization</font>
                                     </p>
                                 </li>
-                              
-                                <li class="li" >
-                                 
+
+                                <li class="li">
+
                                     <ul>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Finance
                                                     and Accounting Managers within companies </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Budgeting
                                                     Managers </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Investment
                                                     Manager </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Costing
                                                     Manager </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Payable
                                                     Manager or Receivable Manager </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Portfolio/
                                                     Fund Manager </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Financial
                                                     Controllers </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Treasurer
                                                 </font>
                                             </p>
                                         </li>
-                                        <li class="li" >
+                                        <li class="li">
                                             <p style="">
                                                 <font size="3" style="font-size: 12pt">Chief
                                                     Finance Officer</font>
                                             </p>
                                         </li>
                                     </ul>
-                                <li class="li" >
+                                <li class="li">
                                     <p style="">
                                         <font size="3" style="font-size: 12pt">A
                                             CMAs role is to ensure that the company runs its financial and
@@ -380,120 +380,117 @@
                                 Services, Consulting, IT, Retail, Pharma, Manufacturing basically,
                                 any US-based MNC in India</font>
                         </p>
-                        <p style="; line-height: 110%">
-                            <font size="3" style="font-size: 12pt"><b>Few
-                                    of the organizations where CMAs are employed in India include</b></font>
-                            <font size="3" style="font-size: 12pt">:</font>
+                        <p>
+                            <b>Few of the organizations where CMAs are employed in India include
+                            </b>
                         </p>
-                  
+
                         <ul>
-                            <li class="li" >
-
-
+                            <li class="li">
                                 <font size="3" style="font-size: 12pt">Accenture</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">AIG</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Genpact</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">EY</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">KPMG</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Deloitte</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">PwC</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
                                 <p style="">
 
                                     <font size="3" style="font-size: 12pt">Johnson
                                         &amp; Johnson</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Caterpillar</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">VMware</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Flextronics</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Capgemini</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">World
                                     Bank</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Cognizant</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">JP
                                     Morgan Chase</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Invesco</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">WNS</font>
                             </li>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Synchrony
@@ -501,140 +498,140 @@
                             </li>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">AXA
                                     Insurance</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Philips</font>
                             </li>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Qualcomm</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Grant
                                     Thornton</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">BDO</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Tata
                                     Power</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Maersk</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Red
                                     Hat</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Diageo
                                     India Private Limited</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Ford</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Barclays</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Aon
                                     PLC</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">MetLife,
                                     Inc.</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Electronic
                                     Arts</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Alexion</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">DuPont</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Max
                                     Life Insurance</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Fidelity
                                     National Information Services, Inc.</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">EXL
                                     Service</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">Citrin
                                     Cooperman</font>
                             </li>
 
-                            <li class="li" >
+                            <li class="li">
 
 
                                 <font size="3" style="font-size: 12pt">TE
