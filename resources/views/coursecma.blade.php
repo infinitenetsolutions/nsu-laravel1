@@ -158,25 +158,12 @@
                                 study materials) and ISDC (India's largest training provider for CMA)
                                 to help you prepare for the US CMA exams. </font>
                         </p>
-                        <p style=""><br />
-
-                        </p>
-                        <p style=""><br />
-
-                        </p>
-                        <p style="; line-height: 110%"><br />
-                            <br />
-
-                        </p>
-                        <p style="; line-height: 110%"><br />
-                            <br />
-
-                        </p>
-                        <p style="; line-height: 110%">
+                     <br>
+                        <p style=";">
                             <font size="3" style="font-size: 12pt"><b>Why
                                     2 exams for US CMA?</b></font>
                         </p>
-                        <p style="; line-height: 110%">
+                        <p style=";">
                             <font size="3" style="font-size: 12pt">US
                                 professional qualifications mandate a institute degree, and given the
                                 fact that NSU education covers a vast majority of the content, the
@@ -185,7 +172,7 @@
                                 “complement” university education and have lesser number of
                                 exams.</font>
                         </p>
-                        <p style="; line-height: 110%"><br />
+                        <p style=";"><br />
                             <br />
 
                         </p>
