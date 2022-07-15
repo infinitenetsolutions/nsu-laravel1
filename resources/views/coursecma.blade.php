@@ -48,7 +48,7 @@
                     <div class="top-menu-sec">
                         <ul>
                             <h4> Certificate Course </h4>
-                            <li class="li" ><a href="{{ route('index') }}">Home</a>
+                            <li  ><a href="{{ route('index') }}">Home</a>
                             </li>
                             <li class="active"><a href="{{ route('course.certificate.cma') }}">BBA & B.Com with US CMA BBA
                                     & B.Com with US CMA</a>
@@ -305,10 +305,7 @@
                                             skills required of valuable strategic advisors in any organization</font>
                                     </p>
                                 </li>
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Few
-                                        designations/profiles for CMAs in the industry:</font>
-                                </p>
+                              
                                 <li class="li" >
                                  
                                     <ul>
