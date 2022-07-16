@@ -30,7 +30,6 @@
                     </div>
                 </div>
             </div>
-        </section>
             <section class="inner_section event_detail">
                 <div class="container">
 
@@ -117,7 +116,7 @@
                         “complement” university education and have lesser number of
                         exams.
                     </p>
-                    <p style=";"><br />
+                    <p><br />
                         <br />
 
                     </p>
@@ -635,7 +634,7 @@
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </section>
 
-
+        </section>
         <style>
             ul .li {
                 list-style: square;
