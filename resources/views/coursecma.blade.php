@@ -1,38 +1,6 @@
 <x-layout1>
     @slot('body')
-        <style>
-            .upgrad-heading {
-                background: #efeaea;
-                box-shadow: 9px 5px 10px 3px #ccc;
-                margin: 10px 0;
-                padding: 10px;
-                border-radius: 30px 0px 30px 0px;
-                height: 170px;
-            }
-
-            .upgrad-heading .sub-heading {
-                display: flex;
-            }
-
-            .upgrad-heading .sub-heading span img {
-                width: 100px;
-                border-radius: 50%;
-                margin-right: 15px;
-            }
-
-            .upgrad-content h2 {
-                font-size: 18px;
-                padding-bottom: 0px
-            }
-
-            .upgrad-heading .sub-heading span {
-                width: 100px;
-            }
-
-            .inner-section {
-                margin-top: -100px;
-            }
-        </style>
+       
 
         <section class="inner-page">
 
@@ -41,7 +9,7 @@
                     <div class="breadcrumb">
                         <a href="{{ route('index') }}">Home</a>
                         <a href="">Certificate</a>
-                        <a href="">BBA & B.Com with US CMA BBA & B.Com with US CMA</a>
+                        <a href="">BBA & B.Com with US CMA</a>
                     </div>
                 </div>
                 <div class="container">
@@ -56,7 +24,7 @@
                         </ul>
                     </div>
                     <div class=" ">
-                        <h2>BBA & B.Com with US CMA BBA & B.Com with US CMA</h2>
+                        <h2>BBA & B.Com with US CMA</h2>
                         <a class="row p-2" href="{{ route('index') }}">
 
                             <img class="logo-sm" src="{{ asset('/images/logo.png') }}" alt="">
@@ -633,8 +601,8 @@
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="col-md-12">
-                            <p class="career_sub_head" style="text-align: left;"> FAQS for BBA & B.Com with US CMA BBA &
-                                B.Com with US CMA </p>
+                            <p class="career_sub_head" style="text-align: left;"> FAQS for BBA & B.Com with US CMA 
+                               </p>
                             @foreach ($faqs as $faq)
                                 <div class="accordionBlock">
                                     <div class="accordion" id="accordion2">
@@ -667,22 +635,7 @@
 
 
 
-            <section
-                style="padding: 100px 0;
-                            background: url({{ asset('images/nsu/upgrade/nsu-upgradd.jpg') }});
-                            text-align: center;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="content-section" style="background: #000000ab;padding: 10px;">
-                                <h3 class="text-light" style="font-size: 39px!important;">Get a guaranteed
-                                    certification powered by upGrad Campus</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
+          
             <br>
             <section class="map">
                 <iframe

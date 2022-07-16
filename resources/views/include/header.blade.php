@@ -405,7 +405,7 @@ function url_check($url)
                                                             </li>
                                                         @endforeach
                                                         <li><i class="fas fa-certificate"></i> <a
-                                                                href="{{ route('course.certificate.cma') }}">{{ 'BBA & B.Com with US CMA BBA & B.Com with US CMA' }}</a>
+                                                                href="{{ route('course.certificate.cma') }}">{{ 'BBA & B.Com with US CMA ' }}</a>
                                                         </li>
                                                         <li><i class="fas fa-certificate"></i> <a
                                                                 href="{{ route('upgrade') }}">{{ 'Upgrad Campus' }}</a>
