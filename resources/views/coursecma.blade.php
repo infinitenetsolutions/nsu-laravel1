@@ -133,7 +133,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </p>
                   
-                    <ul>
+                    <ul class="pl-3">
 
                         <li class="li">
                             <p>
@@ -245,15 +245,12 @@
                             </p>
                         </li>
                     </ul>
-                    <p><br />
-                        <br />
-
-                    </p>
+                
                     <p>
                         <b>What
                             jobs should you look for after doing US CMA?</b>
                     </p>
-                    <ul>
+                    <ul class="pl-3">
 
                         <li class="li">
                             <p>
@@ -340,7 +337,7 @@
                             </b>
                         </p>
 
-                        <ul class="ul">
+                        <ul class="ul pl-3">
                             <li class="li">
                                 Accenture
                             </li>
