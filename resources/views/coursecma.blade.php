@@ -37,6 +37,8 @@
                         BBA &amp; B.Com with US CMA
                     </h3>
                     <span class="line-bottom "> &nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <p class="text-justify">
                         BBA
@@ -79,7 +81,10 @@
                         will be able to achieve differential placements with top MNCs.
                     </p>
                     <br>
-                    <h3 class="line-bottom">About IMA </h3>
+                    <h3>About IMA <span class="line-bottom "> &nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;</span></h3>
                     <p>
                         IMA®
                         (Institute of Management Accountants) is one of the largest and most
