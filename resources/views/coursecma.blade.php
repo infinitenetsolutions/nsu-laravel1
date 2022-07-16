@@ -108,11 +108,14 @@
                         to help you prepare for the US CMA exams.
                     </p>
                     <br>
-                    <p style=";">
-                        <b>Why
-                            2 exams for US CMA?</b>
-                    </p>
-                    <p style=";">
+
+                    <h3>Why 2 exams for US CMA?</h3>
+                    <span class="line-bottom "> &nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+                    <p class="text-justify">
                         US
                         professional qualifications mandate a institute degree, and given the
                         fact that NSU education covers a vast majority of the content, the
@@ -254,10 +257,6 @@
                                 skills required of valuable strategic advisors in any organization
                             </p>
                         </li>
-
-                        <li class="li">
-
-
                         <li class="li">
                             <p>
                                 Finance
@@ -322,12 +321,14 @@
                                 decisions within the companies for its survival and growth
                             </p>
                         </li>
-                        <p>
-                            Opportunities
-                            in India for CMAs are with MNCs including Banks &amp; Financial
-                            Services, Consulting, IT, Retail, Pharma, Manufacturing basically,
-                            any US-based MNC in India
-                        </p>
+                        <li class="li">
+                            <p>
+                                Opportunities
+                                in India for CMAs are with MNCs including Banks &amp; Financial
+                                Services, Consulting, IT, Retail, Pharma, Manufacturing basically,
+                                any US-based MNC in India
+                            </p>
+                        </li>
                         <p>
                             <b>Few of the organizations where CMAs are employed in India include
                             </b>
