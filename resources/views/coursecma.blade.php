@@ -124,16 +124,21 @@
                         “complement” university education and have lesser number of
                         exams.
                     </p>
-                   
+
                     <p>
                     <h3>What is the value creation done by the Management Accountant? </h3>
                     </p>
-                    <p>
-                        Certified
-                        Management Accountants play an important role as advisors to top
-                        management. Their role includes but is not limited to:
-                    </p>
+
                     <ul>
+
+                        <li class="li">
+                            <p>
+                                Certified
+                                Management Accountants play an important role as advisors to top
+                                management. Their role includes but is not limited to:
+                            </p>
+                        </li>
+
                         <li class="li">
                             <p>
                                 Act
