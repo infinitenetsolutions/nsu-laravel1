@@ -15,8 +15,8 @@
                             <h4> Certificate Course </h4>
                             <li><a href="{{ route('index') }}">Home</a>
                             </li>
-                            <li class="active"><a href="{{ route('course.certificate.cma') }}">BBA & B.Com with US CMA BBA
-                                    & B.Com with US CMA</a>
+                            <li class="active"><a href="{{ route('course.certificate.cma') }}">BBA & B.Com with US CMA
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -81,10 +81,10 @@
                         will be able to achieve differential placements with top MNCs.
                     </p>
                     <br>
-                    <h3>About IMA <span class="line-bottom "> &nbsp;
+                    <h3>About IMA </h3> <span class="line-bottom "> &nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;</span></h3>
+                        &nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <p>
                         IMA®
                         (Institute of Management Accountants) is one of the largest and most
@@ -587,7 +587,7 @@
                             </li>
 
                         </ul>
-                    </p>
+                        </p>
                 </div>
             </section>
 
