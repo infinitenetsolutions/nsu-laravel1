@@ -124,7 +124,7 @@
                         “complement” university education and have lesser number of
                         exams.
                     </p>
-                   
+
                     <p>
                     <h3>What is the value creation done by the Management Accountant? </h3>
                     <span class="line-bottom "> &nbsp;
@@ -132,7 +132,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </p>
-                  
+
                     <ul class="pl-3">
 
                         <li class="li">
@@ -245,7 +245,7 @@
                             </p>
                         </li>
                     </ul>
-                
+
                     <p>
                         <b>What
                             jobs should you look for after doing US CMA?</b>
@@ -332,266 +332,267 @@
                                 any US-based MNC in India
                             </p>
                         </li>
-                        <p>
-                            <b>Few of the organizations where CMAs are employed in India include
-                            </b>
-                        </p>
 
-                        <ul class="ul pl-3">
-                            <li class="li">
-                                Accenture
-                            </li>
+                    </ul>
+                    <p>
+                        <b>Few of the organizations where CMAs are employed in India include
+                        </b>
+                    </p>
+                    <ul class="ul pl-3">
+                        <li class="li">
+                            Accenture
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                AIG
-                            </li>
+                            AIG
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Genpact
-                            </li>
+                            Genpact
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                EY
-                            </li>
+                            EY
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                KPMG
-                            </li>
+                            KPMG
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Deloitte
-                            </li>
+                            Deloitte
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                PwC
-                            </li>
+                            PwC
+                        </li>
 
-                            <li class="li">
-                                <p>
+                        <li class="li">
+                            <p>
 
-                                    Johnson
-                                    &amp; Johnson
-                            </li>
+                                Johnson
+                                &amp; Johnson
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Caterpillar
-                            </li>
+                            Caterpillar
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                VMware
-                            </li>
+                            VMware
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Flextronics
-                            </li>
+                            Flextronics
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Capgemini
-                            </li>
+                            Capgemini
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                World
-                                Bank
-                            </li>
+                            World
+                            Bank
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Cognizant
-                            </li>
+                            Cognizant
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                JP
-                                Morgan Chase
-                            </li>
+                            JP
+                            Morgan Chase
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Invesco
-                            </li>
+                            Invesco
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                WNS
-                            </li>
-                            </li>
+                            WNS
+                        </li>
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Synchrony
-                                Financial
-                            </li>
-                            </li>
+                            Synchrony
+                            Financial
+                        </li>
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                AXA
-                                Insurance
-                            </li>
+                            AXA
+                            Insurance
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Philips
-                            </li>
-                            </li>
+                            Philips
+                        </li>
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Qualcomm
-                            </li>
+                            Qualcomm
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Grant
-                                Thornton
-                            </li>
+                            Grant
+                            Thornton
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                BDO
-                            </li>
+                            BDO
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Tata
-                                Power
-                            </li>
+                            Tata
+                            Power
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Maersk
-                            </li>
+                            Maersk
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Red
-                                Hat
-                            </li>
+                            Red
+                            Hat
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Diageo
-                                India Private Limited
-                            </li>
+                            Diageo
+                            India Private Limited
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Ford
-                            </li>
+                            Ford
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Barclays
-                            </li>
+                            Barclays
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Aon
-                                PLC
-                            </li>
+                            Aon
+                            PLC
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                MetLife,
-                                Inc.
-                            </li>
+                            MetLife,
+                            Inc.
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Electronic
-                                Arts
-                            </li>
+                            Electronic
+                            Arts
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Alexion
-                            </li>
+                            Alexion
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                DuPont
-                            </li>
+                            DuPont
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Max
-                                Life Insurance
-                            </li>
+                            Max
+                            Life Insurance
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Fidelity
-                                National Information Services, Inc.
-                            </li>
+                            Fidelity
+                            National Information Services, Inc.
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                EXL
-                                Service
-                            </li>
+                            EXL
+                            Service
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                Citrin
-                                Cooperman
-                            </li>
+                            Citrin
+                            Cooperman
+                        </li>
 
-                            <li class="li">
+                        <li class="li">
 
 
-                                TE
-                                Connectivity
-                            </li>
+                            TE
+                            Connectivity
+                        </li>
 
-                        </ul>
-                        </p>
+                    </ul>
+                    </p>
                 </div>
             </section>
 
