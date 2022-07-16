@@ -1,9 +1,6 @@
 <x-layout1>
     @slot('body')
-       
-
         <section class="inner-page">
-
             <div class="inner-hadding">
                 <div class="container">
                     <div class="breadcrumb">
@@ -33,305 +30,299 @@
                     </div>
                 </div>
             </div>
+        </section>
             <section class="inner_section event_detail">
                 <div class="container">
-                    <div class="row">
 
-                        <h3 class="western">
-                            BBA &amp; B.Com with US CMA
-                        </h3>
-                        <span class="line-bottom "> &nbsp;
-                           &nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <p style=""><br />
-                            <br />
+                    <h3>
+                        BBA &amp; B.Com with US CMA
+                    </h3>
+                    <span class="line-bottom "> &nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <p class="text-justify">
+                        BBA
+                        with US CMA is a Value Added Course with US CMA (Certified Management
+                        Accountant). CMA is a professional certification in finance &amp;
+                        accounting relevant for success in businesses. Achieving the
+                        CMA&nbsp;demonstrates professional expertise in financial planning,
+                        analysis, control, decision support, and professional ethics –
+                        skills that are in demand by organizations around the world.
+                        Basically, CMAs can explain the “why” behind numbers, not just
+                        the “what”. The CMA degree gives greater credibility, higher
+                        earning potential, and ultimately a seat at the leadership table.
+                    <p>
+                        CMA&nbsp;is
+                        offered by the IMA (Institute of Management Accountants), US, and is
+                        a globally recognized, advanced-level credential appropriate for
+                        accountants and financial professionals in business. The CMA exams
+                        comprise the following two exam parts:
+                    </p>
+                    <ul>
+                        <li class="li">
+                            <p>
+                                Part
+                                1 – Financial Reporting, Planning, Performance &amp;Analytics
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Part
+                                2 – Strategic Financial Management
+                            </p>
+                        </li>
+                    </ul>
 
-                        </p>
-                        <p style="">
+                    <p>
+                        As a
+                        Value Added Program, the US CMA curriculum is covered over the
+                        Semesters and students are encouraged to clear the 2 CMA exams in
+                        Semester 4-5 before placements. Candidates who clear the CMA exams
+                        will be able to achieve differential placements with top MNCs.
+                    </p>
+                    <br>
+                    <h3 class="line-bottom">About IMA </h3>
+                    <p>
+                        IMA®
+                        (Institute of Management Accountants) is one of the largest and most
+                        respected associations of accountants and financial professionals in
+                        the business. It serves as the apex governing body for the US CMA
+                        certification.
+                    </p>
+                    <p>
+                        Ever
+                        since its inception in 1919, IMA has been committed to empowering its
+                        100,000+ members—and those throughout the rest of the profession—to
+                        strengthen on-the-job skills, better manage companies, and accelerate
+                        careers.
+                    </p>
+                    <p>
+                        IMA
+                        is present globally with offices in the US, Europe, Middle East,
+                        China and Singapore, and members across 140+ countries. In India, IMA
+                        works in collaboration with Wiley (global partner for official IMA
+                        study materials) and ISDC (India's largest training provider for CMA)
+                        to help you prepare for the US CMA exams.
+                    </p>
+                    <br>
+                    <p style=";">
+                        <b>Why
+                            2 exams for US CMA?</b>
+                    </p>
+                    <p style=";">
+                        US
+                        professional qualifications mandate a institute degree, and given the
+                        fact that NSU education covers a vast majority of the content, the
+                        professional exam only focuses on the skill-gaps which are needed for
+                        the profession. Therefore, US professional qualifications like CMA
+                        “complement” university education and have lesser number of
+                        exams.
+                    </p>
+                    <p style=";"><br />
+                        <br />
 
-                            <font size="3" style="font-size: 12pt"><span style="background: #ffffff">BBA
-                                    with US CMA is a Value Added Course with US CMA (Certified Management
-                                    Accountant). CMA is a professional certification in finance &amp;
-                                    accounting relevant for success in businesses. Achieving the
-                                    CMA&nbsp;demonstrates professional expertise in financial planning,
-                                    analysis, control, decision support, and professional ethics –
-                                    skills that are in demand by organizations around the world.
-                                    Basically, CMAs can explain the “why” behind numbers, not just
-                                    the “what”. The CMA degree gives greater credibility, higher
-                                    earning potential, and ultimately a seat at the leadership table.
-                                </span></font>
-                            </font>
-                        </p>
-                        <p style=""><br />
+                    </p>
+                    <p>
+                    <h3>What is the value creation done by the Management Accountant? </h3>
+                    </p>
+                    <p>
+                        Certified
+                        Management Accountants play an important role as advisors to top
+                        management. Their role includes but is not limited to:
+                    </p>
+                    <ul>
+                        <li class="li">
+                            <p>
+                                Act
+                                as trusted business advisors
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Support
+                                management decision making process
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Involved
+                                in strategic development initiatives
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Work
+                                “hands on” to add value in organizations
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Use
+                                broad-based business knowledge to improve company performance
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Pricing
+                                Decisions - Decide the right price for a product and further pricing
+                                strategies
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Cost
+                                Management - Analyze costs, reduce and manage costs,
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Set
+                                up standards for costs and analyze any variances,
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Planning,
+                                budgeting and forecasting
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Raising
+                                Capital - Assessing how to raise capital for a business, deciding
+                                between debt &amp; equity; minimizing the cost of capital
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Investment
+                                Decisions - Analyzing and ranking investment avenues (or projects)
+                                using Capital Budgeting techniques like NPV (Net Present Value), IRR
+                                (Internal Rate of Return), etc.
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Financial
+                                Analysis - Analyze the company’s profitability, activity,
+                                liquidity, solvency, debt coverage, etc.
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Internal
+                                Controls - Ensuring:
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Fair
+                                and accurate financial accounting &amp; reporting,
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Compliance
+                                with laws &amp; regulations.
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Effective
+                                &amp; efficient business operations
+                            </p>
+                        </li>
+                    </ul>
+                    <p><br />
+                        <br />
 
-                        </p>
-                        <p style="">
+                    </p>
+                    <p>
+                        <b>What
+                            jobs should you look for after doing US CMA?</b>
+                    </p>
+                    <ul>
 
-                            <font size="3" style="font-size: 12pt">CMA&nbsp;is
-                                offered by the IMA (Institute of Management Accountants), US, and is
-                                a globally recognized, advanced-level credential appropriate for
-                                accountants and financial professionals in business. The CMA exams
-                                comprise the following two exam parts:</font>
-                            </font>
-                        </p>
-                        <ul>
-                            <li class="li">
-                                <p style="">
+                        <li class="li">
+                            <p>
+                                The
+                                CMA is a performance manager who validates mastery of financial
+                                planning, analysis, control, and decision support – the critical
+                                skills required of valuable strategic advisors in any organization
+                            </p>
+                        </li>
 
-                                    <font size="3" style="font-size: 12pt">Part
-                                        1 – Financial Reporting, Planning, Performance &amp;Analytics</font>
+                        <li class="li">
 
-                            <li class="li">
-                                <p style="">
 
-                                    <font size="3" style="font-size: 12pt">Part
-                                        2 – Strategic Financial Management</font>
+                        <li class="li">
+                            <p>
+                                Finance
+                                and Accounting Managers within companies
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Budgeting
+                                Managers
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Investment
+                                Manager
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Costing
+                                Manager
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Payable
+                                Manager or Receivable Manager
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Portfolio/
+                                Fund Manager
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Financial
+                                Controllers
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Treasurer
 
-                        </ul>
-                        <p style=""><br />
+                            </p>
+                        </li>
+                        <li class="li">
+                            <p>
+                                Chief
+                                Finance Officer
+                            </p>
+                        </li>
 
-                        </p>
-                        <p style=""><a name="_GoBack"></a>
-
-                            <font size="3" style="font-size: 12pt">As a
-                                Value Added Program, the US CMA curriculum is covered over the
-                                Semesters and students are encouraged to clear the 2 CMA exams in
-                                Semester 4-5 before placements. Candidates who clear the CMA exams
-                                will be able to achieve differential placements with top MNCs. </font>
-                            </font>
-                        </p>
-                        <p style=""><br />
-
-                        </p>
-                        <h3>About
-                            IMA </h3>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt">IMA®
-                                (Institute of Management Accountants) is one of the largest and most
-                                respected associations of accountants and financial professionals in
-                                the business. It serves as the apex governing body for the US CMA
-                                certification.</font>
-                        </p>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt">Ever
-                                since its inception in 1919, IMA has been committed to empowering its
-                                100,000+ members—and those throughout the rest of the profession—to
-                                strengthen on-the-job skills, better manage companies, and accelerate
-                                careers. </font>
-                        </p>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt">IMA
-                                is present globally with offices in the US, Europe, Middle East,
-                                China and Singapore, and members across 140+ countries. In India, IMA
-                                works in collaboration with Wiley (global partner for official IMA
-                                study materials) and ISDC (India's largest training provider for CMA)
-                                to help you prepare for the US CMA exams. </font>
-                        </p>
-                     <br>
-                        <p style=";">
-                            <font size="3" style="font-size: 12pt"><b>Why
-                                    2 exams for US CMA?</b></font>
-                        </p>
-                        <p style=";">
-                            <font size="3" style="font-size: 12pt">US
-                                professional qualifications mandate a institute degree, and given the
-                                fact that NSU education covers a vast majority of the content, the
-                                professional exam only focuses on the skill-gaps which are needed for
-                                the profession. Therefore, US professional qualifications like CMA
-                                “complement” university education and have lesser number of
-                                exams.</font>
-                        </p>
-                        <p style=";"><br />
-                            <br />
-
-                        </p>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt"><b>What
-                                    is the value creation done by the Management Accountant? </b></font>
-                        </p>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt">Certified
-                                Management Accountants play an important role as advisors to top
-                                management. Their role includes but is not limited to:</font>
-                        </p>
-                        <ul>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Act
-                                        as trusted business advisors</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Support
-                                        management decision making process</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Involved
-                                        in strategic development initiatives </font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Work
-                                        “hands on” to add value in organizations</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Use
-                                        broad-based business knowledge to improve company performance</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Pricing
-                                        Decisions - Decide the right price for a product and further pricing
-                                        strategies</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Cost
-                                        Management - Analyze costs, reduce and manage costs, </font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Set
-                                        up standards for costs and analyze any variances, </font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Planning,
-                                        budgeting and forecasting</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Raising
-                                        Capital - Assessing how to raise capital for a business, deciding
-                                        between debt &amp; equity; minimizing the cost of capital</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Investment
-                                        Decisions - Analyzing and ranking investment avenues (or projects)
-                                        using Capital Budgeting techniques like NPV (Net Present Value), IRR
-                                        (Internal Rate of Return), etc.</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Financial
-                                        Analysis - Analyze the company’s profitability, activity,
-                                        liquidity, solvency, debt coverage, etc. </font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Internal
-                                        Controls - Ensuring:</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Fair
-                                        and accurate financial accounting &amp; reporting, </font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Compliance
-                                        with laws &amp; regulations.</font>
-                                </p>
-                            <li class="li">
-                                <p style="">
-                                    <font size="3" style="font-size: 12pt">Effective
-                                        &amp; efficient business operations </font>
-                                </p>
-                        </ul>
-                        <p style=""><br />
-                            <br />
-
-                        </p>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt"><b>What
-                                    jobs should you look for after doing US CMA?</b></font>
-                        </p>
-                        <ul>
-                            <ul>
-                                <li class="li">
-                                    <p style="">
-                                        <font size="3" style="font-size: 12pt">The
-                                            CMA is a performance manager who validates mastery of financial
-                                            planning, analysis, control, and decision support – the critical
-                                            skills required of valuable strategic advisors in any organization</font>
-                                    </p>
-                                </li>
-
-                                <li class="li">
-
-                                    <ul>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Finance
-                                                    and Accounting Managers within companies </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Budgeting
-                                                    Managers </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Investment
-                                                    Manager </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Costing
-                                                    Manager </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Payable
-                                                    Manager or Receivable Manager </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Portfolio/
-                                                    Fund Manager </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Financial
-                                                    Controllers </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Treasurer
-                                                </font>
-                                            </p>
-                                        </li>
-                                        <li class="li">
-                                            <p style="">
-                                                <font size="3" style="font-size: 12pt">Chief
-                                                    Finance Officer</font>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                <li class="li">
-                                    <p style="">
-                                        <font size="3" style="font-size: 12pt">A
-                                            CMAs role is to ensure that the company runs its financial and
-                                            overall performance in an efficient manner so that the objectives
-                                            of the companies are met. They are the people who make daily
-                                            decisions within the companies for its survival and growth</font>
-                                    </p>
-                            </ul>
-                        </ul>
-                        <p style="">
-                            <font size="3" style="font-size: 12pt">Opportunities
-                                in India for CMAs are with MNCs including Banks &amp; Financial
-                                Services, Consulting, IT, Retail, Pharma, Manufacturing basically,
-                                any US-based MNC in India</font>
+                        <li class="li">
+                            <p>
+                                A
+                                CMAs role is to ensure that the company runs its financial and
+                                overall performance in an efficient manner so that the objectives
+                                of the companies are met. They are the people who make daily
+                                decisions within the companies for its survival and growth
+                            </p>
+                        </li>
+                        <p>
+                            Opportunities
+                            in India for CMAs are with MNCs including Banks &amp; Financial
+                            Services, Consulting, IT, Retail, Pharma, Manufacturing basically,
+                            any US-based MNC in India
                         </p>
                         <p>
                             <b>Few of the organizations where CMAs are employed in India include
@@ -340,259 +331,260 @@
 
                         <ul class="ul">
                             <li class="li">
-                                <font size="3" style="font-size: 12pt">Accenture</font>
+                                Accenture
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">AIG</font>
+                                AIG
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Genpact</font>
+                                Genpact
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">EY</font>
+                                EY
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">KPMG</font>
+                                KPMG
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Deloitte</font>
+                                Deloitte
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">PwC</font>
+                                PwC
                             </li>
 
                             <li class="li">
-                                <p style="">
+                                <p>
 
-                                    <font size="3" style="font-size: 12pt">Johnson
-                                        &amp; Johnson</font>
-                            </li>
-
-                            <li class="li">
-
-
-                                <font size="3" style="font-size: 12pt">Caterpillar</font>
+                                    Johnson
+                                    &amp; Johnson
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">VMware</font>
+                                Caterpillar
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Flextronics</font>
+                                VMware
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Capgemini</font>
+                                Flextronics
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">World
-                                    Bank</font>
+                                Capgemini
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Cognizant</font>
+                                World
+                                Bank
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">JP
-                                    Morgan Chase</font>
+                                Cognizant
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Invesco</font>
+                                JP
+                                Morgan Chase
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">WNS</font>
-                            </li>
+                                Invesco
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Synchrony
-                                    Financial</font>
+                                WNS
                             </li>
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">AXA
-                                    Insurance</font>
-                            </li>
-
-                            <li class="li">
-
-
-                                <font size="3" style="font-size: 12pt">Philips</font>
+                                Synchrony
+                                Financial
                             </li>
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Qualcomm</font>
+                                AXA
+                                Insurance
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Grant
-                                    Thornton</font>
+                                Philips
+                            </li>
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">BDO</font>
+                                Qualcomm
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Tata
-                                    Power</font>
+                                Grant
+                                Thornton
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Maersk</font>
+                                BDO
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Red
-                                    Hat</font>
+                                Tata
+                                Power
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Diageo
-                                    India Private Limited</font>
+                                Maersk
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Ford</font>
+                                Red
+                                Hat
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Barclays</font>
+                                Diageo
+                                India Private Limited
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Aon
-                                    PLC</font>
+                                Ford
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">MetLife,
-                                    Inc.</font>
+                                Barclays
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Electronic
-                                    Arts</font>
+                                Aon
+                                PLC
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Alexion</font>
+                                MetLife,
+                                Inc.
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">DuPont</font>
+                                Electronic
+                                Arts
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Max
-                                    Life Insurance</font>
+                                Alexion
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Fidelity
-                                    National Information Services, Inc.</font>
+                                DuPont
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">EXL
-                                    Service</font>
+                                Max
+                                Life Insurance
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">Citrin
-                                    Cooperman</font>
+                                Fidelity
+                                National Information Services, Inc.
                             </li>
 
                             <li class="li">
 
 
-                                <font size="3" style="font-size: 12pt">TE
-                                    Connectivity</font>
+                                EXL
+                                Service
+                            </li>
+
+                            <li class="li">
+
+
+                                Citrin
+                                Cooperman
+                            </li>
+
+                            <li class="li">
+
+
+                                TE
+                                Connectivity
                             </li>
 
                         </ul>
-
+                    </p>
+                </div>
             </section>
 
 
@@ -601,8 +593,8 @@
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="col-md-12">
-                            <p class="career_sub_head" style="text-align: left;"> FAQS for BBA & B.Com with US CMA 
-                               </p>
+                            <p class="career_sub_head" style="text-align: left;"> FAQS for BBA & B.Com with US CMA
+                            </p>
                             @foreach ($faqs as $faq)
                                 <div class="accordionBlock">
                                     <div class="accordion" id="accordion2">
@@ -614,7 +606,7 @@
                                                     {{ $faq->question ?? '' }}</a>
 
                                             </div>
-                                            <div id="collapseFive" class="accordion-body 9 collapse" style="">
+                                            <div id="collapseFive" class="accordion-body 9 collapse">
                                                 <div class="accordion-inner">
 
                                                     <p class="text-justify">
@@ -635,7 +627,7 @@
 
 
 
-          
+
             <br>
             <section class="map">
                 <iframe
@@ -643,18 +635,12 @@
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </section>
 
-        </section>
 
         <style>
             ul .li {
                 list-style: square;
                 margin: 0;
                 padding: 0;
-            }
-
-            .ul {
-                margin-top: 28px;
-                margin-left: -551px;
             }
         </style>
 
