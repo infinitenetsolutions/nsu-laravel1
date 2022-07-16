@@ -124,11 +124,15 @@
                         “complement” university education and have lesser number of
                         exams.
                     </p>
-
+                   
                     <p>
                     <h3>What is the value creation done by the Management Accountant? </h3>
+                    <span class="line-bottom "> &nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </p>
-
+                  
                     <ul>
 
                         <li class="li">
